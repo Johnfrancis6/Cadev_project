@@ -103,13 +103,18 @@ function AccountMenu() {
 export function TopBar({ title }: { title: string | null }) {
   const { t } = useTranslation();
   const openSearch = useOpenSearch();
+  const navigate = useNavigate();
   const { profile } = useAuth();
+  const [searchText, setSearchText] = React.useState('');
+  const searchRef = React.useRef<HTMLInputElement>(null);
 
   React.useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if ((event.metaKey || event.ctrlKey) && !event.shiftKey && !event.altKey && event.key.toLowerCase() === 'k') {
         event.preventDefault();
-        openSearch();
+        // Desktop: focus the search field; phones (field hidden): open the search page.
+        if (searchRef.current && searchRef.current.offsetParent !== null) searchRef.current.focus();
+        else openSearch();
       }
     };
     window.addEventListener('keydown', onKey);
@@ -133,18 +138,32 @@ export function TopBar({ title }: { title: string | null }) {
         </p>
 
         <div className="ml-auto flex items-center gap-1 lg:gap-1.5">
-          <button
-            type="button"
-            onClick={openSearch}
-            aria-keyshortcuts="Meta+K Control+K"
-            className="mr-2 hidden h-10 w-72 items-center gap-2.5 rounded-md border border-border bg-surface px-3 text-left text-sm text-muted-foreground transition-colors hover:border-border-strong focus-ring md:flex xl:w-80"
+          <form
+            role="search"
+            className="relative mr-2 hidden md:block"
+            onSubmit={(event) => {
+              event.preventDefault();
+              const query = searchText.trim();
+              navigate(query ? `/search?q=${encodeURIComponent(query)}` : '/search');
+              setSearchText('');
+              searchRef.current?.blur();
+            }}
           >
-            <Search className="size-4 shrink-0" aria-hidden="true" />
-            <span className="truncate">{t('nav.searchPlaceholder')}</span>
-            <Kbd className="ml-auto" aria-hidden="true">
+            <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground" aria-hidden="true" />
+            <input
+              ref={searchRef}
+              type="search"
+              value={searchText}
+              onChange={(event) => setSearchText(event.target.value)}
+              placeholder={t('nav.searchPlaceholder')}
+              aria-label={t('nav.openSearch')}
+              aria-keyshortcuts="Meta+K Control+K"
+              className="h-10 w-72 rounded-md border border-border bg-surface pr-16 pl-9 text-sm text-foreground transition-colors placeholder:text-muted-foreground hover:border-border-strong focus-ring xl:w-80"
+            />
+            <Kbd className="pointer-events-none absolute top-1/2 right-2.5 -translate-y-1/2" aria-hidden="true">
               {isMac() ? '⌘' : 'Ctrl'} K
             </Kbd>
-          </button>
+          </form>
           <Button variant="ghost" size="icon" onClick={openSearch} aria-label={t('nav.openSearch')} className="md:hidden">
             <Search className="!size-[1.125rem]" aria-hidden="true" />
           </Button>
