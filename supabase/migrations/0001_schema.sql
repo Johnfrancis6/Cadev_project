@@ -118,7 +118,8 @@ create table if not exists public.circles (
   constraint circles_slug_format check (slug ~ '^[a-z0-9-]{2,40}$'),
   constraint circles_name_len check (char_length(name) between 1 and 80),
   constraint circles_desc_len check (char_length(description_fr) <= 500 and char_length(description_en) <= 500),
-  constraint circles_invite_url check (external_invite_url is null or external_invite_url ~ '^https://[^[:space:]]{1,300}$')
+  constraint circles_invite_url check (external_invite_url is null or (char_length(external_invite_url) <= 300
+      and external_invite_url ~ '^https://[^[:space:]]+$'))
 );
 
 create table if not exists public.circle_members (
