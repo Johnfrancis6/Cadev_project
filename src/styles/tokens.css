@@ -1,0 +1,292 @@
+/*
+ * devloop design tokens.
+ *
+ * Light values live on :root, dark values on [data-theme='dark'] (set before first paint by
+ * /theme.js). Every text/background pair below was checked against WCAG AA (>= 4.5:1) on all
+ * surfaces of its theme: bg, sidebar, surface, surface-hover, surface-soft, raised.
+ *
+ *   dark   fg 13.2+ · muted 6.3+ · faint 4.9+ · brand 12.5+ · warning 9.7+ · info 7.6+ · violet 6.8+ · danger 7.2+
+ *   light  fg 14.1+ · muted 6.3+ · faint 4.8+ · brand 6.3+  · warning 5.9+ · info 6.1+ · violet 6.6+ · danger 6.0+
+ *   primary button: 12.2 (dark), 8.6 (light). Tinted chips (colour on its own 16 % tint): 5.2+ / 4.8+.
+ */
+
+:root {
+  color-scheme: light;
+
+  --background: #f5f4ec;
+  --sidebar: #efeee4;
+  --surface: #fdfcf8;
+  --surface-hover: #eeede2;
+  --surface-soft: #f8f7f1;
+  --raised: #ffffff;
+
+  --border: #dcdacb;
+  --border-soft: #e6e4d8;
+  --border-strong: #c3c1ae;
+  /* Form-field outline: >= 3:1 against the surfaces (WCAG 1.4.11). */
+  --input: #8b8f7c;
+
+  --foreground: #1b2014;
+  --muted-foreground: #515846;
+  --faint: #636a57;
+
+  --primary: #2f5210;
+  --primary-hover: #264409;
+  --primary-foreground: #f1ffd6;
+
+  --brand: #37600f;
+  --brand-soft: #37600f17;
+  --brand-border: #37600f47;
+  --lime: #b5e35c;
+
+  --warning: #735400;
+  --warning-soft: #73540017;
+  --info: #1f5a8f;
+  --info-soft: #1f5a8f17;
+  --violet: #5b3fa6;
+  --violet-soft: #5b3fa617;
+  --destructive: #a8271d;
+  --destructive-soft: #a8271d14;
+  --destructive-foreground: #ffffff;
+
+  --ring: #37600f;
+  --overlay: #1b201466;
+  --pop-shadow: 0 12px 40px -12px #1b201433, 0 2px 6px -2px #1b20141a;
+  --glow: #9fd04a33;
+  --selection: #b5e35c80;
+  --scrollbar: #c3c1ae;
+
+  --code-bg: #f8f7f1;
+  --code-header: #f1f0e6;
+  --code-text: #1b2014;
+  --code-comment: #636a57;
+  --code-keyword: #5b3fa6;
+  --code-string: #37600f;
+  --code-function: #1f5a8f;
+  --code-number: #735400;
+  --code-punctuation: #515846;
+  --code-tag: #a8271d;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --background: #111310;
+  --sidebar: #141612;
+  --surface: #1a1d17;
+  --surface-hover: #20241c;
+  --surface-soft: #1d2119;
+  --raised: #23271e;
+
+  --border: #2c3027;
+  --border-soft: #242820;
+  --border-strong: #3b4431;
+  --input: #5d6652;
+
+  --foreground: #edf0e7;
+  --muted-foreground: #a3a99b;
+  --faint: #8e9584;
+
+  --primary: #d0f68a;
+  --primary-hover: #dfffa9;
+  --primary-foreground: #202b14;
+
+  --brand: #d0f68a;
+  --brand-soft: #d0f68a12;
+  --brand-border: #d0f68a38;
+  --lime: #d0f68a;
+
+  --warning: #e4ce78;
+  --warning-soft: #e4ce781a;
+  --info: #96bcdf;
+  --info-soft: #96bcdf1a;
+  --violet: #baa2e6;
+  --violet-soft: #baa2e61a;
+  --destructive: #f59a8e;
+  --destructive-soft: #f59a8e1a;
+  --destructive-foreground: #1a0906;
+
+  --ring: #d0f68a;
+  --overlay: #080a07b8;
+  --pop-shadow: 0 16px 48px -12px #000000a6, 0 2px 8px -2px #00000066;
+  --glow: #8eaf4d2e;
+  --selection: #d0f68a44;
+  --scrollbar: #3b4232;
+
+  --code-bg: #161914;
+  --code-header: #1c2117;
+  --code-text: #edf0e7;
+  --code-comment: #8e9584;
+  --code-keyword: #baa2e6;
+  --code-string: #d0f68a;
+  --code-function: #96bcdf;
+  --code-number: #e4ce78;
+  --code-punctuation: #a3a99b;
+  --code-tag: #f59a8e;
+}
+
+/* No JavaScript (theme.js blocked): still follow the system. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --background: #111310;
+    --sidebar: #141612;
+    --surface: #1a1d17;
+    --surface-hover: #20241c;
+    --surface-soft: #1d2119;
+    --raised: #23271e;
+    --border: #2c3027;
+    --border-soft: #242820;
+    --border-strong: #3b4431;
+    --input: #5d6652;
+    --foreground: #edf0e7;
+    --muted-foreground: #a3a99b;
+    --faint: #8e9584;
+    --primary: #d0f68a;
+    --primary-hover: #dfffa9;
+    --primary-foreground: #202b14;
+    --brand: #d0f68a;
+    --brand-soft: #d0f68a12;
+    --brand-border: #d0f68a38;
+    --lime: #d0f68a;
+    --ring: #d0f68a;
+  }
+}
+
+@theme inline {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --color-background: var(--background);
+  --color-sidebar: var(--sidebar);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-surface-soft: var(--surface-soft);
+  --color-raised: var(--raised);
+
+  --color-border: var(--border);
+  --color-border-soft: var(--border-soft);
+  --color-border-strong: var(--border-strong);
+  --color-input: var(--input);
+
+  --color-foreground: var(--foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-faint: var(--faint);
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-brand: var(--brand);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-border: var(--brand-border);
+  --color-lime: var(--lime);
+
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --color-violet: var(--violet);
+  --color-violet-soft: var(--violet-soft);
+  --color-destructive: var(--destructive);
+  --color-destructive-soft: var(--destructive-soft);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--brand);
+  --color-success-soft: var(--brand-soft);
+
+  --color-ring: var(--ring);
+  --color-overlay: var(--overlay);
+
+  /* shadcn/ui aliases, so pasted shadcn snippets land on the devloop palette. */
+  --color-card: var(--surface);
+  --color-card-foreground: var(--foreground);
+  --color-popover: var(--raised);
+  --color-popover-foreground: var(--foreground);
+  --color-secondary: var(--surface-hover);
+  --color-secondary-foreground: var(--foreground);
+  --color-muted: var(--surface-soft);
+  --color-accent: var(--surface-hover);
+  --color-accent-foreground: var(--foreground);
+
+  --color-code-bg: var(--code-bg);
+  --color-code-header: var(--code-header);
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+
+  --shadow-pop: var(--pop-shadow);
+  --shadow-glow: 0 0 0 1px var(--brand-border), 0 0 48px -8px var(--glow);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-fade-in: fade-in 180ms var(--ease-out-soft) both;
+  --animate-fade-up: fade-up 220ms var(--ease-out-soft) both;
+  --animate-scale-in: scale-in 160ms var(--ease-out-soft) both;
+  --animate-fade-out: fade-out 140ms ease-in both;
+  --animate-slide-in-right: slide-in-right 240ms var(--ease-out-soft) both;
+  --animate-slide-out-right: slide-out-right 180ms ease-in both;
+  --animate-slide-in-left: slide-in-left 240ms var(--ease-out-soft) both;
+  --animate-slide-out-left: slide-out-left 180ms ease-in both;
+  --animate-slide-in-bottom: slide-in-bottom 240ms var(--ease-out-soft) both;
+  --animate-slide-out-bottom: slide-out-bottom 180ms ease-in both;
+  --animate-slide-in-top: slide-in-top 240ms var(--ease-out-soft) both;
+  --animate-slide-out-top: slide-out-top 180ms ease-in both;
+  --animate-shimmer: shimmer 1.6s linear infinite;
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes scale-in {
+    from { opacity: 0; transform: scale(0.97) translateY(-2px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  @keyframes slide-in-right {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+  }
+  @keyframes slide-out-right {
+    from { transform: translateX(0); }
+    to { transform: translateX(100%); }
+  }
+  @keyframes slide-in-left {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+  }
+  @keyframes slide-out-left {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+  @keyframes slide-in-bottom {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+  @keyframes slide-out-bottom {
+    from { transform: translateY(0); }
+    to { transform: translateY(100%); }
+  }
+  @keyframes slide-in-top {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+  }
+  @keyframes slide-out-top {
+    from { transform: translateY(0); }
+    to { transform: translateY(-100%); }
+  }
+  @keyframes shimmer {
+    from { background-position: 200% 0; }
+    to { background-position: -200% 0; }
+  }
+}
