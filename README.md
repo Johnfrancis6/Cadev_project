@@ -23,7 +23,9 @@ Autres commandes : `npm run build`, `npm run typecheck`, `npm run lint`, `npm te
 
 - **Mode en ligne (Supabase)** : vrais comptes (invité en un clic, e-mail + mot de passe), données partagées entre visiteurs, discussion des cercles en temps réel, règles d'accès ligne par ligne (RLS). Le schéma, les fonctions et les règles sont dans `supabase/migrations/` ; `scripts/supabase-admin.mjs test` rejoue 139 contrôles de sécurité sur la base.
 - **Mode démo local** : si Supabase n'est pas configuré ou ne répond pas au démarrage, l'application bascule sur des données enregistrées dans le navigateur (`seed/seed.json`) et l'indique par un bandeau.
-- **Pas encore fait** : la passerelle IA et la recherche sémantique. L'analyse d'un problème et le brouillon de réponse sont des heuristiques locales, signalées comme simplifiées ; « déjà résolu » s'appuie sur la recherche plein texte. La connexion GitHub demande d'activer le fournisseur dans Supabase.
+- **Recherche sémantique** : la fonction serveur `supabase/functions/ai` calcule un embedding (modèle `gte-small` intégré à Supabase, sans clé) pour chaque problème ; « Peut-être déjà résolu » retrouve ainsi un problème proche même sans mot en commun, et n'affiche rien quand rien n'est proche. Les seuils ont été réglés sur une poignée de requêtes seulement.
+- **IA** : la même fonction sait appeler Groq puis Mistral (clés en secrets Supabase, jamais dans le navigateur), avec cache, budget quotidien par utilisateur et repli. **Aucune clé n'est configurée pour l'instant** : l'analyse d'un problème et le brouillon de réponse utilisent donc une heuristique locale, signalée comme simplifiée. Ce chemin IA n'a pas été testé avec un vrai fournisseur.
+- La connexion GitHub demande d'activer le fournisseur dans Supabase.
 
 `.env.production` contient l'adresse du projet et sa clé publique (conçue pour le navigateur ; la sécurité repose sur les RLS, pas sur le secret de cette clé).
 

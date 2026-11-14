@@ -13,6 +13,8 @@ import {
   type AppNotification,
   type Author,
   type ChatMessage,
+  type DraftResult,
+  type TriageResult,
   type Circle,
   type Interest,
   type Page,
@@ -53,6 +55,15 @@ export function createSupabaseApi(url: string, anonKey: string): Api {
     const { data, error } = await supabase.rpc(name, args);
     if (error) throw toApiError(error);
     return data as T;
+  }
+  /** Calls the AI gateway; resolves to null on any failure so callers can fall back. */
+  async function gateway<T>(body: Record<string, unknown>): Promise<T | null> {
+    try {
+      const { data, error } = await supabase.functions.invoke('ai', { body });
+      return error ? null : (data as T);
+    } catch {
+      return null;
+    }
   }
   const offsetOf = (cursor?: string | null) => Math.max(0, Number(cursor ?? 0) || 0);
 
@@ -158,7 +169,11 @@ export function createSupabaseApi(url: string, anonKey: string): Api {
 
     posts: {
       get: (id) => rpc<Post>('get_post', { p_id: id }),
-      create: (input) => rpc<Post>('create_post', { p_input: input }),
+      async create(input) {
+        const post = await rpc<Post>('create_post', { p_input: input });
+        void gateway({ task: 'embed_post', postId: post.id }); // makes it findable by meaning
+        return post;
+      },
       update: (id, patch) => rpc<Post>('update_post', { p_id: id, p_patch: patch }),
       remove: (id) => rpc<void>('delete_post', { p_id: id }),
       async setHelpful(id, on) {
@@ -188,6 +203,8 @@ export function createSupabaseApi(url: string, anonKey: string): Api {
       },
       async similar(text, opts) {
         if (text.trim().length < 6) return [];
+        const semantic = await gateway<{ posts: Post[] }>({ task: 'similar', text: text.slice(0, 2000), limit: opts?.limit ?? 5 });
+        if (semantic?.posts) return semantic.posts;
         return rpc<Post[]>('search_posts', { p_query: text.slice(0, 300), p_limit: opts?.limit ?? 5, p_status: null });
       },
       async people(query, limit = 8) {
@@ -231,9 +248,13 @@ export function createSupabaseApi(url: string, anonKey: string): Api {
 
     ai: {
       async triage(input) {
+        const result = await gateway<TriageResult>({ task: 'triage', ...input });
+        if (result && !result.degraded && Array.isArray(result.tags)) return result;
         return heuristicTriage(input);
       },
       async draftAnswer(postId, locale) {
+        const result = await gateway<DraftResult>({ task: 'draft', postId, locale });
+        if (result && !result.degraded && result.answerMd) return result;
         const post = await rpc<Post>('get_post', { p_id: postId });
         return heuristicDraft(
           {
@@ -301,12 +322,15 @@ export function createSupabaseApi(url: string, anonKey: string): Api {
         } catch {
           database = 'down';
         }
+        const gatewayHealth = await gateway<{ embeddings?: string; providers?: string[] }>({ task: 'health' });
         return {
           mode: 'live',
           database,
           realtime: database,
-          semanticSearch: 'degraded',
-          ai: [{ provider: 'heuristic', state: 'ok' }],
+          semanticSearch: gatewayHealth?.embeddings === 'ok' ? 'ok' : 'degraded',
+          ai: gatewayHealth?.providers?.length
+            ? gatewayHealth.providers.map((provider) => ({ provider, state: 'ok' as const }))
+            : [{ provider: 'heuristic', state: 'ok' as const }],
           latencyMs: Math.round(performance.now() - started),
           checkedAt: new Date().toISOString(),
         };
