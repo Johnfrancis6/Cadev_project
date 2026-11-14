@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- devloop repro runner. Always framed with sandbox="allow-scripts" (opaque origin, no access to
+     the app's storage or cookies). The app shell keeps its strict CSP; only this page allows
+     inline script, because running the user's snippet is its whole job. See public/_headers. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval'; style-src 'unsafe-inline'; img-src data: blob:; media-src data: blob:; font-src data:; connect-src data: blob:; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>devloop sandbox</title>
+<style>
+  html { color-scheme: light; }
+  body { margin: 12px; font: 14px/1.5 system-ui, -apple-system, 'Segoe UI', sans-serif; color: #1a1d17; background: #fff; }
+</style>
+</head>
+<body>
+<script>
+(function () {
+  'use strict';
+  var host = window.parent;
+  // Only ever run user code with an opaque origin, inside a frame.
+  if (host === window || window.origin !== 'null') {
+    document.body.textContent = 'This page only runs inside the devloop sandbox.';
+    return;
+  }
+  var MAX_LENGTH = 2000;
+  var MAX_MESSAGES = 400;
+  var sent = 0;
+
+  function send(message) {
+    if (sent >= MAX_MESSAGES) return;
+    sent += 1;
+    message.source = 'devloop-sandbox';
+    try { host.postMessage(message, '*'); } catch (e) { /* not cloneable: ignore */ }
+  }
+
+  function format(value) {
+    if (typeof value === 'string') return value;
+    if (value === undefined) return 'undefined';
+    if (value instanceof Error) return (value.name || 'Error') + ': ' + value.message;
+    if (typeof value === 'function') return '[Function' + (value.name ? ': ' + value.name : '') + ']';
+    if (typeof value === 'symbol' || typeof value === 'bigint') return String(value);
+    if (typeof Element !== 'undefined' && value instanceof Element) return '<' + value.tagName.toLowerCase() + '>';
+    try {
+      var seen = [];
+      var json = JSON.stringify(value, function (key, item) {
+        if (typeof item === 'object' && item !== null) {
+          if (seen.indexOf(item) >= 0) return '[Circular]';
+          seen.push(item);
+        }
+        if (typeof item === 'function') return '[Function]';
+        if (typeof item === 'bigint') return String(item);
+        return item;
+      });
+      return json === undefined ? String(value) : json;
+    } catch (e) {
+      return String(value);
+    }
+  }
+
+  function report(level, parts) {
+    var text = '';
+    try { text = Array.prototype.map.call(parts, format).join(' '); } catch (e) { text = '[unprintable]'; }
+    send({ type: 'console', level: level, text: text.slice(0, MAX_LENGTH) });
+  }
+
+  ['log', 'info', 'warn', 'error', 'debug'].forEach(function (name) {
+    var level = name === 'debug' ? 'log' : name;
+    console[name] = function () { report(level, arguments); };
+  });
+
+  window.addEventListener('error', function (event) {
+    var where = event.lineno ? ' (JS:' + event.lineno + ')' : '';
+    report('error', [(event.message || 'Script error') + where]);
+  });
+  window.addEventListener('unhandledrejection', function (event) {
+    report('error', ['Unhandled promise rejection: ' + format(event.reason)]);
+  });
+
+  var started = false;
+  window.addEventListener('message', function (event) {
+    if (event.source !== host || started) return;
+    var data = event.data;
+    if (!data || data.source !== 'devloop-app' || data.type !== 'run') return;
+    started = true;
+    var style = document.createElement('style');
+    style.textContent = String(data.css || '');
+    document.head.appendChild(style);
+    document.body.innerHTML = String(data.html || '');
+    var script = document.createElement('script');
+    script.textContent = String(data.js || '');
+    document.body.appendChild(script);
+    send({ type: 'done' });
+  });
+
+  send({ type: 'ready' });
+})();
+</script>
+</body>
+</html>

@@ -21,3 +21,13 @@
 
 /index.html
   Cache-Control: no-cache
+
+# Repro runner (user snippets). It is only ever framed by the app with sandbox="allow-scripts";
+# the `sandbox` directive below forces an opaque origin even if someone opens or frames it
+# directly, so the code never reaches the app's storage. Inline script is allowed here and
+# nowhere else. Network is closed (data:/blob: only).
+/sandbox.html
+  ! Content-Security-Policy
+  ! X-Frame-Options
+  Content-Security-Policy: sandbox allow-scripts; default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval'; style-src 'unsafe-inline'; img-src data: blob:; media-src data: blob:; font-src data:; connect-src data: blob:; base-uri 'none'; form-action 'none'; frame-ancestors 'self'
+  Cache-Control: public, max-age=3600

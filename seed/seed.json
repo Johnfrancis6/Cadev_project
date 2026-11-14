@@ -1036,7 +1036,7 @@
       "repro": {
         "html": "<div class=\"page\">\n  <header id=\"bar\">Barre de navigation</header>\n  <main>Contenu très long…</main>\n</div>",
         "css": "body { margin: 0; font-family: system-ui, sans-serif; }\n\n.page {\n  overflow: hidden; /* coupe l'illustration qui dépasse */\n}\n\n#bar {\n  position: sticky;\n  top: 0;\n  padding: 12px 16px;\n  background: #d0f68a;\n}\n\nmain { height: 2000px; padding: 16px; }",
-        "js": "const bar = document.getElementById('bar');\n\n// Attend que la page soit affichée, puis fait défiler de 600 px\nwindow.addEventListener('load', () => {\n  window.scrollTo(0, 600);\n\n  requestAnimationFrame(() => {\n    const top = Math.round(bar.getBoundingClientRect().top);\n    console.log('Position de la barre après 600 px de défilement : ' + top + ' px');\n    console.log(top === 0 ? 'La barre reste collée en haut.' : 'La barre a défilé avec la page.');\n  });\n});"
+        "js": "const bar = document.getElementById('bar');\n\n// Laisse la page s'afficher, puis fait défiler de 600 px\nsetTimeout(() => {\n  window.scrollTo(0, 600);\n\n  requestAnimationFrame(() => {\n    const top = Math.round(bar.getBoundingClientRect().top);\n    console.log('Position de la barre après 600 px de défilement : ' + top + ' px');\n    console.log(top === 0 ? 'La barre reste collée en haut.' : 'La barre a défilé avec la page.');\n  });\n}, 100);"
       },
       "tags": [
         "css"
@@ -1059,7 +1059,7 @@
           "repro": {
             "html": "<div class=\"page\">\n  <header id=\"bar\">Barre de navigation</header>\n  <main>Contenu très long…</main>\n</div>",
             "css": "body { margin: 0; font-family: system-ui, sans-serif; }\n\n.page {\n  overflow: clip; /* coupe ce qui dépasse sans créer de conteneur de défilement */\n}\n\n#bar {\n  position: sticky;\n  top: 0;\n  padding: 12px 16px;\n  background: #d0f68a;\n}\n\nmain { height: 2000px; padding: 16px; }",
-            "js": "const bar = document.getElementById('bar');\n\n// Attend que la page soit affichée, puis fait défiler de 600 px\nwindow.addEventListener('load', () => {\n  window.scrollTo(0, 600);\n\n  requestAnimationFrame(() => {\n    const top = Math.round(bar.getBoundingClientRect().top);\n    console.log('Position de la barre après 600 px de défilement : ' + top + ' px');\n    console.log(top === 0 ? 'La barre reste collée en haut.' : 'La barre a défilé avec la page.');\n  });\n});"
+            "js": "const bar = document.getElementById('bar');\n\n// Laisse la page s'afficher, puis fait défiler de 600 px\nsetTimeout(() => {\n  window.scrollTo(0, 600);\n\n  requestAnimationFrame(() => {\n    const top = Math.round(bar.getBoundingClientRect().top);\n    console.log('Position de la barre après 600 px de défilement : ' + top + ' px');\n    console.log(top === 0 ? 'La barre reste collée en haut.' : 'La barre a défilé avec la page.');\n  });\n}, 100);"
           },
           "isAi": false,
           "isAccepted": true,
@@ -1080,7 +1080,7 @@
       "repro": {
         "html": "<header class=\"topbar\">\n  Pollen\n  <nav id=\"menu\" class=\"dropdown\">Menu déroulant</nav>\n</header>\n<section id=\"card\" class=\"card\">Carte du projet</section>",
         "css": "body { margin: 0; font-family: system-ui, sans-serif; }\n\n.topbar {\n  height: 48px;\n  padding: 0 16px;\n  line-height: 48px;\n  background: #1a1d17;\n  color: #fff;\n  transform: translateY(0); /* état final de l'animation d'entrée */\n}\n\n.dropdown {\n  position: absolute;\n  top: 48px;\n  left: 16px;\n  width: 200px;\n  height: 120px;\n  background: #d0f68a;\n  color: #111;\n  z-index: 9999;\n}\n\n.card {\n  position: relative;\n  z-index: 1;\n  height: 200px;\n  margin: 8px;\n  padding: 16px;\n  background: #e9e7df;\n}",
-        "js": "const menu = document.getElementById('menu');\n\n// Attend que la page soit affichée avant de regarder ce qui est au premier plan\nwindow.addEventListener('load', () => {\n  const box = menu.getBoundingClientRect();\n  const visible = document.elementFromPoint(box.left + box.width / 2, box.top + box.height / 2);\n\n  console.log('z-index du menu : ' + getComputedStyle(menu).zIndex);\n  console.log('Élément visible au centre du menu : #' + visible.id);\n  console.log(visible === menu ? 'Le menu est au-dessus.' : 'Le menu est caché par un autre élément.');\n});"
+        "js": "const menu = document.getElementById('menu');\n\n// Laisse la page s'afficher avant de regarder ce qui est au premier plan\nsetTimeout(() => {\n  const box = menu.getBoundingClientRect();\n  const visible = document.elementFromPoint(box.left + box.width / 2, box.top + box.height / 2);\n\n  console.log('z-index du menu : ' + getComputedStyle(menu).zIndex);\n  console.log('Élément visible au centre du menu : #' + visible.id);\n  console.log(visible === menu ? 'Le menu est au-dessus.' : 'Le menu est caché par un autre élément.');\n}, 100);"
       },
       "tags": [
         "css"
@@ -1103,7 +1103,7 @@
           "repro": {
             "html": "<header class=\"topbar\">\n  Pollen\n  <nav id=\"menu\" class=\"dropdown\">Menu déroulant</nav>\n</header>\n<section id=\"card\" class=\"card\">Carte du projet</section>",
             "css": "body { margin: 0; font-family: system-ui, sans-serif; }\n\n.topbar {\n  position: relative; /* z-index ne s'applique qu'aux éléments positionnés */\n  z-index: 10;        /* classe tout l'en-tête au-dessus de la carte */\n  height: 48px;\n  padding: 0 16px;\n  line-height: 48px;\n  background: #1a1d17;\n  color: #fff;\n  transform: translateY(0); /* état final de l'animation d'entrée */\n}\n\n.dropdown {\n  position: absolute;\n  top: 48px;\n  left: 16px;\n  width: 200px;\n  height: 120px;\n  background: #d0f68a;\n  color: #111;\n  z-index: 9999;\n}\n\n.card {\n  position: relative;\n  z-index: 1;\n  height: 200px;\n  margin: 8px;\n  padding: 16px;\n  background: #e9e7df;\n}",
-            "js": "const menu = document.getElementById('menu');\n\n// Attend que la page soit affichée avant de regarder ce qui est au premier plan\nwindow.addEventListener('load', () => {\n  const box = menu.getBoundingClientRect();\n  const visible = document.elementFromPoint(box.left + box.width / 2, box.top + box.height / 2);\n\n  console.log('z-index du menu : ' + getComputedStyle(menu).zIndex);\n  console.log('Élément visible au centre du menu : #' + visible.id);\n  console.log(visible === menu ? 'Le menu est au-dessus.' : 'Le menu est caché par un autre élément.');\n});"
+            "js": "const menu = document.getElementById('menu');\n\n// Laisse la page s'afficher avant de regarder ce qui est au premier plan\nsetTimeout(() => {\n  const box = menu.getBoundingClientRect();\n  const visible = document.elementFromPoint(box.left + box.width / 2, box.top + box.height / 2);\n\n  console.log('z-index du menu : ' + getComputedStyle(menu).zIndex);\n  console.log('Élément visible au centre du menu : #' + visible.id);\n  console.log(visible === menu ? 'Le menu est au-dessus.' : 'Le menu est caché par un autre élément.');\n}, 100);"
           },
           "isAi": false,
           "isAccepted": true,
@@ -1381,16 +1381,16 @@
       "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
       "circleId": null,
       "kind": "problem",
-      "title": "TS2589 « Type instantiation is excessively deep » sur un type de chemins dès que le modèle est récursif",
-      "bodyMd": "J'ai un type utilitaire qui calcule tous les chemins d'un objet (`'author.name'`, `'tags.0'`…), pour typer un `get(obj, path)` et l'autocomplétion des champs d'un formulaire.\n\nIl fonctionne très bien sur des objets plats ou peu profonds. Dès que le modèle contient une référence récursive (une catégorie avec des sous-catégories), j'obtiens :\n\n```\nerror TS2589: Type instantiation is excessively deep and possibly infinite.\n```\n\nJe comprends la cause : le type est réellement infini. Je cherche une façon **propre** de borner la profondeur :\n\n- sans perdre l'autocomplétion sur les premiers niveaux ;\n- sans faire exploser le temps de vérification (le projet compte environ 400 modèles générés).\n\nJ'ai essayé un compteur de profondeur sous forme de tuple (`Depth extends [...]`). Ça compile, mais `tsc` passe de 9 s à 31 s. Quelqu'un a-t-il une approche qui tient à cette échelle ?",
-      "code": "type Paths<T> = T extends readonly (infer Item)[]\n  ? `${number}` | `${number}.${Paths<Item>}`\n  : T extends object\n    ? { [K in keyof T & string]: K | `${K}.${Paths<T[K]>}` }[keyof T & string]\n    : never;\n\ninterface Category {\n  name: string;\n  children: Category[];\n}\n\ntype CategoryPath = Paths<Category>; // TS2589",
+      "title": "TS2615 « circularly references itself in mapped type » sur un type de chemins dès que le modèle est récursif",
+      "bodyMd": "J'ai un type utilitaire qui calcule tous les chemins d'un objet (`'author.name'`, `'tags.0'`…), pour typer un `get(obj, path)` et l'autocomplétion des champs d'un formulaire.\n\nIl fonctionne très bien sur des objets plats ou peu profonds. Dès que le modèle contient une référence récursive (une catégorie avec des sous-catégories), j'obtiens :\n\n```\nerror TS2615: Type of property 'children' circularly references itself in mapped type\n'{ [K in \"name\" | \"children\"]: K | `${K}.${Paths<Category[K]>}`; }'.\n```\n\nJe comprends la cause : le type est réellement infini. Je cherche une façon **propre** de borner la profondeur :\n\n- sans perdre l'autocomplétion sur les premiers niveaux ;\n- sans faire exploser le temps de vérification (le projet compte environ 400 modèles générés).\n\nJ'ai essayé un compteur de profondeur sous forme de tuple (`Depth extends [...]`). Ça compile, mais `tsc` passe de 9 s à 31 s. Quelqu'un a-t-il une approche qui tient à cette échelle ?",
+      "code": "type Paths<T> = T extends readonly (infer Item)[]\n  ? `${number}` | `${number}.${Paths<Item>}`\n  : T extends object\n    ? { [K in keyof T & string]: K | `${K}.${Paths<T[K]>}` }[keyof T & string]\n    : never;\n\ninterface Category {\n  name: string;\n  children: Category[];\n}\n\ntype CategoryPath = Paths<Category>; // TS2615",
       "language": "typescript",
       "repro": null,
       "tags": [
         "typescript"
       ],
       "difficulty": "senior",
-      "aiSummary": "Un type utilitaire récursif qui calcule les chemins d'un objet déclenche TS2589 sur un modèle auto-référent ; une version bornée existe, mais elle triple le temps de compilation.",
+      "aiSummary": "Un type utilitaire récursif qui calcule les chemins d'un objet déclenche TS2615 sur un modèle auto-référent ; une version bornée existe, mais elle triple le temps de compilation.",
       "aiHints": [
         "Mesure avec `tsc --generateTrace` pour voir quelles instanciations coûtent le plus cher avant d'optimiser.",
         "Une limite de profondeur basse (3 ou 4 niveaux) suffit souvent pour l'autocomplétion des formulaires.",

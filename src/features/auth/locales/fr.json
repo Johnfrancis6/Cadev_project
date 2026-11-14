@@ -1,1 +1,63 @@
-{}
+{
+  "title": "Content de te revoir",
+  "titleSignup": "Crée ton compte",
+  "subtitle": "Pose ton problème, reçois une réponse, repars coder.",
+  "modeLabel": "Connexion ou inscription par e-mail",
+  "guest": {
+    "title": "Juste envie de voir ?",
+    "hint": "Un clic, aucun e-mail demandé. Tu obtiens une session invité temporaire avec toutes les fonctions : fil, problèmes, cercles.",
+    "cta": "Essayer sans compte"
+  },
+  "github": "Continuer avec GitHub",
+  "orEmail": "ou par e-mail",
+  "tabs": {
+    "signin": "Connexion",
+    "signup": "Inscription"
+  },
+  "fields": {
+    "displayName": "Nom affiché",
+    "email": "E-mail",
+    "emailPlaceholder": "toi@exemple.dev",
+    "password": "Mot de passe",
+    "showPassword": "Afficher le mot de passe",
+    "hidePassword": "Masquer le mot de passe"
+  },
+  "strength": {
+    "hint": "8 caractères minimum.",
+    "short": "Trop court : 8 caractères minimum.",
+    "weak": "Faible : ajoute des chiffres ou des symboles.",
+    "fair": "Correct.",
+    "strong": "Solide."
+  },
+  "submit": {
+    "signin": "Se connecter",
+    "signup": "Créer mon compte"
+  },
+  "validation": {
+    "nameShort": "Indique un nom d’au moins 2 caractères.",
+    "nameLong": "40 caractères maximum.",
+    "emailRequired": "Indique ton e-mail.",
+    "emailInvalid": "Cet e-mail n’a pas l’air valide (ex. toi@exemple.dev).",
+    "passwordRequired": "Indique ton mot de passe.",
+    "passwordShort": "Le mot de passe doit faire au moins 8 caractères.",
+    "passwordLong": "72 caractères maximum."
+  },
+  "errors": {
+    "credentials": "E-mail ou mot de passe incorrect.",
+    "signup": "Inscription impossible avec ces informations. Vérifie-les et réessaie.",
+    "conflict": "Un compte existe déjà avec cet e-mail. Connecte-toi plutôt.",
+    "rateLimited": "Trop de tentatives. Patiente une minute avant de réessayer."
+  },
+  "privacy": "Pas de pub, pas de revente de données.",
+  "brand": {
+    "label": "devloop en bref",
+    "taglineA": "Moins de bruit.",
+    "taglineB": "Plus de code.",
+    "promises": {
+      "explain": "Un fil qui t’explique pourquoi tu vois chaque problème, et que tu règles toi-même.",
+      "solved": "Avant de publier, on te montre si quelqu’un a déjà résolu le même blocage.",
+      "repro": "Chaque bug peut s’exécuter dans la page : on le forke, on le corrige, tu valides."
+    },
+    "foot": "Par les devs. Pour les devs."
+  }
+}

@@ -1,1 +1,135 @@
-{}
+{
+  "header": {
+    "greeting": "Salut {{name}}",
+    "unblocked_one": "problème débloqué cette semaine",
+    "unblocked_other": "problèmes débloqués cette semaine",
+    "ask": "Poser un problème",
+    "tune": "Régler mon fil"
+  },
+  "tabs": {
+    "label": "Vues du fil",
+    "for-you": "Pour toi",
+    "following": "Abonnements",
+    "unanswered": "Sans réponse",
+    "latest": "Récents"
+  },
+  "topics": {
+    "label": "Filtrer par sujet",
+    "all": "Tous les sujets"
+  },
+  "list": {
+    "label": "Problèmes",
+    "loadMore": "Charger plus",
+    "loadingMore": "Chargement de la suite…",
+    "end": "Tu es à jour. Rien d’autre pour l’instant.",
+    "refreshing": "Mise à jour du fil…"
+  },
+  "empty": {
+    "for-you": {
+      "title": "Ton fil est encore vide",
+      "hint": "Ajoute des sujets ou pose le premier problème : le fil s’ajuste dès tes premières lectures.",
+      "action": "Régler mon fil"
+    },
+    "following": {
+      "title": "Tu ne suis encore personne",
+      "hint": "Suis les personnes qui t’ont débloqué : leurs problèmes arriveront ici.",
+      "action": "Trouver des personnes"
+    },
+    "unanswered": {
+      "title": "Aucun problème en attente",
+      "hint": "Tous les problèmes de tes sujets ont au moins une réponse. Bien joué.",
+      "action": "Voir les récents"
+    },
+    "latest": {
+      "title": "Rien de neuf",
+      "hint": "Personne n’a encore posté. Lance la boucle.",
+      "action": "Poser un problème"
+    },
+    "topic": {
+      "title": "Rien sur {{topic}} dans cette vue",
+      "hint": "Essaie une autre vue ou retire le filtre.",
+      "action": "Voir tous les sujets"
+    }
+  },
+  "why": {
+    "trigger": "Pourquoi je vois ça ?",
+    "title": "Pourquoi ce problème est dans ton fil",
+    "interest": "Tu suis {{topic}}.",
+    "interestWeight": "Tu suis {{topic}} : ce sujet pèse {{percent}} % dans ton fil.",
+    "interestCount_one": "Tu as ouvert {{count}} problème {{topic}} ces 14 derniers jours.",
+    "interestCount_other": "Tu as ouvert {{count}} problèmes {{topic}} ces 14 derniers jours.",
+    "interestGeneric": "Il touche à l’un de tes centres d’intérêt.",
+    "level": "Sa difficulté correspond à ton niveau.",
+    "trending": "Il fait réagir le cercle {{circle}} en ce moment.",
+    "trendingGeneric": "Il fait réagir un cercle en ce moment.",
+    "explore": "Créneau d’exploration : environ un problème sur huit sort de tes sujets habituels.",
+    "exploreTopic": "Créneau d’exploration : {{topic}} sort de tes sujets habituels, environ un problème sur huit sert à ça.",
+    "fresh": "Il vient d’être posté.",
+    "following": "Tu suis la personne qui l’a posté.",
+    "unanswered": "Personne n’a encore répondu : tu peux être la personne qui débloque.",
+    "none": "Il apparaît dans cette vue par ordre d’arrivée, sans classement personnalisé.",
+    "lessHint": "Divise par deux le poids de ses sujets et masque ce problème.",
+    "tune": "Régler tous mes sujets"
+  },
+  "less": {
+    "action": "Moins de ce sujet",
+    "actionFor": "Moins de ce sujet : {{title}}",
+    "toast": "Moins de {{topics}} dans ton fil",
+    "toastGeneric": "Moins de problèmes de ce genre dans ton fil",
+    "toastHint": "Le poids de ce sujet est divisé par deux et ce problème est masqué. Tu peux le remonter dans « Régler mon fil »."
+  },
+  "listJoin": "{{first}} et {{second}}",
+  "adapt": {
+    "more": "Ton fil s’est adapté : plus de {{topic}}",
+    "less": "Ton fil s’est adapté : moins de {{topic}}",
+    "dismiss": "Masquer ce message"
+  },
+  "tune": {
+    "title": "Régler mon fil",
+    "description": "Tu décides de ce qui remonte. Chaque réglage s’applique tout de suite.",
+    "howTitle": "Comment ton fil est classé",
+    "how": "Chaque problème reçoit un score : tes centres d’intérêt × sa fraîcheur × sa qualité (réponses utiles, résolu ou non) × ton niveau. Environ un créneau sur huit (≈ 12 %) est réservé à l’exploration, pour ne pas t’enfermer dans une bulle. Le fil cherche à te débloquer et à te faire débloquer les autres, pas à te garder le plus longtemps possible.",
+    "interestsTitle": "Tes sujets",
+    "weight": "Poids de {{topic}}",
+    "weightValue": "{{percent}} %",
+    "mute": "Masquer",
+    "muteLabel": "Masquer {{topic}} de mon fil",
+    "muted": "Masqué",
+    "recentOpens_one": "{{count}} lecture récente",
+    "recentOpens_other": "{{count}} lectures récentes",
+    "source": {
+      "onboarding": "Choisi à l’inscription",
+      "github": "GitHub",
+      "behavior": "Appris de ton activité",
+      "manual": "Ajouté par toi"
+    },
+    "empty": "Tu ne suis encore aucun sujet.",
+    "emptyHint": "Ajoutes-en un pour que le fil sache quoi te montrer.",
+    "add": "Ajouter un sujet",
+    "addFilter": "Filtrer les sujets",
+    "addFilterPlaceholder": "React, Docker, SQL…",
+    "addOne": "Ajouter {{topic}}",
+    "addNone": "Aucun sujet ne correspond.",
+    "addAll": "Tu suis déjà tous les sujets.",
+    "added": "{{topic}} ajouté à ton fil",
+    "reset": "Réinitialiser l’apprentissage",
+    "resetHint": "Oublie ce que le fil a appris de ton activité et reviens à tes choix de départ.",
+    "resetTitle": "Réinitialiser l’apprentissage ?",
+    "resetBody": "Les poids appris de tes lectures seront effacés. Tes sujets choisis à l’inscription et ceux ajoutés à la main sont conservés.",
+    "resetConfirm": "Réinitialiser",
+    "resetDone": "Apprentissage réinitialisé : ton fil repart de tes choix de départ."
+  },
+  "rail": {
+    "interests": "Tes centres d’intérêt",
+    "interestsEmpty": "Aucun sujet suivi pour l’instant.",
+    "interestWeight": "{{topic}} : {{percent}} %",
+    "unanswered": "Sans réponse dans tes sujets",
+    "unansweredEmpty": "Rien en attente. Tout le monde a été débloqué.",
+    "unansweredAll": "Tout voir",
+    "people": "À suivre",
+    "peopleEmpty": "Pas de suggestion pour l’instant.",
+    "followed": "Tu suis maintenant {{name}}",
+    "followName": "Suivre {{name}}",
+    "unfollowName": "Ne plus suivre {{name}}"
+  }
+}

@@ -1,1 +1,65 @@
-{}
+{
+  "progress": "Step {{current}} of {{total}}",
+  "stepNames": {
+    "0": "You",
+    "1": "Your topics",
+    "2": "Your feed"
+  },
+  "step1": {
+    "title": "Welcome {{name}}!",
+    "subtitle": "Two details to calibrate your feed. You can change everything in settings.",
+    "nameLabel": "Display name",
+    "nameHint": "The name others see next to your problems and answers.",
+    "nameError": "Enter a name of at least 2 characters.",
+    "levelLabel": "Your level",
+    "levels": {
+      "beginner": "The feed favours approachable problems and well-explained answers.",
+      "intermediate": "A mix: things to learn, and problems where you can already help.",
+      "senior": "The feed favours sharp problems and those still waiting for an answer."
+    }
+  },
+  "step2": {
+    "title": "What do you code on?",
+    "subtitle": "Pick at least 3 topics. They are a starting point: the feed then adjusts to what you actually read.",
+    "gridTitle": "All topics",
+    "counter": "{{count}} / {{min}} minimum",
+    "counterOk_one": "{{count}} topic picked",
+    "counterOk_other": "{{count}} topics picked",
+    "need_one": "{{count}} more topic to pick",
+    "need_other": "{{count}} more topics to pick"
+  },
+  "github": {
+    "title": "Save time with GitHub",
+    "hint": "We only read your public repositories (languages and topics) to suggest interests. Nothing is saved without your say.",
+    "label": "Your GitHub username (optional)",
+    "import": "Import",
+    "invalid": "This GitHub username is not in a valid format.",
+    "notFound": "No GitHub account with that name. Check the spelling, or pick your topics below.",
+    "rateLimited": "GitHub is limiting requests right now. Pick your topics below, it works just as well.",
+    "network": "Could not reach GitHub. Pick your topics below, it works just as well.",
+    "empty": "No usable public repository for {{login}}. Pick your topics below.",
+    "found_one": "{{count}} topic found for {{login}}, already ticked. Untick it if it is not you.",
+    "found_other": "{{count}} topics found for {{login}}, already ticked. Untick the ones that are not you."
+  },
+  "step3": {
+    "title": "Here is why your feed will look like this",
+    "subtitle": "No black box: this is the starting point, and you stay in control.",
+    "weights": "Starting weights",
+    "levelLine": "Difficulty set to your level:",
+    "points": {
+      "explain": {
+        "title": "Every card says why it is there",
+        "body": "“You follow React”, “at your level”, “unanswered”: the reason is written on the problem."
+      },
+      "steer": {
+        "title": "You tune the feed yourself",
+        "body": "Turn a topic up or down, mute it, or say “less of this” on a card."
+      },
+      "explore": {
+        "title": "A share of exploration, clearly labelled",
+        "body": "Now and then, a topic outside your habits, so you do not go round in circles."
+      }
+    },
+    "cta": "Let’s go"
+  }
+}
