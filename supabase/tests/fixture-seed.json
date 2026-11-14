@@ -1,0 +1,998 @@
+{
+ "interests": [
+  {
+   "id": 1,
+   "slug": "javascript",
+   "labelFr": "javascript",
+   "labelEn": "javascript"
+  },
+  {
+   "id": 2,
+   "slug": "typescript",
+   "labelFr": "typescript",
+   "labelEn": "typescript"
+  },
+  {
+   "id": 3,
+   "slug": "react",
+   "labelFr": "react",
+   "labelEn": "react"
+  },
+  {
+   "id": 4,
+   "slug": "nodejs",
+   "labelFr": "nodejs",
+   "labelEn": "nodejs"
+  },
+  {
+   "id": 5,
+   "slug": "python",
+   "labelFr": "python",
+   "labelEn": "python"
+  },
+  {
+   "id": 6,
+   "slug": "django",
+   "labelFr": "django",
+   "labelEn": "django"
+  },
+  {
+   "id": 7,
+   "slug": "data-ai",
+   "labelFr": "data-ai",
+   "labelEn": "data-ai"
+  },
+  {
+   "id": 8,
+   "slug": "databases",
+   "labelFr": "databases",
+   "labelEn": "databases"
+  },
+  {
+   "id": 9,
+   "slug": "devops",
+   "labelFr": "devops",
+   "labelEn": "devops"
+  },
+  {
+   "id": 10,
+   "slug": "mobile",
+   "labelFr": "mobile",
+   "labelEn": "mobile"
+  },
+  {
+   "id": 11,
+   "slug": "css",
+   "labelFr": "css",
+   "labelEn": "css"
+  },
+  {
+   "id": 12,
+   "slug": "git",
+   "labelFr": "git",
+   "labelEn": "git"
+  },
+  {
+   "id": 13,
+   "slug": "security",
+   "labelFr": "security",
+   "labelEn": "security"
+  },
+  {
+   "id": 14,
+   "slug": "testing",
+   "labelFr": "testing",
+   "labelEn": "testing"
+  },
+  {
+   "id": 15,
+   "slug": "career",
+   "labelFr": "career",
+   "labelEn": "career"
+  },
+  {
+   "id": 16,
+   "slug": "java",
+   "labelFr": "java",
+   "labelEn": "java"
+  },
+  {
+   "id": 17,
+   "slug": "php",
+   "labelFr": "php",
+   "labelEn": "php"
+  },
+  {
+   "id": 18,
+   "slug": "go",
+   "labelFr": "go",
+   "labelEn": "go"
+  }
+ ],
+ "users": [
+  {
+   "id": "a0000000-0000-4000-8000-000000000001",
+   "handle": "sarah_chen",
+   "displayName": "Sarah Chen",
+   "avatarUrl": "/avatars/sarah.jpg",
+   "level": "beginner",
+   "bio": "Bio de Sarah Chen",
+   "githubLogin": "sarahchen",
+   "reputation": 40,
+   "interests": [
+    {
+     "slug": "react",
+     "weight": 0.6
+    },
+    {
+     "slug": "typescript",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "id": "a0000000-0000-4000-8000-000000000002",
+   "handle": "amine_b",
+   "displayName": "Amine Benali",
+   "avatarUrl": "/avatars/amine.jpg",
+   "level": "intermediate",
+   "bio": "Bio de Amine Benali",
+   "githubLogin": null,
+   "reputation": 65,
+   "interests": [
+    {
+     "slug": "python",
+     "weight": 0.6
+    },
+    {
+     "slug": "django",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "id": "a0000000-0000-4000-8000-000000000003",
+   "handle": "lea_martin",
+   "displayName": "Léa Martin",
+   "avatarUrl": "/avatars/lea.jpg",
+   "level": "senior",
+   "bio": "Bio de Léa Martin",
+   "githubLogin": null,
+   "reputation": 90,
+   "interests": [
+    {
+     "slug": "css",
+     "weight": 0.6
+    },
+    {
+     "slug": "javascript",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "id": "a0000000-0000-4000-8000-000000000004",
+   "handle": "yann_k",
+   "displayName": "Yann Kerhervé",
+   "avatarUrl": null,
+   "level": "beginner",
+   "bio": "Bio de Yann Kerhervé",
+   "githubLogin": null,
+   "reputation": 115,
+   "interests": [
+    {
+     "slug": "devops",
+     "weight": 0.6
+    },
+    {
+     "slug": "go",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "id": "a0000000-0000-4000-8000-000000000005",
+   "handle": "julie_r",
+   "displayName": "Julie Roche",
+   "avatarUrl": null,
+   "level": "intermediate",
+   "bio": "Bio de Julie Roche",
+   "githubLogin": null,
+   "reputation": 140,
+   "interests": [
+    {
+     "slug": "databases",
+     "weight": 0.6
+    },
+    {
+     "slug": "security",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "id": "a0000000-0000-4000-8000-000000000006",
+   "handle": "alex_d",
+   "displayName": "Alex Dupont",
+   "avatarUrl": null,
+   "level": "senior",
+   "bio": "Bio de Alex Dupont",
+   "githubLogin": null,
+   "reputation": 165,
+   "interests": [
+    {
+     "slug": "java",
+     "weight": 0.6
+    },
+    {
+     "slug": "php",
+     "weight": 0.6
+    }
+   ]
+  }
+ ],
+ "follows": [
+  {
+   "followerId": "a0000000-0000-4000-8000-000000000001",
+   "followeeId": "a0000000-0000-4000-8000-000000000002"
+  },
+  {
+   "followerId": "a0000000-0000-4000-8000-000000000002",
+   "followeeId": "a0000000-0000-4000-8000-000000000001"
+  },
+  {
+   "followerId": "a0000000-0000-4000-8000-000000000003",
+   "followeeId": "a0000000-0000-4000-8000-000000000001"
+  }
+ ],
+ "circles": [
+  {
+   "id": "d0000000-0000-4000-8000-000000000001",
+   "slug": "react-fr",
+   "name": "React FR",
+   "descriptionFr": "Le cercle React",
+   "descriptionEn": "The React circle",
+   "interestSlug": "react",
+   "externalInviteUrl": null,
+   "memberIds": [
+    "a0000000-0000-4000-8000-000000000001",
+    "a0000000-0000-4000-8000-000000000003"
+   ]
+  },
+  {
+   "id": "d0000000-0000-4000-8000-000000000002",
+   "slug": "python-data",
+   "name": "Python & Data",
+   "descriptionFr": "Python et données",
+   "descriptionEn": "Python and data",
+   "interestSlug": "python",
+   "externalInviteUrl": "https://discord.gg/example",
+   "memberIds": [
+    "a0000000-0000-4000-8000-000000000002",
+    "a0000000-0000-4000-8000-000000000005"
+   ]
+  }
+ ],
+ "posts": [
+  {
+   "id": "b0000000-0000-4000-8000-000000000001",
+   "authorId": "a0000000-0000-4000-8000-000000000001",
+   "circleId": "d0000000-0000-4000-8000-000000000001",
+   "kind": "problem",
+   "title": "Boucle infinie dans useEffect avec un tableau de dépendances (1)",
+   "bodyMd": "Voici le détail du problème numéro 1. J’ai essayé plusieurs approches sans succès.",
+   "code": null,
+   "language": null,
+   "repro": {
+    "html": "<p>hi</p>",
+    "css": "p{color:red}",
+    "js": "console.log(1)"
+   },
+   "tags": [
+    "react",
+    "javascript"
+   ],
+   "difficulty": "beginner",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "solved",
+   "hoursAgo": 1,
+   "helpfulCount": 0,
+   "viewCount": 10,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000001",
+     "authorId": "a0000000-0000-4000-8000-000000000003",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": true,
+     "hoursAgo": 0.5,
+     "helpfulCount": 0
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000002",
+   "authorId": "a0000000-0000-4000-8000-000000000002",
+   "circleId": "d0000000-0000-4000-8000-000000000002",
+   "kind": "problem",
+   "title": "Requête lente avec pandas sur un gros fichier CSV (2)",
+   "bodyMd": "Voici le détail du problème numéro 2. J’ai essayé plusieurs approches sans succès.",
+   "code": "console.log(1)",
+   "language": "javascript",
+   "repro": null,
+   "tags": [
+    "python"
+   ],
+   "difficulty": "intermediate",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 6,
+   "helpfulCount": 1,
+   "viewCount": 11,
+   "answers": []
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000003",
+   "authorId": "a0000000-0000-4000-8000-000000000003",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Centrer une grille CSS sans débordement horizontal (3)",
+   "bodyMd": "Voici le détail du problème numéro 3. J’ai essayé plusieurs approches sans succès.",
+   "code": null,
+   "language": null,
+   "repro": null,
+   "tags": [
+    "css"
+   ],
+   "difficulty": "senior",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 11,
+   "helpfulCount": 2,
+   "viewCount": 12,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000002",
+     "authorId": "a0000000-0000-4000-8000-000000000005",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": false,
+     "hoursAgo": 6,
+     "helpfulCount": 2
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000004",
+   "authorId": "a0000000-0000-4000-8000-000000000004",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Index manquant : ma requête SQL prend dix secondes (4)",
+   "bodyMd": "Voici le détail du problème numéro 4. J’ai essayé plusieurs approches sans succès.",
+   "code": "console.log(1)",
+   "language": "javascript",
+   "repro": null,
+   "tags": [
+    "databases",
+    "security"
+   ],
+   "difficulty": "beginner",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "solved",
+   "hoursAgo": 16,
+   "helpfulCount": 3,
+   "viewCount": 13,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000003",
+     "authorId": "a0000000-0000-4000-8000-000000000006",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": true,
+     "hoursAgo": 9,
+     "helpfulCount": 3
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000005",
+   "authorId": "a0000000-0000-4000-8000-000000000005",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Pipeline CI qui échoue après un rebase interactif (5)",
+   "bodyMd": "Voici le détail du problème numéro 5. J’ai essayé plusieurs approches sans succès.",
+   "code": null,
+   "language": null,
+   "repro": null,
+   "tags": [
+    "devops",
+    "git"
+   ],
+   "difficulty": "intermediate",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 21,
+   "helpfulCount": 4,
+   "viewCount": 14,
+   "answers": []
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000006",
+   "authorId": "a0000000-0000-4000-8000-000000000006",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Goroutine leak when the context is cancelled early (6)",
+   "bodyMd": "Voici le détail du problème numéro 6. J’ai essayé plusieurs approches sans succès.",
+   "code": "console.log(1)",
+   "language": "javascript",
+   "repro": {
+    "html": "<p>hi</p>",
+    "css": "p{color:red}",
+    "js": "console.log(1)"
+   },
+   "tags": [
+    "go"
+   ],
+   "difficulty": "senior",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 26,
+   "helpfulCount": 0,
+   "viewCount": 15,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000004",
+     "authorId": "a0000000-0000-4000-8000-000000000002",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": false,
+     "hoursAgo": 15,
+     "helpfulCount": 1
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000007",
+   "authorId": "a0000000-0000-4000-8000-000000000001",
+   "circleId": null,
+   "kind": "discussion",
+   "title": "Mocking a static method in JUnit five tests (7)",
+   "bodyMd": "Voici le détail du problème numéro 7. J’ai essayé plusieurs approches sans succès.",
+   "code": null,
+   "language": null,
+   "repro": null,
+   "tags": [
+    "java",
+    "testing"
+   ],
+   "difficulty": "beginner",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "solved",
+   "hoursAgo": 31,
+   "helpfulCount": 1,
+   "viewCount": 16,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000005",
+     "authorId": "a0000000-0000-4000-8000-000000000003",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": true,
+     "hoursAgo": 18,
+     "helpfulCount": 2
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000008",
+   "authorId": "a0000000-0000-4000-8000-000000000002",
+   "circleId": "d0000000-0000-4000-8000-000000000001",
+   "kind": "problem",
+   "title": "Boucle infinie dans useEffect avec un tableau de dépendances (8)",
+   "bodyMd": "Voici le détail du problème numéro 8. J’ai essayé plusieurs approches sans succès.",
+   "code": "console.log(1)",
+   "language": "javascript",
+   "repro": null,
+   "tags": [
+    "react",
+    "javascript"
+   ],
+   "difficulty": "intermediate",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 36,
+   "helpfulCount": 2,
+   "viewCount": 17,
+   "answers": []
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000009",
+   "authorId": "a0000000-0000-4000-8000-000000000003",
+   "circleId": "d0000000-0000-4000-8000-000000000002",
+   "kind": "problem",
+   "title": "Requête lente avec pandas sur un gros fichier CSV (9)",
+   "bodyMd": "Voici le détail du problème numéro 9. J’ai essayé plusieurs approches sans succès.",
+   "code": null,
+   "language": null,
+   "repro": null,
+   "tags": [
+    "python"
+   ],
+   "difficulty": "senior",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 41,
+   "helpfulCount": 3,
+   "viewCount": 18,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000006",
+     "authorId": "a0000000-0000-4000-8000-000000000005",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": false,
+     "hoursAgo": 24,
+     "helpfulCount": 0
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000010",
+   "authorId": "a0000000-0000-4000-8000-000000000004",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Centrer une grille CSS sans débordement horizontal (10)",
+   "bodyMd": "Voici le détail du problème numéro 10. J’ai essayé plusieurs approches sans succès.",
+   "code": "console.log(1)",
+   "language": "javascript",
+   "repro": null,
+   "tags": [
+    "css"
+   ],
+   "difficulty": "beginner",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "solved",
+   "hoursAgo": 46,
+   "helpfulCount": 4,
+   "viewCount": 19,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000007",
+     "authorId": "a0000000-0000-4000-8000-000000000006",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": true,
+     "hoursAgo": 27,
+     "helpfulCount": 1
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000011",
+   "authorId": "a0000000-0000-4000-8000-000000000005",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Index manquant : ma requête SQL prend dix secondes (11)",
+   "bodyMd": "Voici le détail du problème numéro 11. J’ai essayé plusieurs approches sans succès.",
+   "code": null,
+   "language": null,
+   "repro": {
+    "html": "<p>hi</p>",
+    "css": "p{color:red}",
+    "js": "console.log(1)"
+   },
+   "tags": [
+    "databases",
+    "security"
+   ],
+   "difficulty": "intermediate",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 51,
+   "helpfulCount": 0,
+   "viewCount": 20,
+   "answers": []
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000012",
+   "authorId": "a0000000-0000-4000-8000-000000000006",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Pipeline CI qui échoue après un rebase interactif (12)",
+   "bodyMd": "Voici le détail du problème numéro 12. J’ai essayé plusieurs approches sans succès.",
+   "code": "console.log(1)",
+   "language": "javascript",
+   "repro": null,
+   "tags": [
+    "devops",
+    "git"
+   ],
+   "difficulty": "senior",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 56,
+   "helpfulCount": 1,
+   "viewCount": 21,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000008",
+     "authorId": "a0000000-0000-4000-8000-000000000002",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": false,
+     "hoursAgo": 33,
+     "helpfulCount": 3
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000013",
+   "authorId": "a0000000-0000-4000-8000-000000000001",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Goroutine leak when the context is cancelled early (13)",
+   "bodyMd": "Voici le détail du problème numéro 13. J’ai essayé plusieurs approches sans succès.",
+   "code": null,
+   "language": null,
+   "repro": null,
+   "tags": [
+    "go"
+   ],
+   "difficulty": "beginner",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "solved",
+   "hoursAgo": 61,
+   "helpfulCount": 2,
+   "viewCount": 22,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000009",
+     "authorId": "a0000000-0000-4000-8000-000000000003",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": true,
+     "hoursAgo": 36,
+     "helpfulCount": 0
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000014",
+   "authorId": "a0000000-0000-4000-8000-000000000002",
+   "circleId": null,
+   "kind": "discussion",
+   "title": "Mocking a static method in JUnit five tests (14)",
+   "bodyMd": "Voici le détail du problème numéro 14. J’ai essayé plusieurs approches sans succès.",
+   "code": "console.log(1)",
+   "language": "javascript",
+   "repro": null,
+   "tags": [
+    "java",
+    "testing"
+   ],
+   "difficulty": "intermediate",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 66,
+   "helpfulCount": 3,
+   "viewCount": 23,
+   "answers": []
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000015",
+   "authorId": "a0000000-0000-4000-8000-000000000003",
+   "circleId": "d0000000-0000-4000-8000-000000000001",
+   "kind": "problem",
+   "title": "Boucle infinie dans useEffect avec un tableau de dépendances (15)",
+   "bodyMd": "Voici le détail du problème numéro 15. J’ai essayé plusieurs approches sans succès.",
+   "code": null,
+   "language": null,
+   "repro": null,
+   "tags": [
+    "react",
+    "javascript"
+   ],
+   "difficulty": "senior",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 71,
+   "helpfulCount": 4,
+   "viewCount": 24,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000010",
+     "authorId": "a0000000-0000-4000-8000-000000000005",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": false,
+     "hoursAgo": 42,
+     "helpfulCount": 2
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000016",
+   "authorId": "a0000000-0000-4000-8000-000000000004",
+   "circleId": "d0000000-0000-4000-8000-000000000002",
+   "kind": "problem",
+   "title": "Requête lente avec pandas sur un gros fichier CSV (16)",
+   "bodyMd": "Voici le détail du problème numéro 16. J’ai essayé plusieurs approches sans succès.",
+   "code": "console.log(1)",
+   "language": "javascript",
+   "repro": {
+    "html": "<p>hi</p>",
+    "css": "p{color:red}",
+    "js": "console.log(1)"
+   },
+   "tags": [
+    "python"
+   ],
+   "difficulty": "beginner",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "solved",
+   "hoursAgo": 76,
+   "helpfulCount": 0,
+   "viewCount": 25,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000011",
+     "authorId": "a0000000-0000-4000-8000-000000000006",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": true,
+     "hoursAgo": 45,
+     "helpfulCount": 3
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000017",
+   "authorId": "a0000000-0000-4000-8000-000000000005",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Centrer une grille CSS sans débordement horizontal (17)",
+   "bodyMd": "Voici le détail du problème numéro 17. J’ai essayé plusieurs approches sans succès.",
+   "code": null,
+   "language": null,
+   "repro": null,
+   "tags": [
+    "css"
+   ],
+   "difficulty": "intermediate",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 81,
+   "helpfulCount": 1,
+   "viewCount": 26,
+   "answers": []
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000018",
+   "authorId": "a0000000-0000-4000-8000-000000000006",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Index manquant : ma requête SQL prend dix secondes (18)",
+   "bodyMd": "Voici le détail du problème numéro 18. J’ai essayé plusieurs approches sans succès.",
+   "code": "console.log(1)",
+   "language": "javascript",
+   "repro": null,
+   "tags": [
+    "databases",
+    "security"
+   ],
+   "difficulty": "senior",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 86,
+   "helpfulCount": 2,
+   "viewCount": 27,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000012",
+     "authorId": "a0000000-0000-4000-8000-000000000002",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": false,
+     "hoursAgo": 51,
+     "helpfulCount": 1
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000019",
+   "authorId": "a0000000-0000-4000-8000-000000000001",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Pipeline CI qui échoue après un rebase interactif (19)",
+   "bodyMd": "Voici le détail du problème numéro 19. J’ai essayé plusieurs approches sans succès.",
+   "code": null,
+   "language": null,
+   "repro": null,
+   "tags": [
+    "devops",
+    "git"
+   ],
+   "difficulty": "beginner",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "solved",
+   "hoursAgo": 91,
+   "helpfulCount": 3,
+   "viewCount": 28,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000013",
+     "authorId": "a0000000-0000-4000-8000-000000000003",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": true,
+     "hoursAgo": 54,
+     "helpfulCount": 2
+    }
+   ]
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000020",
+   "authorId": "a0000000-0000-4000-8000-000000000002",
+   "circleId": null,
+   "kind": "problem",
+   "title": "Goroutine leak when the context is cancelled early (20)",
+   "bodyMd": "Voici le détail du problème numéro 20. J’ai essayé plusieurs approches sans succès.",
+   "code": "console.log(1)",
+   "language": "javascript",
+   "repro": null,
+   "tags": [
+    "go"
+   ],
+   "difficulty": "intermediate",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 96,
+   "helpfulCount": 4,
+   "viewCount": 29,
+   "answers": []
+  },
+  {
+   "id": "b0000000-0000-4000-8000-000000000021",
+   "authorId": "a0000000-0000-4000-8000-000000000003",
+   "circleId": null,
+   "kind": "discussion",
+   "title": "Mocking a static method in JUnit five tests (21)",
+   "bodyMd": "Voici le détail du problème numéro 21. J’ai essayé plusieurs approches sans succès.",
+   "code": null,
+   "language": null,
+   "repro": {
+    "html": "<p>hi</p>",
+    "css": "p{color:red}",
+    "js": "console.log(1)"
+   },
+   "tags": [
+    "java",
+    "testing"
+   ],
+   "difficulty": "senior",
+   "aiSummary": "Résumé IA",
+   "aiHints": [
+    "Vérifie les dépendances"
+   ],
+   "status": "open",
+   "hoursAgo": 101,
+   "helpfulCount": 0,
+   "viewCount": 30,
+   "answers": [
+    {
+     "id": "c0000000-0000-4000-8000-000000000014",
+     "authorId": "a0000000-0000-4000-8000-000000000005",
+     "bodyMd": "Essaie de mémoïser la valeur avec `useMemo`.",
+     "repro": null,
+     "isAi": false,
+     "isAccepted": false,
+     "hoursAgo": 60,
+     "helpfulCount": 0
+    }
+   ]
+  }
+ ],
+ "messages": [
+  {
+   "id": "e0000000-0000-4000-8000-000000000001",
+   "circleId": "d0000000-0000-4000-8000-000000000002",
+   "authorId": "a0000000-0000-4000-8000-000000000002",
+   "body": "Salut le cercle 1",
+   "minutesAgo": 7
+  },
+  {
+   "id": "e0000000-0000-4000-8000-000000000002",
+   "circleId": "d0000000-0000-4000-8000-000000000001",
+   "authorId": "a0000000-0000-4000-8000-000000000003",
+   "body": "Salut le cercle 2",
+   "minutesAgo": 14
+  },
+  {
+   "id": "e0000000-0000-4000-8000-000000000003",
+   "circleId": "d0000000-0000-4000-8000-000000000002",
+   "authorId": "a0000000-0000-4000-8000-000000000004",
+   "body": "Salut le cercle 3",
+   "minutesAgo": 21
+  },
+  {
+   "id": "e0000000-0000-4000-8000-000000000004",
+   "circleId": "d0000000-0000-4000-8000-000000000001",
+   "authorId": "a0000000-0000-4000-8000-000000000005",
+   "body": "Salut le cercle 4",
+   "minutesAgo": 28
+  }
+ ]
+}

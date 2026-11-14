@@ -1,0 +1,33 @@
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://avatars.githubusercontent.com; font-src 'self'; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://api.github.com; frame-src 'self' blob: data:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), browsing-topics=()
+  Cross-Origin-Opener-Policy: same-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/avatars/*
+  Cache-Control: public, max-age=604800
+
+/theme.js
+  Cache-Control: public, max-age=3600
+
+/index.html
+  Cache-Control: no-cache
+
+# Repro runner (user snippets). It is only ever framed by the app with sandbox="allow-scripts";
+# the `sandbox` directive below forces an opaque origin even if someone opens or frames it
+# directly, so the code never reaches the app's storage. Inline script is allowed here and
+# nowhere else. Network is closed (data:/blob: only).
+/sandbox.html
+  ! Content-Security-Policy
+  ! X-Frame-Options
+  Content-Security-Policy: sandbox allow-scripts; default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval'; style-src 'unsafe-inline'; img-src data: blob:; media-src data: blob:; font-src data:; connect-src data: blob:; base-uri 'none'; form-action 'none'; frame-ancestors 'self'
+  Cache-Control: public, max-age=3600

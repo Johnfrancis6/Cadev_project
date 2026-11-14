@@ -1,0 +1,135 @@
+{
+  "header": {
+    "greeting": "Hi {{name}}",
+    "unblocked_one": "problem unblocked this week",
+    "unblocked_other": "problems unblocked this week",
+    "ask": "Post a problem",
+    "tune": "Tune my feed"
+  },
+  "tabs": {
+    "label": "Feed views",
+    "for-you": "For you",
+    "following": "Following",
+    "unanswered": "Unanswered",
+    "latest": "Latest"
+  },
+  "topics": {
+    "label": "Filter by topic",
+    "all": "All topics"
+  },
+  "list": {
+    "label": "Problems",
+    "loadMore": "Load more",
+    "loadingMore": "Loading more…",
+    "end": "You’re all caught up. Nothing else for now.",
+    "refreshing": "Updating your feed…"
+  },
+  "empty": {
+    "for-you": {
+      "title": "Your feed is still empty",
+      "hint": "Add topics or post the first problem: the feed adjusts from your very first reads.",
+      "action": "Tune my feed"
+    },
+    "following": {
+      "title": "You don’t follow anyone yet",
+      "hint": "Follow the people who unblocked you: their problems will show up here.",
+      "action": "Find people"
+    },
+    "unanswered": {
+      "title": "No problem is waiting",
+      "hint": "Every problem in your topics has at least one answer. Nicely done.",
+      "action": "See latest"
+    },
+    "latest": {
+      "title": "Nothing new",
+      "hint": "Nobody has posted yet. Start the loop.",
+      "action": "Post a problem"
+    },
+    "topic": {
+      "title": "Nothing about {{topic}} in this view",
+      "hint": "Try another view or remove the filter.",
+      "action": "See all topics"
+    }
+  },
+  "why": {
+    "trigger": "Why am I seeing this?",
+    "title": "Why this problem is in your feed",
+    "interest": "You follow {{topic}}.",
+    "interestWeight": "You follow {{topic}}: this topic weighs {{percent}}% in your feed.",
+    "interestCount_one": "You opened {{count}} {{topic}} problem in the last 14 days.",
+    "interestCount_other": "You opened {{count}} {{topic}} problems in the last 14 days.",
+    "interestGeneric": "It touches one of your interests.",
+    "level": "Its difficulty matches your level.",
+    "trending": "The {{circle}} circle is reacting to it right now.",
+    "trendingGeneric": "A circle is reacting to it right now.",
+    "explore": "Exploration slot: about one problem in eight comes from outside your usual topics.",
+    "exploreTopic": "Exploration slot: {{topic}} is outside your usual topics, about one problem in eight is for that.",
+    "fresh": "It was just posted.",
+    "following": "You follow the person who posted it.",
+    "unanswered": "Nobody has answered yet: you could be the one who unblocks it.",
+    "none": "It shows up in this view in order of arrival, with no personal ranking.",
+    "lessHint": "Halves the weight of its topics and hides this problem.",
+    "tune": "Tune all my topics"
+  },
+  "less": {
+    "action": "Less of this topic",
+    "actionFor": "Less of this topic: {{title}}",
+    "toast": "Less {{topics}} in your feed",
+    "toastGeneric": "Fewer problems like this in your feed",
+    "toastHint": "This topic’s weight was halved and this problem is hidden. You can raise it again in “Tune my feed”."
+  },
+  "listJoin": "{{first}} and {{second}}",
+  "adapt": {
+    "more": "Your feed adapted: more {{topic}}",
+    "less": "Your feed adapted: less {{topic}}",
+    "dismiss": "Dismiss this message"
+  },
+  "tune": {
+    "title": "Tune my feed",
+    "description": "You decide what rises. Every setting applies right away.",
+    "howTitle": "How your feed is ranked",
+    "how": "Each problem gets a score: your interests × its freshness × its quality (helpful answers, solved or not) × your level. About one slot in eight (≈ 12%) is kept for exploration, so you don’t end up in a bubble. The feed aims to get you unblocked and to let you unblock others, not to keep you here as long as possible.",
+    "interestsTitle": "Your topics",
+    "weight": "Weight of {{topic}}",
+    "weightValue": "{{percent}}%",
+    "mute": "Hide",
+    "muteLabel": "Hide {{topic}} from my feed",
+    "muted": "Hidden",
+    "recentOpens_one": "{{count}} recent read",
+    "recentOpens_other": "{{count}} recent reads",
+    "source": {
+      "onboarding": "Picked at sign-up",
+      "github": "GitHub",
+      "behavior": "Learned from your activity",
+      "manual": "Added by you"
+    },
+    "empty": "You don’t follow any topic yet.",
+    "emptyHint": "Add one so the feed knows what to show you.",
+    "add": "Add a topic",
+    "addFilter": "Filter topics",
+    "addFilterPlaceholder": "React, Docker, SQL…",
+    "addOne": "Add {{topic}}",
+    "addNone": "No topic matches.",
+    "addAll": "You already follow every topic.",
+    "added": "{{topic}} added to your feed",
+    "reset": "Reset learning",
+    "resetHint": "Forget what the feed learned from your activity and go back to your starting choices.",
+    "resetTitle": "Reset learning?",
+    "resetBody": "Weights learned from your reads will be erased. Topics picked at sign-up and those you added by hand are kept.",
+    "resetConfirm": "Reset",
+    "resetDone": "Learning reset: your feed starts again from your initial choices."
+  },
+  "rail": {
+    "interests": "Your interests",
+    "interestsEmpty": "No topic followed yet.",
+    "interestWeight": "{{topic}}: {{percent}}%",
+    "unanswered": "Unanswered in your topics",
+    "unansweredEmpty": "Nothing waiting. Everyone got unblocked.",
+    "unansweredAll": "See all",
+    "people": "Worth following",
+    "peopleEmpty": "No suggestion for now.",
+    "followed": "You now follow {{name}}",
+    "followName": "Follow {{name}}",
+    "unfollowName": "Unfollow {{name}}"
+  }
+}

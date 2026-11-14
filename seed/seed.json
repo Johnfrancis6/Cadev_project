@@ -1,0 +1,2859 @@
+{
+  "interests": [
+    {
+      "id": 1,
+      "slug": "javascript",
+      "labelFr": "JavaScript",
+      "labelEn": "JavaScript"
+    },
+    {
+      "id": 2,
+      "slug": "typescript",
+      "labelFr": "TypeScript",
+      "labelEn": "TypeScript"
+    },
+    {
+      "id": 3,
+      "slug": "react",
+      "labelFr": "React",
+      "labelEn": "React"
+    },
+    {
+      "id": 4,
+      "slug": "nodejs",
+      "labelFr": "Node.js",
+      "labelEn": "Node.js"
+    },
+    {
+      "id": 5,
+      "slug": "python",
+      "labelFr": "Python",
+      "labelEn": "Python"
+    },
+    {
+      "id": 6,
+      "slug": "django",
+      "labelFr": "Django",
+      "labelEn": "Django"
+    },
+    {
+      "id": 7,
+      "slug": "data-ai",
+      "labelFr": "Data & IA",
+      "labelEn": "Data & AI"
+    },
+    {
+      "id": 8,
+      "slug": "databases",
+      "labelFr": "Bases de données",
+      "labelEn": "Databases"
+    },
+    {
+      "id": 9,
+      "slug": "devops",
+      "labelFr": "DevOps",
+      "labelEn": "DevOps"
+    },
+    {
+      "id": 10,
+      "slug": "mobile",
+      "labelFr": "Mobile",
+      "labelEn": "Mobile"
+    },
+    {
+      "id": 11,
+      "slug": "css",
+      "labelFr": "CSS",
+      "labelEn": "CSS"
+    },
+    {
+      "id": 12,
+      "slug": "git",
+      "labelFr": "Git",
+      "labelEn": "Git"
+    },
+    {
+      "id": 13,
+      "slug": "security",
+      "labelFr": "Sécurité",
+      "labelEn": "Security"
+    },
+    {
+      "id": 14,
+      "slug": "testing",
+      "labelFr": "Tests",
+      "labelEn": "Testing"
+    },
+    {
+      "id": 15,
+      "slug": "career",
+      "labelFr": "Carrière",
+      "labelEn": "Career"
+    },
+    {
+      "id": 16,
+      "slug": "java",
+      "labelFr": "Java",
+      "labelEn": "Java"
+    },
+    {
+      "id": 17,
+      "slug": "php",
+      "labelFr": "PHP",
+      "labelEn": "PHP"
+    },
+    {
+      "id": 18,
+      "slug": "go",
+      "labelFr": "Go",
+      "labelEn": "Go"
+    }
+  ],
+  "users": [
+    {
+      "id": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "handle": "alexmorgan",
+      "displayName": "Alex Morgan",
+      "avatarUrl": "/avatars/alex.jpg",
+      "level": "intermediate",
+      "bio": "Développeur full-stack. Des idées plein la tête, un terminal toujours ouvert. Je construis des outils utiles et je partage ce que j'apprends.",
+      "githubLogin": null,
+      "reputation": 164,
+      "interests": [
+        {
+          "slug": "typescript",
+          "weight": 0.8
+        },
+        {
+          "slug": "react",
+          "weight": 0.75
+        },
+        {
+          "slug": "nodejs",
+          "weight": 0.7
+        },
+        {
+          "slug": "css",
+          "weight": 0.4
+        },
+        {
+          "slug": "devops",
+          "weight": 0.35
+        },
+        {
+          "slug": "go",
+          "weight": 0.25
+        },
+        {
+          "slug": "git",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+      "handle": "sarahbuilds",
+      "displayName": "Sarah Chen",
+      "avatarUrl": "/avatars/sarah.jpg",
+      "level": "senior",
+      "bio": "Frontend developer. Je transforme le café en interfaces. JavaScript, accessibilité et les petits détails qui font une grande différence.",
+      "githubLogin": null,
+      "reputation": 482,
+      "interests": [
+        {
+          "slug": "javascript",
+          "weight": 0.9
+        },
+        {
+          "slug": "react",
+          "weight": 0.8
+        },
+        {
+          "slug": "css",
+          "weight": 0.7
+        },
+        {
+          "slug": "testing",
+          "weight": 0.65
+        },
+        {
+          "slug": "typescript",
+          "weight": 0.6
+        },
+        {
+          "slug": "security",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "handle": "yanncodes",
+      "displayName": "Yann Kouamé",
+      "avatarUrl": "/avatars/yann.jpg",
+      "level": "intermediate",
+      "bio": "Indie maker, full-stack. Je construis Pollen en public depuis Abidjan. Des outils simples, un peu de design et beaucoup de curiosité.",
+      "githubLogin": null,
+      "reputation": 203,
+      "interests": [
+        {
+          "slug": "react",
+          "weight": 0.8
+        },
+        {
+          "slug": "typescript",
+          "weight": 0.7
+        },
+        {
+          "slug": "databases",
+          "weight": 0.55
+        },
+        {
+          "slug": "nodejs",
+          "weight": 0.5
+        },
+        {
+          "slug": "data-ai",
+          "weight": 0.45
+        },
+        {
+          "slug": "css",
+          "weight": 0.4
+        },
+        {
+          "slug": "devops",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+      "handle": "leamartin",
+      "displayName": "Léa Martin",
+      "avatarUrl": "/avatars/lea.jpg",
+      "level": "senior",
+      "bio": "Design engineer. À la croisée du design et du code. J'aime les interfaces qui se font oublier et les composants bien pensés.",
+      "githubLogin": null,
+      "reputation": 536,
+      "interests": [
+        {
+          "slug": "react",
+          "weight": 0.9
+        },
+        {
+          "slug": "css",
+          "weight": 0.85
+        },
+        {
+          "slug": "typescript",
+          "weight": 0.8
+        },
+        {
+          "slug": "javascript",
+          "weight": 0.6
+        },
+        {
+          "slug": "testing",
+          "weight": 0.35
+        },
+        {
+          "slug": "career",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "a5019547-4c5d-53d0-9581-5355518d3a38",
+      "handle": "aminebuilds",
+      "displayName": "Amine Benali",
+      "avatarUrl": "/avatars/amine.jpg",
+      "level": "senior",
+      "bio": "Backend engineer à Casablanca. APIs, architecture et bases de données. Toujours partant pour parler des bons compromis et déboguer à plusieurs.",
+      "githubLogin": null,
+      "reputation": 611,
+      "interests": [
+        {
+          "slug": "nodejs",
+          "weight": 0.9
+        },
+        {
+          "slug": "databases",
+          "weight": 0.85
+        },
+        {
+          "slug": "security",
+          "weight": 0.7
+        },
+        {
+          "slug": "devops",
+          "weight": 0.6
+        },
+        {
+          "slug": "php",
+          "weight": 0.4
+        },
+        {
+          "slug": "go",
+          "weight": 0.4
+        },
+        {
+          "slug": "javascript",
+          "weight": 0.5
+        },
+        {
+          "slug": "java",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "handle": "idrissadev",
+      "displayName": "Idrissa Ouédraogo",
+      "avatarUrl": "/avatars/idrissa.jpg",
+      "level": "intermediate",
+      "bio": "Développeur Python. De Ouaga au monde, une ligne à la fois. Python, data et open source. J'apprends en construisant.",
+      "githubLogin": null,
+      "reputation": 187,
+      "interests": [
+        {
+          "slug": "python",
+          "weight": 0.9
+        },
+        {
+          "slug": "data-ai",
+          "weight": 0.75
+        },
+        {
+          "slug": "django",
+          "weight": 0.7
+        },
+        {
+          "slug": "databases",
+          "weight": 0.4
+        },
+        {
+          "slug": "javascript",
+          "weight": 0.3
+        },
+        {
+          "slug": "mobile",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "id": "60409083-840c-5088-b8b7-9d004e795d26",
+      "handle": "juliemakes",
+      "displayName": "Julie Moreau",
+      "avatarUrl": "/avatars/julie.jpg",
+      "level": "intermediate",
+      "bio": "Creative developer à Nantes. Du code créatif, des animations et des projets qui donnent le sourire. Je partage mes expérimentations ici.",
+      "githubLogin": null,
+      "reputation": 121,
+      "interests": [
+        {
+          "slug": "javascript",
+          "weight": 0.85
+        },
+        {
+          "slug": "css",
+          "weight": 0.7
+        },
+        {
+          "slug": "typescript",
+          "weight": 0.5
+        },
+        {
+          "slug": "django",
+          "weight": 0.3
+        },
+        {
+          "slug": "react",
+          "weight": 0.45
+        }
+      ]
+    },
+    {
+      "id": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "handle": "fatoudiallo",
+      "displayName": "Fatou Diallo",
+      "avatarUrl": null,
+      "level": "beginner",
+      "bio": "Étudiante en L3 informatique à Dakar. J'apprends React le soir et je pose beaucoup de questions, désolée d'avance.",
+      "githubLogin": null,
+      "reputation": 18,
+      "interests": [
+        {
+          "slug": "javascript",
+          "weight": 0.7
+        },
+        {
+          "slug": "react",
+          "weight": 0.65
+        },
+        {
+          "slug": "css",
+          "weight": 0.4
+        },
+        {
+          "slug": "git",
+          "weight": 0.4
+        },
+        {
+          "slug": "career",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+      "handle": "mat_tremblay",
+      "displayName": "Mathieu Tremblay",
+      "avatarUrl": null,
+      "level": "senior",
+      "bio": "SRE à Montréal. Kubernetes le jour, Go la nuit. Si ça plante en prod un vendredi, on jase.",
+      "githubLogin": null,
+      "reputation": 398,
+      "interests": [
+        {
+          "slug": "devops",
+          "weight": 0.9
+        },
+        {
+          "slug": "go",
+          "weight": 0.8
+        },
+        {
+          "slug": "databases",
+          "weight": 0.6
+        },
+        {
+          "slug": "security",
+          "weight": 0.55
+        },
+        {
+          "slug": "git",
+          "weight": 0.5
+        },
+        {
+          "slug": "testing",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+      "handle": "nadiahaddad",
+      "displayName": "Nadia Haddad",
+      "avatarUrl": null,
+      "level": "intermediate",
+      "bio": "Développeuse mobile à Tunis. Flutter, Kotlin, et un backend Spring quand il le faut. Fan des apps qui marchent hors ligne.",
+      "githubLogin": null,
+      "reputation": 96,
+      "interests": [
+        {
+          "slug": "mobile",
+          "weight": 0.9
+        },
+        {
+          "slug": "java",
+          "weight": 0.6
+        },
+        {
+          "slug": "testing",
+          "weight": 0.5
+        },
+        {
+          "slug": "react",
+          "weight": 0.4
+        },
+        {
+          "slug": "devops",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "handle": "christelle_ng",
+      "displayName": "Christelle Ngono",
+      "avatarUrl": null,
+      "level": "beginner",
+      "bio": "En reconversion à Yaoundé, ex-comptable. Python, Django et un peu de data. Chaque bug compris est une petite victoire.",
+      "githubLogin": null,
+      "reputation": 24,
+      "interests": [
+        {
+          "slug": "python",
+          "weight": 0.75
+        },
+        {
+          "slug": "django",
+          "weight": 0.6
+        },
+        {
+          "slug": "data-ai",
+          "weight": 0.55
+        },
+        {
+          "slug": "career",
+          "weight": 0.5
+        },
+        {
+          "slug": "javascript",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "id": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "handle": "thomaslefevre",
+      "displayName": "Thomas Lefèvre",
+      "avatarUrl": null,
+      "level": "beginner",
+      "bio": "Alternant à Lille, PHP/Symfony en entreprise et Java à l'école. J'essaie de comprendre plutôt que de copier-coller.",
+      "githubLogin": null,
+      "reputation": 12,
+      "interests": [
+        {
+          "slug": "php",
+          "weight": 0.7
+        },
+        {
+          "slug": "java",
+          "weight": 0.55
+        },
+        {
+          "slug": "javascript",
+          "weight": 0.5
+        },
+        {
+          "slug": "databases",
+          "weight": 0.45
+        },
+        {
+          "slug": "git",
+          "weight": 0.4
+        },
+        {
+          "slug": "python",
+          "weight": 0.3
+        },
+        {
+          "slug": "career",
+          "weight": 0.4
+        }
+      ]
+    }
+  ],
+  "follows": [
+    {
+      "followerId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "followeeId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7"
+    },
+    {
+      "followerId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "followeeId": "1dce1d27-78fb-5179-a912-bd23c57d4895"
+    },
+    {
+      "followerId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "followeeId": "a5019547-4c5d-53d0-9581-5355518d3a38"
+    },
+    {
+      "followerId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "followeeId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821"
+    },
+    {
+      "followerId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+      "followeeId": "1dce1d27-78fb-5179-a912-bd23c57d4895"
+    },
+    {
+      "followerId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+      "followeeId": "60409083-840c-5088-b8b7-9d004e795d26"
+    },
+    {
+      "followerId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+      "followeeId": "127106c4-6185-57e9-bbd6-4c41c8175c6e"
+    },
+    {
+      "followerId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "followeeId": "1dce1d27-78fb-5179-a912-bd23c57d4895"
+    },
+    {
+      "followerId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "followeeId": "a5019547-4c5d-53d0-9581-5355518d3a38"
+    },
+    {
+      "followerId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "followeeId": "127106c4-6185-57e9-bbd6-4c41c8175c6e"
+    },
+    {
+      "followerId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "followeeId": "c783bb00-c6b1-58ac-b011-7167213746d5"
+    },
+    {
+      "followerId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+      "followeeId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7"
+    },
+    {
+      "followerId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+      "followeeId": "60409083-840c-5088-b8b7-9d004e795d26"
+    },
+    {
+      "followerId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+      "followeeId": "4130c542-5ee6-51eb-a0da-80bd3cb67520"
+    },
+    {
+      "followerId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+      "followeeId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821"
+    },
+    {
+      "followerId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "followeeId": "a5019547-4c5d-53d0-9581-5355518d3a38"
+    },
+    {
+      "followerId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "followeeId": "88d23a8a-1440-5cf2-bdb1-fe5096088032"
+    },
+    {
+      "followerId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "followeeId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821"
+    },
+    {
+      "followerId": "60409083-840c-5088-b8b7-9d004e795d26",
+      "followeeId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7"
+    },
+    {
+      "followerId": "60409083-840c-5088-b8b7-9d004e795d26",
+      "followeeId": "1dce1d27-78fb-5179-a912-bd23c57d4895"
+    },
+    {
+      "followerId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "followeeId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7"
+    },
+    {
+      "followerId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "followeeId": "1dce1d27-78fb-5179-a912-bd23c57d4895"
+    },
+    {
+      "followerId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "followeeId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821"
+    },
+    {
+      "followerId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "followeeId": "127106c4-6185-57e9-bbd6-4c41c8175c6e"
+    },
+    {
+      "followerId": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+      "followeeId": "a5019547-4c5d-53d0-9581-5355518d3a38"
+    },
+    {
+      "followerId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+      "followeeId": "1dce1d27-78fb-5179-a912-bd23c57d4895"
+    },
+    {
+      "followerId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+      "followeeId": "a5019547-4c5d-53d0-9581-5355518d3a38"
+    },
+    {
+      "followerId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+      "followeeId": "4130c542-5ee6-51eb-a0da-80bd3cb67520"
+    },
+    {
+      "followerId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "followeeId": "c783bb00-c6b1-58ac-b011-7167213746d5"
+    },
+    {
+      "followerId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "followeeId": "a5019547-4c5d-53d0-9581-5355518d3a38"
+    },
+    {
+      "followerId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "followeeId": "36c44435-65df-51e2-9312-3ba3d6757261"
+    },
+    {
+      "followerId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "followeeId": "a5019547-4c5d-53d0-9581-5355518d3a38"
+    },
+    {
+      "followerId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "followeeId": "127106c4-6185-57e9-bbd6-4c41c8175c6e"
+    },
+    {
+      "followerId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "followeeId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7"
+    }
+  ],
+  "circles": [
+    {
+      "id": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "slug": "react",
+      "name": "React",
+      "interestSlug": "react",
+      "descriptionFr": "Hooks, rendu, état, performances : on débloque les problèmes React ensemble, du premier composant aux cas tordus.",
+      "descriptionEn": "Hooks, rendering, state, performance: we unblock React problems together, from the first component to the hairy cases.",
+      "externalInviteUrl": null,
+      "memberIds": [
+        "1dce1d27-78fb-5179-a912-bd23c57d4895",
+        "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+        "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+        "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+        "36c44435-65df-51e2-9312-3ba3d6757261",
+        "60409083-840c-5088-b8b7-9d004e795d26",
+        "92eb883f-d370-5c4f-ba14-20929fde18f2"
+      ]
+    },
+    {
+      "id": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "slug": "python",
+      "name": "Python",
+      "interestSlug": "python",
+      "descriptionFr": "Scripts, Django, FastAPI, asyncio. Les débutants sont les bienvenus, les tracebacks aussi.",
+      "descriptionEn": "Scripts, Django, FastAPI, asyncio. Beginners are welcome, and so are tracebacks.",
+      "externalInviteUrl": null,
+      "memberIds": [
+        "c783bb00-c6b1-58ac-b011-7167213746d5",
+        "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+        "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+        "60409083-840c-5088-b8b7-9d004e795d26",
+        "a5019547-4c5d-53d0-9581-5355518d3a38"
+      ]
+    },
+    {
+      "id": "496ee400-d798-5c41-97d9-06f86016e094",
+      "slug": "data-ia",
+      "name": "Data & IA",
+      "interestSlug": "data-ai",
+      "descriptionFr": "pandas, modèles, embeddings et RAG : des questions concrètes et des réponses qui tiennent la route en production.",
+      "descriptionEn": "pandas, models, embeddings and RAG: concrete questions and answers that hold up in production.",
+      "externalInviteUrl": null,
+      "memberIds": [
+        "c783bb00-c6b1-58ac-b011-7167213746d5",
+        "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+        "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+        "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+        "127106c4-6185-57e9-bbd6-4c41c8175c6e"
+      ]
+    },
+    {
+      "id": "e1e088aa-9ad2-5c3f-995f-4c756113766e",
+      "slug": "mobile",
+      "name": "Mobile",
+      "interestSlug": "mobile",
+      "descriptionFr": "Flutter, React Native, Android et iOS. Y compris les téléphones capricieux que tes utilisateurs ont vraiment.",
+      "descriptionEn": "Flutter, React Native, Android and iOS, including the moody phones your users actually own.",
+      "externalInviteUrl": null,
+      "memberIds": [
+        "92eb883f-d370-5c4f-ba14-20929fde18f2",
+        "c783bb00-c6b1-58ac-b011-7167213746d5",
+        "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+        "b8fa65cc-65e1-50ae-aaa8-81cf1e728821"
+      ]
+    },
+    {
+      "id": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "slug": "devops",
+      "name": "DevOps",
+      "interestSlug": "devops",
+      "descriptionFr": "Docker, CI/CD, déploiements et incidents. On partage les post-mortems, pas les reproches.",
+      "descriptionEn": "Docker, CI/CD, deployments and incidents. We share post-mortems, not blame.",
+      "externalInviteUrl": null,
+      "memberIds": [
+        "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+        "a5019547-4c5d-53d0-9581-5355518d3a38",
+        "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+        "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+        "36c44435-65df-51e2-9312-3ba3d6757261",
+        "92eb883f-d370-5c4f-ba14-20929fde18f2"
+      ]
+    },
+    {
+      "id": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "slug": "carriere",
+      "name": "Carrière",
+      "interestSlug": "career",
+      "descriptionFr": "Premier poste, entretiens, alternance, freelance : les questions qu’on n’ose pas toujours poser à son manager.",
+      "descriptionEn": "First job, interviews, apprenticeships, freelancing: the questions you do not always dare to ask your manager.",
+      "externalInviteUrl": null,
+      "memberIds": [
+        "36c44435-65df-51e2-9312-3ba3d6757261",
+        "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+        "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+        "1dce1d27-78fb-5179-a912-bd23c57d4895",
+        "a5019547-4c5d-53d0-9581-5355518d3a38",
+        "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+        "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+        "b8fa65cc-65e1-50ae-aaa8-81cf1e728821"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "5cfefbf0-32c4-5043-8b29-ae38d94273bc",
+      "authorId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "kind": "problem",
+      "title": "useEffect se déclenche deux fois en développement avec React 18",
+      "bodyMd": "Bonjour, je débute avec React (projet créé avec Vite, React 18.3).\n\nJ'ai un composant qui charge une liste d'articles au montage. Dans l'onglet Réseau, je vois **deux requêtes identiques** à chaque chargement de page, et mon `console.log` s'affiche deux fois.\n\nCe que j'ai essayé :\n- vérifier que le composant n'est rendu qu'une fois dans `App` (oui) ;\n- ajouter un tableau de dépendances vide (il y est déjà) ;\n- un `useRef` pour bloquer le deuxième appel : ça marche, mais j'ai l'impression de bricoler.\n\nEn production (`npm run build` puis `npm run preview`), je n'ai qu'une seule requête. Est-ce un bug de mon code ?",
+      "code": "function Articles() {\n  const [articles, setArticles] = useState([]);\n\n  useEffect(() => {\n    console.log('chargement des articles');\n    fetch('/api/articles')\n      .then((res) => res.json())\n      .then(setArticles);\n  }, []);\n\n  return <ul>{articles.map((a) => <li key={a.id}>{a.title}</li>)}</ul>;\n}",
+      "language": "jsx",
+      "repro": null,
+      "tags": [
+        "react",
+        "javascript"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": "En développement, un effet avec un tableau de dépendances vide s'exécute deux fois (deux requêtes), mais une seule fois en production.",
+      "aiHints": [
+        "Regarde si l'application est enveloppée dans <StrictMode> dans main.jsx : en développement, il monte, démonte puis remonte chaque composant.",
+        "Ajoute une fonction de nettoyage à l'effet (AbortController) pour annuler la première requête.",
+        "Compare avec un build de production : si le doublon disparaît, ce n'est pas un bug de ton code."
+      ],
+      "status": "solved",
+      "hoursAgo": 22,
+      "helpfulCount": 14,
+      "viewCount": 231,
+      "answers": [
+        {
+          "id": "ddf7dee4-6e26-5220-ae44-27c715355853",
+          "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+          "bodyMd": "Ce n'est pas un bug, c'est `StrictMode`.\n\nDepuis React 18, en **développement uniquement**, `<StrictMode>` monte chaque composant, le démonte, puis le remonte tout de suite. Le but est de vérifier que tes effets supportent d'être nettoyés puis relancés. Résultat : effet → nettoyage → effet, donc deux `console.log` et deux requêtes. En production, il n'y a qu'un seul montage, ce que tu as constaté.\n\nLa bonne réponse n'est pas de bloquer le deuxième appel avec un `useRef`, mais d'écrire le nettoyage de l'effet :\n\n```jsx\nuseEffect(() => {\n  const controller = new AbortController();\n\n  fetch('/api/articles', { signal: controller.signal })\n    .then((res) => res.json())\n    .then(setArticles)\n    .catch((err) => {\n      if (err.name !== 'AbortError') console.error(err);\n    });\n\n  return () => controller.abort();\n}, []);\n```\n\nLa première requête est annulée au démontage simulé et seule la seconde aboutit. Tu y gagnes aussi en vrai : si l'utilisateur quitte la page avant la réponse, tu n'appelles plus `setArticles` sur un composant démonté.\n\nNe retire pas `StrictMode` pour « corriger » ça, il te signalera d'autres vrais problèmes plus tard.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 21.2,
+          "helpfulCount": 17
+        },
+        {
+          "id": "bb92fda8-17ca-50fd-a937-dba0a89602a0",
+          "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+          "bodyMd": "En complément de la réponse de Sarah : si tu charges beaucoup de données côté client, regarde TanStack Query. Il déduplique les requêtes identiques, donc le double montage de StrictMode ne se voit même plus, et tu récupères le cache et les états de chargement au passage.\n\nMais pour apprendre, écrire le nettoyage à la main une fois est un très bon exercice.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 20.5,
+          "helpfulCount": 5
+        }
+      ]
+    },
+    {
+      "id": "63a6ec68-4a6d-52d9-a2cb-19eca25ea965",
+      "authorId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Mes boutons créés dans une boucle affichent tous le même index au clic",
+      "bodyMd": "Je génère un menu à partir d'un tableau. Chaque bouton doit afficher son propre libellé au clic, mais ils affichent **tous** `n°3 → undefined`, alors que le tableau n'a que 3 éléments (index 0 à 2).\n\nJ'ai vérifié avec un `console.log(i)` dans la boucle : pendant la création, `i` vaut bien 0, 1, 2. C'est seulement au moment du clic que la valeur est fausse.\n\nLe repro ci-dessous simule un clic sur chaque bouton.",
+      "code": "for (var i = 0; i < labels.length; i++) {\n  var button = document.createElement('button');\n  button.textContent = labels[i];\n  button.addEventListener('click', function () {\n    console.log('Clic sur le bouton n°' + i + ' → ' + labels[i]);\n  });\n  menu.appendChild(button);\n}",
+      "language": "javascript",
+      "repro": {
+        "html": "<div id=\"menu\"></div>",
+        "css": "button { margin-right: 8px; padding: 6px 12px; }",
+        "js": "var labels = ['Accueil', 'Profil', 'Réglages'];\nvar menu = document.getElementById('menu');\n\nfor (var i = 0; i < labels.length; i++) {\n  var button = document.createElement('button');\n  button.textContent = labels[i];\n  button.addEventListener('click', function () {\n    console.log('Clic sur le bouton n°' + i + ' → ' + labels[i]);\n  });\n  menu.appendChild(button);\n}\n\n// Simule un clic sur chaque bouton\nmenu.querySelectorAll('button').forEach(function (b) {\n  b.click();\n});"
+      },
+      "tags": [
+        "javascript"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": "Des écouteurs de clic créés dans une boucle `for (var i…)` lisent tous la valeur finale de `i` (3) au lieu de leur propre index.",
+      "aiHints": [
+        "Remplace `var` par `let` dans la boucle : `let` crée une nouvelle variable à chaque tour.",
+        "Affiche `i` dans le gestionnaire de clic, pas dans la boucle : la fonction lit la variable au moment du clic, pas au moment de sa création."
+      ],
+      "status": "solved",
+      "hoursAgo": 120,
+      "helpfulCount": 9,
+      "viewCount": 187,
+      "answers": [
+        {
+          "id": "3bfa654f-92b2-5ff3-9978-63a1f17a538f",
+          "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+          "bodyMd": "C'est le piège classique de `var` avec les fermetures (closures).\n\n`var` a une portée de **fonction**, pas de bloc : il n'existe qu'une seule variable `i` pour toute la boucle. Tes trois fonctions ne retiennent pas la valeur de `i`, elles retiennent *la variable*. Quand tu cliques, la boucle est finie depuis longtemps et `i` vaut 3, donc `labels[3]` est `undefined`.\n\nAvec `let`, chaque tour de boucle a sa propre variable `i`, et chaque fonction capture la sienne :\n\n```js\nfor (let i = 0; i < labels.length; i++) {\n  const button = document.createElement('button');\n  button.textContent = labels[i];\n  button.addEventListener('click', function () {\n    console.log('Clic sur le bouton n°' + i + ' → ' + labels[i]);\n  });\n  menu.appendChild(button);\n}\n```\n\nEncore plus simple, `forEach` te donne un index par appel :\n\n```js\nlabels.forEach((label, index) => { /* ... */ });\n```\n\nJ'ai corrigé ton repro ci-dessous : il affiche maintenant 0, 1 et 2. Règle pratique : `const` par défaut, `let` quand tu dois réassigner, et plus jamais `var`.",
+          "repro": {
+            "html": "<div id=\"menu\"></div>",
+            "css": "button { margin-right: 8px; padding: 6px 12px; }",
+            "js": "const labels = ['Accueil', 'Profil', 'Réglages'];\nconst menu = document.getElementById('menu');\n\nfor (let i = 0; i < labels.length; i++) {\n  const button = document.createElement('button');\n  button.textContent = labels[i];\n  button.addEventListener('click', function () {\n    console.log('Clic sur le bouton n°' + i + ' → ' + labels[i]);\n  });\n  menu.appendChild(button);\n}\n\n// Simule un clic sur chaque bouton\nmenu.querySelectorAll('button').forEach(function (b) {\n  b.click();\n});"
+          },
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 118.5,
+          "helpfulCount": 11
+        }
+      ]
+    },
+    {
+      "id": "d951b26c-76a1-5461-b88e-939809dbdf11",
+      "authorId": "60409083-840c-5088-b8b7-9d004e795d26",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Mon debounce ne sert à rien : la recherche part à chaque frappe",
+      "bodyMd": "J'ai un champ de recherche et une fonction `debounce` maison (testée ailleurs, elle marche). Pourtant, quand je tape « react », ma fonction `search` est appelée **5 fois**, une par lettre, simplement 300 ms plus tard.\n\nJ'ai essayé d'augmenter le délai à 1000 ms : même résultat, 5 appels, juste plus tard.\n\nLe repro simule la frappe de « react » et compte les appels.",
+      "code": "input.addEventListener('input', (event) => {\n  debounce(search, 300)(event.target.value);\n});",
+      "language": "javascript",
+      "repro": {
+        "html": "<label for=\"q\">Recherche</label>\n<input id=\"q\" type=\"search\" placeholder=\"Tape quelque chose…\">",
+        "css": "body { font-family: system-ui, sans-serif; }\ninput { padding: 6px 10px; margin-left: 8px; }",
+        "js": "function debounce(fn, delay) {\n  let timer;\n  return function (...args) {\n    clearTimeout(timer);\n    timer = setTimeout(() => fn.apply(this, args), delay);\n  };\n}\n\nlet calls = 0;\nfunction search(query) {\n  calls++;\n  console.log('Recherche lancée pour \"' + query + '\" (appel n°' + calls + ')');\n}\n\nconst input = document.getElementById('q');\ninput.addEventListener('input', (event) => {\n  debounce(search, 300)(event.target.value);\n});\n\n// Simule la frappe de \"react\", une lettre toutes les 50 ms\n'react'.split('').forEach((_, i, letters) => {\n  setTimeout(() => {\n    input.value = letters.slice(0, i + 1).join('');\n    input.dispatchEvent(new Event('input'));\n  }, i * 50);\n});\n\nsetTimeout(() => console.log('Total : ' + calls + ' appel(s), attendu : 1'), 900);"
+      },
+      "tags": [
+        "javascript"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Une fonction debounce est recréée à chaque événement `input`, donc chaque frappe a son propre minuteur et la recherche part 5 fois au lieu d'une.",
+      "aiHints": [
+        "Vérifie où `debounce(...)` est appelé : il doit l'être une seule fois, en dehors du gestionnaire d'événement.",
+        "Chaque appel à `debounce` crée un nouveau `timer` ; pour annuler le précédent, il faut réutiliser la même fonction retournée."
+      ],
+      "status": "solved",
+      "hoursAgo": 26,
+      "helpfulCount": 12,
+      "viewCount": 164,
+      "answers": [
+        {
+          "id": "5b997572-7563-5cca-ac3d-4bf7dc7eeac8",
+          "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+          "bodyMd": "Ta fonction `debounce` est correcte, c'est la façon de l'appeler qui annule son effet.\n\n`debounce(search, 300)` **fabrique** une nouvelle fonction, avec sa propre variable `timer`. Dans ton gestionnaire, tu en fabriques une à chaque frappe, puis tu l'appelles une seule fois. Aucune ne peut donc annuler le minuteur de la précédente, puisqu'elles ne partagent pas le même `timer`. Tu obtiens 5 minuteurs indépendants, donc 5 recherches.\n\nIl faut créer la version « debouncée » une seule fois et la réutiliser :\n\n```js\nconst debouncedSearch = debounce(search, 300);\n\ninput.addEventListener('input', (event) => {\n  debouncedSearch(event.target.value);\n});\n```\n\nRepro corrigé ci-dessous : un seul appel, avec la valeur finale « react ».\n\nSi un jour tu fais la même chose dans un composant React, le piège est identique : la fonction est recréée à chaque rendu. Il faut la garder stable avec `useMemo` ou `useRef`.",
+          "repro": {
+            "html": "<label for=\"q\">Recherche</label>\n<input id=\"q\" type=\"search\" placeholder=\"Tape quelque chose…\">",
+            "css": "body { font-family: system-ui, sans-serif; }\ninput { padding: 6px 10px; margin-left: 8px; }",
+            "js": "function debounce(fn, delay) {\n  let timer;\n  return function (...args) {\n    clearTimeout(timer);\n    timer = setTimeout(() => fn.apply(this, args), delay);\n  };\n}\n\nlet calls = 0;\nfunction search(query) {\n  calls++;\n  console.log('Recherche lancée pour \"' + query + '\" (appel n°' + calls + ')');\n}\n\nconst input = document.getElementById('q');\n// Créée une seule fois : toutes les frappes partagent le même minuteur\nconst debouncedSearch = debounce(search, 300);\ninput.addEventListener('input', (event) => {\n  debouncedSearch(event.target.value);\n});\n\n// Simule la frappe de \"react\", une lettre toutes les 50 ms\n'react'.split('').forEach((_, i, letters) => {\n  setTimeout(() => {\n    input.value = letters.slice(0, i + 1).join('');\n    input.dispatchEvent(new Event('input'));\n  }, i * 50);\n});\n\nsetTimeout(() => console.log('Total : ' + calls + ' appel(s), attendu : 1'), 900);"
+          },
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 24.8,
+          "helpfulCount": 15
+        }
+      ]
+    },
+    {
+      "id": "d191cc5b-037f-54e8-b7e2-531fc0ea97f5",
+      "authorId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Array.sort() trie mal mes nombres : 1, 10, 100, 2, 21, 3",
+      "bodyMd": "Je veux trier un tableau de prix par ordre croissant. Avec `sort()`, j'obtiens `1, 10, 100, 2, 21, 3` au lieu de `1, 2, 3, 10, 21, 100`.\n\nMes valeurs sont bien des nombres (j'ai vérifié avec `typeof`), pas des chaînes. Je ne comprends pas pourquoi 100 passe avant 2.",
+      "code": "const prices = [1, 10, 2, 21, 100, 3];\nprices.sort();\nconsole.log(prices); // [1, 10, 100, 2, 21, 3]",
+      "language": "javascript",
+      "repro": {
+        "html": "<p>Ouvre la console pour voir le résultat du tri.</p>",
+        "css": "body { font-family: system-ui, sans-serif; }",
+        "js": "const prices = [1, 10, 2, 21, 100, 3];\nconsole.log('Avant : ' + prices.join(', '));\n\nprices.sort();\n\nconsole.log('Après sort() : ' + prices.join(', '));\nconsole.log('Attendu : 1, 2, 3, 10, 21, 100');"
+      },
+      "tags": [
+        "javascript"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": "`sort()` sans argument classe un tableau de nombres dans l'ordre alphabétique (100 avant 2).",
+      "aiHints": [
+        "Passe une fonction de comparaison à `sort` : `(a, b) => a - b`.",
+        "Sans fonction de comparaison, `sort` convertit chaque élément en chaîne avant de comparer."
+      ],
+      "status": "solved",
+      "hoursAgo": 220,
+      "helpfulCount": 8,
+      "viewCount": 142,
+      "answers": [
+        {
+          "id": "81170ed6-dc2f-52c6-8623-07fc84ca13c5",
+          "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+          "bodyMd": "Par défaut, `sort()` convertit chaque élément **en chaîne de caractères** et compare ces chaînes caractère par caractère, même si le tableau ne contient que des nombres. Or `\"100\"` vient avant `\"2\"`, parce que `\"1\"` est avant `\"2\"`.\n\nPour un tri numérique, il faut donner une fonction de comparaison :\n\n```js\nprices.sort((a, b) => a - b); // croissant\nprices.sort((a, b) => b - a); // décroissant\n```\n\nLa fonction doit renvoyer un nombre négatif si `a` passe avant `b`, positif dans le cas contraire, et 0 s'ils sont égaux. `a - b` fait exactement ça.\n\nAttention aussi : `sort()` modifie le tableau d'origine. Si tu veux garder l'original intact, utilise `toSorted()` (disponible dans tous les navigateurs récents) ou copie d'abord : `[...prices].sort((a, b) => a - b)`.\n\nRepro corrigé ci-dessous.",
+          "repro": {
+            "html": "<p>Ouvre la console pour voir le résultat du tri.</p>",
+            "css": "body { font-family: system-ui, sans-serif; }",
+            "js": "const prices = [1, 10, 2, 21, 100, 3];\nconsole.log('Avant : ' + prices.join(', '));\n\n// Tri numérique, sans modifier le tableau d'origine\nconst sorted = [...prices].sort((a, b) => a - b);\n\nconsole.log('Après sort((a, b) => a - b) : ' + sorted.join(', '));\nconsole.log('Attendu : 1, 2, 3, 10, 21, 100');"
+          },
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 218,
+          "helpfulCount": 10
+        }
+      ]
+    },
+    {
+      "id": "b637af08-4c3f-536c-adbc-25711d00e9b6",
+      "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "circleId": null,
+      "kind": "problem",
+      "title": "await dans un forEach : ma fonction renvoie un tableau vide",
+      "bodyMd": "Je viens de Python et je bute sur l'asynchrone en JavaScript.\n\nJe charge plusieurs utilisateurs un par un, puis je renvoie le tableau. La fonction renvoie toujours `[]`, alors que chaque `fetchUser` répond bien : si je mets un `console.log` après le `await`, je vois les utilisateurs arriver… mais après le `return`.\n\nDans le repro, `fetchUser` est simulé avec un `setTimeout` pour ne pas dépendre du réseau.",
+      "code": "async function loadUsers(ids) {\n  const users = [];\n  ids.forEach(async (id) => {\n    const user = await fetchUser(id);\n    users.push(user);\n  });\n  return users;\n}",
+      "language": "javascript",
+      "repro": {
+        "html": "<p>Ouvre la console : 3 utilisateurs sont attendus.</p>",
+        "css": "body { font-family: system-ui, sans-serif; }",
+        "js": "// Simule un appel réseau de 100 ms\nfunction fetchUser(id) {\n  return new Promise((resolve) => {\n    setTimeout(() => resolve({ id, name: 'Utilisateur ' + id }), 100);\n  });\n}\n\nasync function loadUsers(ids) {\n  const users = [];\n  ids.forEach(async (id) => {\n    const user = await fetchUser(id);\n    users.push(user);\n  });\n  return users;\n}\n\nloadUsers([1, 2, 3]).then((users) => {\n  console.log('Utilisateurs chargés : ' + users.length + ' (attendu : 3)');\n  console.log(JSON.stringify(users));\n});"
+      },
+      "tags": [
+        "javascript",
+        "nodejs"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Une fonction async qui remplit un tableau dans un `forEach(async …)` renvoie le tableau vide, parce que `forEach` n'attend pas les promesses.",
+      "aiHints": [
+        "`forEach` ignore la valeur renvoyée par son callback : les promesses créées ne sont attendues par personne.",
+        "Utilise `await Promise.all(ids.map(...))` pour lancer les appels en parallèle, ou une boucle `for...of` pour les faire un par un."
+      ],
+      "status": "solved",
+      "hoursAgo": 84,
+      "helpfulCount": 16,
+      "viewCount": 258,
+      "answers": [
+        {
+          "id": "43a3e474-7591-5f43-b393-fc6dd0ea95d0",
+          "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+          "bodyMd": "`forEach` n'attend rien. Il appelle ton callback pour chaque élément et ignore ce qu'il renvoie. Or un callback `async` renvoie tout de suite une promesse : `forEach` lance donc les trois appels, n'en attend aucun, et `loadUsers` arrive à `return users` alors que le tableau est encore vide. Les `push` ont lieu 100 ms plus tard, trop tard.\n\nDeux corrections, selon ce que tu veux.\n\n**En parallèle** (le plus courant, et le plus rapide) :\n\n```js\nasync function loadUsers(ids) {\n  return Promise.all(ids.map((id) => fetchUser(id)));\n}\n```\n\n`map` renvoie un tableau de promesses, `Promise.all` attend qu'elles soient toutes résolues et **conserve l'ordre** des identifiants. C'est l'équivalent de `asyncio.gather` en Python.\n\n**En séquence** (si l'ordre des appels compte, ou pour ménager l'API) :\n\n```js\nasync function loadUsers(ids) {\n  const users = [];\n  for (const id of ids) {\n    users.push(await fetchUser(id));\n  }\n  return users;\n}\n```\n\nÀ noter : avec `Promise.all`, un seul échec rejette l'ensemble. Si tu veux récupérer les succès malgré une erreur, utilise `Promise.allSettled`.\n\nRepro corrigé ci-dessous avec la version parallèle.",
+          "repro": {
+            "html": "<p>Ouvre la console : 3 utilisateurs sont attendus.</p>",
+            "css": "body { font-family: system-ui, sans-serif; }",
+            "js": "// Simule un appel réseau de 100 ms\nfunction fetchUser(id) {\n  return new Promise((resolve) => {\n    setTimeout(() => resolve({ id, name: 'Utilisateur ' + id }), 100);\n  });\n}\n\nasync function loadUsers(ids) {\n  // map crée les promesses, Promise.all les attend toutes (ordre conservé)\n  return Promise.all(ids.map((id) => fetchUser(id)));\n}\n\nloadUsers([1, 2, 3]).then((users) => {\n  console.log('Utilisateurs chargés : ' + users.length + ' (attendu : 3)');\n  console.log(JSON.stringify(users));\n});"
+          },
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 82.5,
+          "helpfulCount": 19
+        },
+        {
+          "id": "7b722d98-e3cf-5c8f-bf4e-5654275152ae",
+          "authorId": "60409083-840c-5088-b8b7-9d004e795d26",
+          "bodyMd": "Je me suis fait avoir exactement de la même façon le mois dernier. Petit ajout : la règle ESLint `no-floating-promises` de typescript-eslint signale les promesses que personne n'attend, si tu passes un jour le projet en TypeScript.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 80,
+          "helpfulCount": 4
+        }
+      ]
+    },
+    {
+      "id": "5a72a3e4-55b4-53b9-ade7-b5dac823f8d7",
+      "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "circleId": null,
+      "kind": "problem",
+      "title": "position: sticky ne colle pas : ma barre défile avec la page",
+      "bodyMd": "Ma barre de navigation est en `position: sticky; top: 0`, mais elle part avec le reste de la page quand je fais défiler.\n\nCe que j'ai vérifié :\n- `top: 0` est bien présent ;\n- la barre n'est pas dans un conteneur flex bizarre ;\n- le même CSS fonctionne dans une page vide.\n\nLa seule différence avec la page vide, c'est mon conteneur `.page`, qui a un `overflow: hidden` pour couper une illustration qui dépasse à droite.\n\nLe repro fait défiler la page de 600 px et affiche la position de la barre.",
+      "code": ".page {\n  overflow: hidden; /* coupe l'illustration qui dépasse */\n}\n\n#bar {\n  position: sticky;\n  top: 0;\n}",
+      "language": "css",
+      "repro": {
+        "html": "<div class=\"page\">\n  <header id=\"bar\">Barre de navigation</header>\n  <main>Contenu très long…</main>\n</div>",
+        "css": "body { margin: 0; font-family: system-ui, sans-serif; }\n\n.page {\n  overflow: hidden; /* coupe l'illustration qui dépasse */\n}\n\n#bar {\n  position: sticky;\n  top: 0;\n  padding: 12px 16px;\n  background: #d0f68a;\n}\n\nmain { height: 2000px; padding: 16px; }",
+        "js": "const bar = document.getElementById('bar');\n\n// Laisse la page s'afficher, puis fait défiler de 600 px\nsetTimeout(() => {\n  window.scrollTo(0, 600);\n\n  requestAnimationFrame(() => {\n    const top = Math.round(bar.getBoundingClientRect().top);\n    console.log('Position de la barre après 600 px de défilement : ' + top + ' px');\n    console.log(top === 0 ? 'La barre reste collée en haut.' : 'La barre a défilé avec la page.');\n  });\n}, 100);"
+      },
+      "tags": [
+        "css"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Une barre en `position: sticky` défile avec la page dès que son conteneur a `overflow: hidden`.",
+      "aiHints": [
+        "Remonte les ancêtres de l'élément sticky dans l'inspecteur : un `overflow` autre que `visible` sur l'un d'eux change le conteneur de défilement de référence.",
+        "Essaie `overflow: clip` à la place de `overflow: hidden` sur le conteneur."
+      ],
+      "status": "solved",
+      "hoursAgo": 365,
+      "helpfulCount": 13,
+      "viewCount": 301,
+      "answers": [
+        {
+          "id": "7fece766-4553-5603-9d34-c4dd3086d589",
+          "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+          "bodyMd": "Le coupable est bien `overflow: hidden` sur `.page`.\n\nUn élément sticky se colle par rapport à son **ancêtre défilant le plus proche**, c'est-à-dire le premier ancêtre dont l'`overflow` vaut autre chose que `visible` (`hidden`, `auto`, `scroll`). Avec `overflow: hidden`, `.page` devient cet ancêtre. Mais `.page` ne défile pas, c'est la fenêtre qui défile : la barre reste donc « collée » en haut de `.page`, et part avec lui.\n\nDeux solutions :\n\n1. **`overflow: clip`** : il coupe ce qui dépasse comme `hidden`, mais sans créer de conteneur de défilement. C'est le remplaçant direct dans ton cas, et il est pris en charge par tous les navigateurs actuels.\n\n```css\n.page {\n  overflow: clip;\n}\n```\n\n2. Déplacer l'`overflow: hidden` sur un élément qui ne contient pas la barre, par exemple un wrapper autour de l'illustration seulement.\n\nPour retrouver ce genre de problème rapidement : dans l'inspecteur, remonte les parents de l'élément sticky un par un et regarde la propriété `overflow` calculée.\n\nRepro corrigé ci-dessous : la barre reste à 0 px.",
+          "repro": {
+            "html": "<div class=\"page\">\n  <header id=\"bar\">Barre de navigation</header>\n  <main>Contenu très long…</main>\n</div>",
+            "css": "body { margin: 0; font-family: system-ui, sans-serif; }\n\n.page {\n  overflow: clip; /* coupe ce qui dépasse sans créer de conteneur de défilement */\n}\n\n#bar {\n  position: sticky;\n  top: 0;\n  padding: 12px 16px;\n  background: #d0f68a;\n}\n\nmain { height: 2000px; padding: 16px; }",
+            "js": "const bar = document.getElementById('bar');\n\n// Laisse la page s'afficher, puis fait défiler de 600 px\nsetTimeout(() => {\n  window.scrollTo(0, 600);\n\n  requestAnimationFrame(() => {\n    const top = Math.round(bar.getBoundingClientRect().top);\n    console.log('Position de la barre après 600 px de défilement : ' + top + ' px');\n    console.log(top === 0 ? 'La barre reste collée en haut.' : 'La barre a défilé avec la page.');\n  });\n}, 100);"
+          },
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 362,
+          "helpfulCount": 18
+        }
+      ]
+    },
+    {
+      "id": "23324ee4-09f0-5ea1-8548-6c9b75198e7b",
+      "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "circleId": null,
+      "kind": "problem",
+      "title": "z-index: 9999 et mon menu déroulant passe quand même sous la carte",
+      "bodyMd": "Sur Pollen, le menu déroulant de l'en-tête s'affiche **derrière** la première carte de la page, alors qu'il a `z-index: 9999` et la carte seulement `z-index: 1`.\n\nJ'ai essayé de monter à `z-index: 999999`, d'ajouter `!important` : aucun effet.\n\nLe problème est apparu quand j'ai ajouté une animation d'entrée sur l'en-tête (un `transform`). Si je retire le `transform`, le menu repasse devant, mais je voudrais garder l'animation.\n\nLe repro affiche l'élément réellement visible au centre du menu.",
+      "code": ".topbar   { transform: translateY(0); }\n.dropdown { position: absolute; z-index: 9999; }\n.card     { position: relative; z-index: 1; }",
+      "language": "css",
+      "repro": {
+        "html": "<header class=\"topbar\">\n  Pollen\n  <nav id=\"menu\" class=\"dropdown\">Menu déroulant</nav>\n</header>\n<section id=\"card\" class=\"card\">Carte du projet</section>",
+        "css": "body { margin: 0; font-family: system-ui, sans-serif; }\n\n.topbar {\n  height: 48px;\n  padding: 0 16px;\n  line-height: 48px;\n  background: #1a1d17;\n  color: #fff;\n  transform: translateY(0); /* état final de l'animation d'entrée */\n}\n\n.dropdown {\n  position: absolute;\n  top: 48px;\n  left: 16px;\n  width: 200px;\n  height: 120px;\n  background: #d0f68a;\n  color: #111;\n  z-index: 9999;\n}\n\n.card {\n  position: relative;\n  z-index: 1;\n  height: 200px;\n  margin: 8px;\n  padding: 16px;\n  background: #e9e7df;\n}",
+        "js": "const menu = document.getElementById('menu');\n\n// Laisse la page s'afficher avant de regarder ce qui est au premier plan\nsetTimeout(() => {\n  const box = menu.getBoundingClientRect();\n  const visible = document.elementFromPoint(box.left + box.width / 2, box.top + box.height / 2);\n\n  console.log('z-index du menu : ' + getComputedStyle(menu).zIndex);\n  console.log('Élément visible au centre du menu : #' + visible.id);\n  console.log(visible === menu ? 'Le menu est au-dessus.' : 'Le menu est caché par un autre élément.');\n}, 100);"
+      },
+      "tags": [
+        "css"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Un menu en `z-index: 9999` reste sous une carte en `z-index: 1` depuis qu'un `transform` a été ajouté sur son parent.",
+      "aiHints": [
+        "Un `transform` crée un contexte d'empilement : le z-index du menu ne compte plus qu'à l'intérieur de l'en-tête.",
+        "Donne un z-index à l'en-tête lui-même (avec `position: relative`) plutôt que d'augmenter celui du menu."
+      ],
+      "status": "solved",
+      "hoursAgo": 7,
+      "helpfulCount": 7,
+      "viewCount": 96,
+      "answers": [
+        {
+          "id": "40a622de-ec50-55da-ad12-9e59a9bdce4f",
+          "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+          "bodyMd": "Le `z-index` ne se compare pas sur toute la page, seulement **à l'intérieur d'un même contexte d'empilement**.\n\nTon `transform` sur `.topbar` crée un nouveau contexte d'empilement (comme le font `opacity` inférieure à 1, `filter`, `will-change: transform`, `isolation: isolate`…). À partir de là :\n\n- le `9999` du menu ne sert qu'à le classer parmi les enfants de `.topbar` ;\n- vu de l'extérieur, c'est tout le bloc `.topbar` qui est comparé à `.card`. `.topbar` n'a pas de z-index (il compte pour 0), `.card` a `z-index: 1` : la carte gagne, avec tout ce que contient l'en-tête en dessous.\n\nMonter le z-index du menu ne peut donc rien changer. Il faut classer le **parent** :\n\n```css\n.topbar {\n  position: relative; /* z-index ne s'applique qu'aux éléments positionnés */\n  z-index: 10;\n  transform: translateY(0);\n}\n```\n\nTu gardes ton animation et le menu repasse devant (repro corrigé ci-dessous).\n\nPour déboguer ce genre de cas, les outils de développement de Chrome et Edge ont un panneau « Calques » qui montre les contextes d'empilement. Et pour éviter la course aux 9999, définis une petite échelle de z-index en variables CSS (`--z-header`, `--z-modal`…).",
+          "repro": {
+            "html": "<header class=\"topbar\">\n  Pollen\n  <nav id=\"menu\" class=\"dropdown\">Menu déroulant</nav>\n</header>\n<section id=\"card\" class=\"card\">Carte du projet</section>",
+            "css": "body { margin: 0; font-family: system-ui, sans-serif; }\n\n.topbar {\n  position: relative; /* z-index ne s'applique qu'aux éléments positionnés */\n  z-index: 10;        /* classe tout l'en-tête au-dessus de la carte */\n  height: 48px;\n  padding: 0 16px;\n  line-height: 48px;\n  background: #1a1d17;\n  color: #fff;\n  transform: translateY(0); /* état final de l'animation d'entrée */\n}\n\n.dropdown {\n  position: absolute;\n  top: 48px;\n  left: 16px;\n  width: 200px;\n  height: 120px;\n  background: #d0f68a;\n  color: #111;\n  z-index: 9999;\n}\n\n.card {\n  position: relative;\n  z-index: 1;\n  height: 200px;\n  margin: 8px;\n  padding: 16px;\n  background: #e9e7df;\n}",
+            "js": "const menu = document.getElementById('menu');\n\n// Laisse la page s'afficher avant de regarder ce qui est au premier plan\nsetTimeout(() => {\n  const box = menu.getBoundingClientRect();\n  const visible = document.elementFromPoint(box.left + box.width / 2, box.top + box.height / 2);\n\n  console.log('z-index du menu : ' + getComputedStyle(menu).zIndex);\n  console.log('Élément visible au centre du menu : #' + visible.id);\n  console.log(visible === menu ? 'Le menu est au-dessus.' : 'Le menu est caché par un autre élément.');\n}, 100);"
+          },
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 6.1,
+          "helpfulCount": 9
+        }
+      ]
+    },
+    {
+      "id": "ca2139a5-10cb-59f1-9726-e98e49780184",
+      "authorId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Le bouton « Supprimer » ne marche pas sur les éléments ajoutés après le chargement",
+      "bodyMd": "Bonjour, j'ai une petite liste de tâches dans un template Django, avec un peu de JavaScript sans framework.\n\nLe bouton « Supprimer » fonctionne pour les tâches présentes au chargement de la page. Par contre, pour celles que j'ajoute ensuite avec le bouton « Ajouter une tâche », le clic ne fait **rien** : pas d'erreur dans la console, pas de suppression.\n\nJ'ai vérifié que les nouveaux boutons ont bien la classe `delete`. J'ai aussi essayé de déplacer mon `<script>` en bas de page, sans effet.\n\nLe repro ajoute une tâche puis clique sur tous les boutons « Supprimer » : il devrait rester 0 tâche, il en reste 1.",
+      "code": "document.querySelectorAll('.delete').forEach((button) => {\n  button.addEventListener('click', () => {\n    button.parentElement.remove();\n  });\n});",
+      "language": "javascript",
+      "repro": {
+        "html": "<ul id=\"todo\">\n  <li>Acheter du pain <button class=\"delete\">Supprimer</button></li>\n</ul>\n<button id=\"add\">Ajouter une tâche</button>",
+        "css": "body { font-family: system-ui, sans-serif; }\nli { margin-bottom: 6px; }",
+        "js": "const list = document.getElementById('todo');\n\ndocument.querySelectorAll('.delete').forEach((button) => {\n  button.addEventListener('click', () => {\n    button.parentElement.remove();\n  });\n});\n\ndocument.getElementById('add').addEventListener('click', () => {\n  const li = document.createElement('li');\n  li.innerHTML = 'Nouvelle tâche <button class=\"delete\">Supprimer</button>';\n  list.appendChild(li);\n});\n\n// Simule : ajout d'une tâche, puis clic sur tous les boutons \"Supprimer\"\ndocument.getElementById('add').click();\nlist.querySelectorAll('.delete').forEach((button) => button.click());\n\nconsole.log('Tâches restantes : ' + list.children.length + ' (attendu : 0)');"
+      },
+      "tags": [
+        "javascript"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": "Les boutons « Supprimer » ajoutés dynamiquement à une liste ne réagissent pas au clic, contrairement à ceux présents au chargement.",
+      "aiHints": [
+        "`querySelectorAll` ne voit que les éléments qui existent au moment où il s'exécute : les boutons créés plus tard n'ont pas d'écouteur.",
+        "Essaie la délégation d'événement : un seul écouteur sur la liste `#todo`, puis `event.target.closest('.delete')`."
+      ],
+      "status": "open",
+      "hoursAgo": 1.2,
+      "helpfulCount": 2,
+      "viewCount": 19,
+      "answers": []
+    },
+    {
+      "id": "2a8b0ad7-9c80-5d1b-b9aa-4ef567544996",
+      "authorId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Mon compteur affiche NaN quand je passe une méthode de classe à addEventListener",
+      "bodyMd": "J'ai une classe `Counter` toute simple. Si j'appelle `counter.increment()` directement, tout va bien. Mais si je passe la méthode à `addEventListener`, le clic affiche `Compteur : NaN` et la vraie valeur du compteur reste à 0.\n\nAucune erreur dans la console. J'ai essayé d'ajouter des parenthèses, `addEventListener('click', counter.increment())`, mais là la méthode s'exécute une seule fois au chargement et plus jamais au clic.",
+      "code": "class Counter {\n  constructor() {\n    this.count = 0;\n  }\n  increment() {\n    this.count++;\n    console.log('Compteur : ' + this.count);\n  }\n}\n\nconst counter = new Counter();\nbutton.addEventListener('click', counter.increment);",
+      "language": "javascript",
+      "repro": {
+        "html": "<button id=\"plus\">+1</button>",
+        "css": "button { padding: 8px 16px; font-size: 16px; }",
+        "js": "class Counter {\n  constructor() {\n    this.count = 0;\n  }\n  increment() {\n    this.count++;\n    console.log('Compteur : ' + this.count);\n  }\n}\n\nconst counter = new Counter();\nconst button = document.getElementById('plus');\n\nbutton.addEventListener('click', counter.increment);\n\n// Simule un clic\nbutton.click();\nconsole.log('Valeur réelle du compteur : ' + counter.count + ' (attendu : 1)');"
+      },
+      "tags": [
+        "javascript"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": "Une méthode de classe passée directement à `addEventListener` affiche NaN : la valeur du compteur n'est pas incrémentée.",
+      "aiHints": [
+        "Affiche `this` dans `increment` : dans un écouteur d'événement, `this` désigne l'élément cliqué, pas ton objet.",
+        "Passe une fonction fléchée `() => counter.increment()` ou lie la méthode avec `counter.increment.bind(counter)`."
+      ],
+      "status": "open",
+      "hoursAgo": 9,
+      "helpfulCount": 3,
+      "viewCount": 47,
+      "answers": [
+        {
+          "id": "7457b016-aa86-571a-8b1f-18dc35cd6181",
+          "authorId": "60409083-840c-5088-b8b7-9d004e795d26",
+          "bodyMd": "Le problème vient de `this`. Quand tu écris `counter.increment` sans parenthèses, tu passes la fonction seule, détachée de son objet. Au clic, le navigateur l'appelle avec `this` égal au **bouton**. Du coup `this.count++` s'applique à `button.count`, qui vaut `undefined`, et `undefined + 1` donne `NaN`. Ton objet `counter`, lui, n'est jamais touché.\n\nTrois façons de garder le bon `this` :\n\n```js\n// 1. Fonction fléchée qui appelle la méthode sur l'objet\nbutton.addEventListener('click', () => counter.increment());\n\n// 2. bind\nbutton.addEventListener('click', counter.increment.bind(counter));\n\n// 3. Propriété fléchée dans la classe : this est fixé à la création\nclass Counter {\n  count = 0;\n  increment = () => {\n    this.count++;\n  };\n}\n```\n\nJe te conseille la première, c'est la plus lisible. Dis-moi si ça règle ton cas !",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 7.5,
+          "helpfulCount": 4
+        }
+      ]
+    },
+    {
+      "id": "26fd675a-9a2a-520f-886a-7ce220f985e7",
+      "authorId": "60409083-840c-5088-b8b7-9d004e795d26",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Type 'string' is not assignable to type '\"asc\" | \"desc\"' alors que la valeur est bien \"asc\"",
+      "bodyMd": "J'ai une fonction qui attend un ordre de tri typé par une union de littéraux. Quand je passe la valeur directement, tout va bien. Quand elle vient d'un objet de configuration, TypeScript refuse :\n\n```\nerror TS2345: Argument of type 'string' is not assignable to parameter of type 'SortOrder'.\n```\n\nPourtant la valeur est écrite en dur juste au-dessus, c'est bien `'asc'`. J'ai contourné avec `options.order as SortOrder`, mais je n'aime pas mettre des `as` partout.",
+      "code": "type SortOrder = 'asc' | 'desc';\n\nfunction sortBy(items: number[], order: SortOrder) {\n  return [...items].sort((a, b) => (order === 'asc' ? a - b : b - a));\n}\n\nconst options = { field: 'price', order: 'asc' };\n\nsortBy([3, 1, 2], 'asc');          // OK\nsortBy([3, 1, 2], options.order);  // TS2345",
+      "language": "typescript",
+      "repro": null,
+      "tags": [
+        "typescript"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Une propriété d'objet contenant 'asc' est inférée comme `string`, ce qui la rend incompatible avec le type `'asc' | 'desc'`.",
+      "aiHints": [
+        "Survole `options` dans l'éditeur : la propriété `order` est typée `string`, pas `'asc'`.",
+        "Ajoute `as const` à l'objet, ou annote son type, pour conserver le littéral."
+      ],
+      "status": "solved",
+      "hoursAgo": 285,
+      "helpfulCount": 10,
+      "viewCount": 176,
+      "answers": [
+        {
+          "id": "bdd80825-0cc7-5c1a-a0b1-3c93f1c70e44",
+          "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+          "bodyMd": "C'est l'élargissement des littéraux (*literal widening*).\n\nLes propriétés d'un objet sont modifiables : rien n'empêche d'écrire plus tard `options.order = 'autre chose'`. TypeScript infère donc `{ field: string; order: string }`, et un `string` quelconque n'est pas assignable à `'asc' | 'desc'`. Quand tu passes `'asc'` directement, il n'y a pas de variable intermédiaire, donc le littéral est conservé.\n\nTrois corrections propres, sans `as SortOrder` :\n\n```ts\n// 1. as const : l'objet devient readonly et garde ses littéraux\nconst options = { field: 'price', order: 'asc' } as const;\n\n// 2. Annoter le type de l'objet\ninterface SortOptions { field: string; order: SortOrder }\nconst options: SortOptions = { field: 'price', order: 'asc' };\n\n// 3. satisfies : vérifie la forme et garde le type le plus précis\nconst options = { field: 'price', order: 'asc' } satisfies SortOptions;\n```\n\nJe prends en général la 2 quand l'objet représente une vraie structure du domaine, et `as const` pour les constantes de configuration.\n\nLe `as SortOrder` que tu avais fonctionne, mais il fait taire le compilateur : si quelqu'un écrit `order: 'ascending'`, tu n'auras plus d'erreur.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 283,
+          "helpfulCount": 14
+        }
+      ]
+    },
+    {
+      "id": "ca7baa19-e039-5ceb-834b-dba37134312a",
+      "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "circleId": null,
+      "kind": "problem",
+      "title": "'user.profile' is possibly 'undefined' dans un .map() juste après mon if",
+      "bodyMd": "Je vérifie qu'une propriété optionnelle existe, puis je l'utilise dans un callback deux lignes plus bas. TypeScript (5.6, mode strict) me dit qu'elle peut être `undefined` :\n\n```\nerror TS18048: 'user.profile' is possibly 'undefined'.\n```\n\nSi j'utilise `user.profile.city` en dehors du `.map()`, juste après le `if`, il n'y a aucune erreur. C'est uniquement à l'intérieur du callback. J'ai mis un `!` pour avancer, mais j'aimerais comprendre.",
+      "code": "interface User {\n  name: string;\n  profile?: { city: string };\n}\n\nfunction labels(user: User, friends: User[]) {\n  if (!user.profile) return [];\n\n  return friends.map((friend) => `${friend.name} habite près de ${user.profile.city}`);\n  //                                                              ~~~~~~~~~~~~ TS18048\n}",
+      "language": "typescript",
+      "repro": null,
+      "tags": [
+        "typescript",
+        "react"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Le rétrécissement de type d'une propriété optionnelle, vérifiée par un `if`, n'est plus appliqué à l'intérieur d'un callback `.map()`.",
+      "aiHints": [
+        "Copie la propriété dans une constante locale avant le `if` et utilise cette constante dans le callback.",
+        "TypeScript ne peut pas garantir qu'une propriété d'objet n'aura pas changé au moment où le callback s'exécute."
+      ],
+      "status": "solved",
+      "hoursAgo": 3.5,
+      "helpfulCount": 6,
+      "viewCount": 58,
+      "answers": [
+        {
+          "id": "b41b6a13-8b68-5f69-a3d6-d766fa7a10e6",
+          "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+          "bodyMd": "Le compilateur a raison d'être prudent, même si ici ça ne peut pas arriver en pratique.\n\nLe rétrécissement (*narrowing*) obtenu par ton `if` vaut pour le code qui s'exécute tout de suite après. Un callback, lui, peut s'exécuter **plus tard**, et entre-temps n'importe quel code peut avoir fait `user.profile = undefined`, puisque la propriété est modifiable. TypeScript ne sait pas que `map` appelle son callback immédiatement, donc à l'intérieur de la fonction il repart du type déclaré : `{ city: string } | undefined`.\n\nLa correction idiomatique consiste à capturer la valeur dans une constante. Une `const` ne peut pas être réassignée, donc son rétrécissement reste valable dans les callbacks :\n\n```ts\nfunction labels(user: User, friends: User[]) {\n  const profile = user.profile;\n  if (!profile) return [];\n\n  return friends.map((friend) => `${friend.name} habite près de ${profile.city}`);\n}\n```\n\nOu avec une déstructuration : `const { profile } = user;`.\n\nÉvite le `!` : il ne vérifie rien, et il restera en place le jour où le `if` au-dessus sera supprimé ou déplacé.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 2.6,
+          "helpfulCount": 8
+        }
+      ]
+    },
+    {
+      "id": "91b7a207-bbae-52f0-b893-4bf6d8264b25",
+      "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "kind": "problem",
+      "title": "Mon Context re-rend toute l'application à chaque frappe dans un champ",
+      "bodyMd": "Sur Pollen, j'ai un `AppContext` qui contient l'utilisateur, le thème et le brouillon de la note en cours. Depuis que j'y ai mis le brouillon, taper dans l'éditeur est devenu lent.\n\nLe Profiler de React DevTools montre que **tous** les composants qui consomment le contexte se re-rendent à chaque frappe, y compris la barre latérale, qui ne lit que `user`.\n\nCe que j'ai essayé :\n- `React.memo` sur la barre latérale : aucun effet ;\n- `useCallback` sur `setDraft` : aucun effet non plus.\n\nEnviron 60 composants consomment ce contexte. Je préférerais ne pas tout migrer vers une bibliothèque d'état si un correctif plus local existe.",
+      "code": "function AppProvider({ children }: { children: React.ReactNode }) {\n  const [user, setUser] = useState<User | null>(null);\n  const [theme, setTheme] = useState<Theme>('dark');\n  const [draft, setDraft] = useState('');\n\n  return (\n    <AppContext.Provider value={{ user, setUser, theme, setTheme, draft, setDraft }}>\n      {children}\n    </AppContext.Provider>\n  );\n}",
+      "language": "tsx",
+      "repro": null,
+      "tags": [
+        "react"
+      ],
+      "difficulty": "senior",
+      "aiSummary": "Un contexte React unique regroupant utilisateur, thème et brouillon provoque le re-rendu de tous ses consommateurs à chaque frappe.",
+      "aiHints": [
+        "Tout composant qui appelle `useContext` se re-rend quand la valeur du contexte change, et `React.memo` n'y change rien.",
+        "Sépare ce qui change souvent (le brouillon) de ce qui change rarement (utilisateur, thème) dans des contextes distincts.",
+        "Regarde si l'état du brouillon peut vivre plus bas, dans l'éditeur lui-même."
+      ],
+      "status": "solved",
+      "hoursAgo": 300,
+      "helpfulCount": 21,
+      "viewCount": 412,
+      "answers": [
+        {
+          "id": "a93f54b9-6e69-519b-81d5-30b2188d7984",
+          "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+          "bodyMd": "Deux mécanismes se cumulent.\n\n**1. Un contexte n'a pas de sélecteur.** Tout composant qui appelle `useContext(AppContext)` se re-rend dès que la `value` change, même s'il n'en lit qu'un champ. `React.memo` ne protège que contre les changements de props, pas contre un contexte consommé à l'intérieur : c'est pour ça que ta barre latérale se re-rend quand même.\n\n**2. Ta `value` est un nouvel objet à chaque rendu**, et comme `draft` en fait partie, elle change réellement à chaque frappe.\n\nPar ordre d'effort :\n\n**a. Descendre l'état.** Le brouillon intéresse-t-il vraiment toute l'application ? S'il n'est lu que par l'éditeur et un bouton « Enregistrer », garde le `useState` dans l'éditeur, ou dans un petit provider qui n'entoure que cette zone. C'est souvent la correction complète.\n\n**b. Découper le contexte** selon la fréquence de changement :\n\n```tsx\nconst UserContext = createContext<UserValue | null>(null);\nconst ThemeContext = createContext<ThemeValue | null>(null);\nconst DraftContext = createContext<DraftValue | null>(null);\n\nfunction UserProvider({ children }: { children: React.ReactNode }) {\n  const [user, setUser] = useState<User | null>(null);\n  const value = useMemo(() => ({ user, setUser }), [user]);\n  return <UserContext.Provider value={value}>{children}</UserContext.Provider>;\n}\n```\n\nLa barre latérale ne consomme plus que `UserContext` et n'est plus touchée par les frappes. Le `useMemo` évite de créer une nouvelle `value` quand c'est le *parent* du provider qui se re-rend.\n\n**c. Séparer état et actions.** Les setters de `useState` sont stables : un contexte qui ne contient que les actions ne déclenche jamais de re-rendu. Les boutons qui ne font qu'écrire ne se re-rendent plus du tout.\n\nSi après ça tu as encore besoin de lire des tranches fines d'un gros état partagé, c'est le moment de regarder une bibliothèque à sélecteurs (Zustand, Jotai) ou `useSyncExternalStore`. Mais sur 60 consommateurs, (a) et (b) suffisent très souvent, et ça se fait progressivement.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 297,
+          "helpfulCount": 26
+        },
+        {
+          "id": "5c6886f8-841e-5deb-8891-e7c739418b3c",
+          "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+          "bodyMd": "Tout à fait d'accord avec Léa. Un détail pour mesurer avant et après : dans React DevTools, active « Highlight updates when components render » et, dans le Profiler, l'option « Record why each component rendered ». Tu verras écrit noir sur blanc « Context changed » sur les composants concernés, et tu pourras vérifier que la découpe a bien l'effet attendu.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 295,
+          "helpfulCount": 9
+        }
+      ]
+    },
+    {
+      "id": "03fe8914-86e2-55c2-b86b-5f0411d5c2e6",
+      "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "circleId": null,
+      "kind": "problem",
+      "title": "CORS bloque mon fetch avec credentials: 'include' alors que j'ai bien app.use(cors())",
+      "bodyMd": "Front Vite sur `http://localhost:5173`, API Express sur `http://localhost:4000`. L'authentification passe par un cookie de session.\n\nTant que je n'envoyais pas le cookie, tout marchait. Depuis que j'ai ajouté `credentials: 'include'` au `fetch`, le navigateur bloque la requête :\n\n```\nAccess to fetch at 'http://localhost:4000/api/me' from origin 'http://localhost:5173'\nhas been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header\nin the response must not be the wildcard '*' when the request's credentials mode is 'include'.\n```\n\nJ'ai bien `app.use(cors())` tout en haut, avant les routes. Avec curl ou Postman, la requête passe sans problème.",
+      "code": "// server.js\nconst express = require('express');\nconst cors = require('cors');\n\nconst app = express();\napp.use(cors());\napp.use(express.json());\n\napp.get('/api/me', requireSession, (req, res) => res.json(req.user));\n\n// client\nconst res = await fetch('http://localhost:4000/api/me', { credentials: 'include' });",
+      "language": "javascript",
+      "repro": null,
+      "tags": [
+        "nodejs",
+        "security"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Un fetch avec `credentials: 'include'` est bloqué par CORS car l'API Express répond avec `Access-Control-Allow-Origin: *`.",
+      "aiHints": [
+        "Avec des identifiants (cookies), le serveur doit renvoyer l'origine exacte du front, pas `*`.",
+        "Configure `cors({ origin: 'http://localhost:5173', credentials: true })`.",
+        "curl et Postman n'appliquent pas CORS : c'est une protection du navigateur, donc leur succès ne prouve rien ici."
+      ],
+      "status": "solved",
+      "hoursAgo": 175,
+      "helpfulCount": 15,
+      "viewCount": 289,
+      "answers": [
+        {
+          "id": "d35951f6-e1a7-535f-a29d-017a48d70f37",
+          "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+          "bodyMd": "Le message d'erreur dit exactement ce qui ne va pas : `cors()` sans option répond `Access-Control-Allow-Origin: *`, et le navigateur refuse ce joker dès que la requête transporte des identifiants (cookies, en-tête `Authorization` géré par le navigateur). Sinon, n'importe quel site pourrait lire des réponses authentifiées avec les cookies de tes utilisateurs.\n\nIl faut deux choses côté serveur : l'origine **exacte**, et l'en-tête `Access-Control-Allow-Credentials: true`.\n\n```js\napp.use(\n  cors({\n    origin: 'http://localhost:5173',\n    credentials: true,\n  }),\n);\n```\n\nEn production, passe par une variable d'environnement, avec une liste blanche si tu as plusieurs fronts :\n\n```js\nconst allowed = (process.env.CORS_ORIGINS ?? '').split(',');\n\napp.use(\n  cors({\n    origin: (origin, callback) => {\n      // origin est undefined pour curl et les appels serveur à serveur\n      if (!origin || allowed.includes(origin)) return callback(null, true);\n      callback(new Error('Origine non autorisée'));\n    },\n    credentials: true,\n  }),\n);\n```\n\nDeux points à vérifier ensuite :\n\n- **Ne renvoie jamais l'origine reçue sans la vérifier** avec `credentials: true` : cela revient à autoriser tous les sites, cookies compris.\n- Si le cookie n'est toujours pas envoyé une fois en production, avec le front et l'API sur des domaines différents, il devra être posé avec `SameSite=None; Secure`. En local, `localhost:5173` et `localhost:4000` comptent comme le même site, donc `SameSite=Lax` suffit.\n\nCurl et Postman passent parce que CORS est appliqué par le navigateur, pas par le serveur.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 173,
+          "helpfulCount": 20
+        }
+      ]
+    },
+    {
+      "id": "fae37b0e-5051-53b4-b78a-12087fda37f3",
+      "authorId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "kind": "problem",
+      "title": "Testing Library: \"Unable to find an element with the text\" but the text is on screen",
+      "bodyMd": "I'm adding tests to the React admin panel of our app (Vitest + React Testing Library + MSW).\n\nThe component fetches the current user and then greets them. It works in the browser, but the test fails:\n\n```\nTestingLibraryElementError: Unable to find an element with the text: Welcome back, Nadia.\nThis could be because the text is broken up by multiple elements.\n```\n\nThe DOM printed under the error only contains `<p>Loading…</p>`. The MSW handler is called, I checked with a `console.log`. Wrapping the assertion in `act()` didn't help.",
+      "code": "test('greets the signed-in user', () => {\n  render(<Dashboard />);\n\n  expect(screen.getByText('Welcome back, Nadia')).toBeInTheDocument();\n});",
+      "language": "tsx",
+      "repro": null,
+      "tags": [
+        "testing",
+        "react"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "A React Testing Library test fails to find text that only appears after an asynchronous fetch; the DOM still shows the loading state.",
+      "aiHints": [
+        "`getByText` checks the DOM immediately; the greeting is only rendered after the request resolves.",
+        "Use `await screen.findByText(...)` in an `async` test: it retries until the element appears."
+      ],
+      "status": "solved",
+      "hoursAgo": 11,
+      "helpfulCount": 5,
+      "viewCount": 71,
+      "answers": [
+        {
+          "id": "fde572be-40eb-528d-be31-8dd6817c9fa3",
+          "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+          "bodyMd": "The clue is in the printed DOM: at the moment of the assertion the component is still showing `Loading…`.\n\n`getBy*` queries are **synchronous**: they look at the DOM right now and throw if the element isn't there. Your fetch resolves a few ticks later, even with MSW, so the greeting doesn't exist yet when `getByText` runs.\n\nUse the `findBy*` variant, which returns a promise and retries until the element appears (1000 ms by default):\n\n```tsx\ntest('greets the signed-in user', async () => {\n  render(<Dashboard />);\n\n  expect(await screen.findByText('Welcome back, Nadia')).toBeInTheDocument();\n});\n```\n\nDon't forget `async` on the test and `await` on the query, otherwise the test ends before the promise settles.\n\nQuick guide to the three families:\n\n- `getBy`: the element must be there now, throws otherwise;\n- `queryBy`: returns `null` instead of throwing, use it to assert that something is **absent**;\n- `findBy`: waits for the element, use it for anything that shows up after async work.\n\nYou don't need to wrap anything in `act()` yourself: `render`, `findBy*` and `waitFor` already do it.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 10.2,
+          "helpfulCount": 8
+        }
+      ]
+    },
+    {
+      "id": "1d676434-a9a2-518e-b10a-26c8fcfd53b9",
+      "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+      "circleId": null,
+      "kind": "problem",
+      "title": "TS2615 « circularly references itself in mapped type » sur un type de chemins dès que le modèle est récursif",
+      "bodyMd": "J'ai un type utilitaire qui calcule tous les chemins d'un objet (`'author.name'`, `'tags.0'`…), pour typer un `get(obj, path)` et l'autocomplétion des champs d'un formulaire.\n\nIl fonctionne très bien sur des objets plats ou peu profonds. Dès que le modèle contient une référence récursive (une catégorie avec des sous-catégories), j'obtiens :\n\n```\nerror TS2615: Type of property 'children' circularly references itself in mapped type\n'{ [K in \"name\" | \"children\"]: K | `${K}.${Paths<Category[K]>}`; }'.\n```\n\nJe comprends la cause : le type est réellement infini. Je cherche une façon **propre** de borner la profondeur :\n\n- sans perdre l'autocomplétion sur les premiers niveaux ;\n- sans faire exploser le temps de vérification (le projet compte environ 400 modèles générés).\n\nJ'ai essayé un compteur de profondeur sous forme de tuple (`Depth extends [...]`). Ça compile, mais `tsc` passe de 9 s à 31 s. Quelqu'un a-t-il une approche qui tient à cette échelle ?",
+      "code": "type Paths<T> = T extends readonly (infer Item)[]\n  ? `${number}` | `${number}.${Paths<Item>}`\n  : T extends object\n    ? { [K in keyof T & string]: K | `${K}.${Paths<T[K]>}` }[keyof T & string]\n    : never;\n\ninterface Category {\n  name: string;\n  children: Category[];\n}\n\ntype CategoryPath = Paths<Category>; // TS2615",
+      "language": "typescript",
+      "repro": null,
+      "tags": [
+        "typescript"
+      ],
+      "difficulty": "senior",
+      "aiSummary": "Un type utilitaire récursif qui calcule les chemins d'un objet déclenche TS2615 sur un modèle auto-référent ; une version bornée existe, mais elle triple le temps de compilation.",
+      "aiHints": [
+        "Mesure avec `tsc --generateTrace` pour voir quelles instanciations coûtent le plus cher avant d'optimiser.",
+        "Une limite de profondeur basse (3 ou 4 niveaux) suffit souvent pour l'autocomplétion des formulaires.",
+        "Envisage de générer les unions de chemins en même temps que les modèles plutôt que de les calculer dans le système de types."
+      ],
+      "status": "open",
+      "hoursAgo": 75,
+      "helpfulCount": 6,
+      "viewCount": 133,
+      "answers": []
+    },
+    {
+      "id": "cd1763b5-59de-5d6e-ac40-7390bb6a55a1",
+      "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "kind": "problem",
+      "title": "TanStack Query relance toutes mes requêtes quand je reviens sur l'onglet, c'est normal ?",
+      "bodyMd": "Je découvre TanStack Query (v5) sur un tableau de bord. Chaque fois que je change d'onglet dans le navigateur puis que je reviens, je vois toutes les requêtes repartir dans l'onglet Réseau. Même chose quand je navigue entre deux pages qui utilisent la même clé.\n\nLes données changent rarement (une liste de projets). Est-ce que j'ai mal configuré quelque chose, ou est-ce le comportement prévu ? Et si c'est prévu, comment le calmer sans désactiver tout le cache ?",
+      "code": "const { data, isLoading } = useQuery({\n  queryKey: ['projects'],\n  queryFn: () => fetch('/api/projects').then((res) => res.json()),\n});",
+      "language": "tsx",
+      "repro": null,
+      "tags": [
+        "react"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Avec TanStack Query v5 et la configuration par défaut, les requêtes repartent à chaque retour sur l'onglet et à chaque montage d'un composant.",
+      "aiHints": [
+        "Regarde la valeur de `staleTime` : par défaut elle vaut 0, donc les données sont considérées comme périmées immédiatement.",
+        "Définis un `staleTime` adapté à la fréquence réelle de changement de tes données, globalement ou par requête."
+      ],
+      "status": "open",
+      "hoursAgo": 30,
+      "helpfulCount": 4,
+      "viewCount": 88,
+      "answers": [
+        {
+          "id": "81a47f05-55a2-5845-ae99-d45f8e92d6f3",
+          "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+          "bodyMd": "C'est le comportement prévu, et il se règle en une ligne.\n\nPar défaut, `staleTime` vaut `0` : une donnée est considérée comme périmée dès qu'elle arrive. Et une donnée périmée est rechargée en arrière-plan dans trois situations : au montage d'un composant qui utilise la requête, au retour du focus sur la fenêtre (`refetchOnWindowFocus`), et à la reconnexion réseau. Note que pendant ce rechargement tu continues d'afficher les données du cache : `isLoading` reste à `false`, c'est `isFetching` qui passe à `true`.\n\nPour une liste qui change rarement, dis simplement combien de temps elle reste fraîche :\n\n```tsx\nuseQuery({\n  queryKey: ['projects'],\n  queryFn: fetchProjects,\n  staleTime: 5 * 60 * 1000, // 5 minutes\n});\n```\n\nOu globalement :\n\n```tsx\nconst queryClient = new QueryClient({\n  defaultOptions: { queries: { staleTime: 60 * 1000 } },\n});\n```\n\nJe déconseille de couper `refetchOnWindowFocus` partout : avec un `staleTime` raisonnable, c'est lui qui garantit que l'utilisateur ne regarde pas des données vieilles de deux heures en revenant sur l'onglet.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 28.5,
+          "helpfulCount": 7
+        },
+        {
+          "id": "b2deb302-a99b-5a49-9f53-711a89113f68",
+          "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+          "bodyMd": "Piste de départ (brouillon généré par l'IA, que j'ai relu et testé sur mon projet) :\n\nLe comportement décrit correspond aux réglages par défaut de TanStack Query : `staleTime: 0` et `refetchOnWindowFocus: true`. Les requêtes sont donc relancées à chaque retour sur l'onglet et à chaque nouveau montage.\n\nÀ essayer d'abord :\n\n1. Ajouter `staleTime: 5 * 60 * 1000` à la requête `['projects']` et vérifier dans l'onglet Réseau que les rechargements cessent pendant 5 minutes.\n2. Ouvrir les React Query Devtools pour voir l'état de la requête (fresh, stale, fetching).\n3. Après une modification, appeler `queryClient.invalidateQueries({ queryKey: ['projects'] })` pour forcer un rechargement ciblé.\n\nChez moi, le point 1 a suffi.",
+          "repro": null,
+          "isAi": true,
+          "isAccepted": false,
+          "hoursAgo": 27,
+          "helpfulCount": 2
+        }
+      ]
+    },
+    {
+      "id": "5636d973-4697-5857-a9ef-80a86f50eb8f",
+      "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Worker Node : le RSS grossit de 50 Mo par heure alors que le heap JS reste stable",
+      "bodyMd": "Un worker Node 22 (BullMQ, génération de vignettes avec sharp) tourne dans un conteneur limité à 1 Go. Il se fait tuer par l'OOM killer toutes les 18 heures environ.\n\nCe que j'observe :\n- `process.memoryUsage().heapUsed` oscille entre 90 et 140 Mo, sans tendance ;\n- `rss` monte d'environ 50 Mo par heure, sans jamais redescendre ;\n- `external` et `arrayBuffers` restent sous 30 Mo.\n\nCe que j'ai déjà fait :\n- trois heap snapshots à une heure d'intervalle : rien qui grossit côté JS ;\n- `sharp.cache(false)` et `sharp.concurrency(1)` : la pente diminue un peu, sans disparaître ;\n- `--max-old-space-size=512` : aucun effet, ce qui est logique si le problème est hors du heap V8.\n\nMon hypothèse : de la fragmentation dans l'allocateur de la glibc, à cause des buffers natifs de libvips. Avant de changer d'allocateur en production, j'aimerais savoir si quelqu'un a déjà confirmé ce diagnostic, et comment.",
+      "code": "setInterval(() => {\n  const { rss, heapUsed, external, arrayBuffers } = process.memoryUsage();\n  logger.info({ rss, heapUsed, external, arrayBuffers }, 'memory');\n}, 60_000);\n\n// t+0h  rss=412MB heapUsed=118MB external=24MB arrayBuffers=11MB\n// t+6h  rss=705MB heapUsed=104MB external=22MB arrayBuffers=9MB\n// t+12h rss=991MB heapUsed=127MB external=27MB arrayBuffers=12MB",
+      "language": "javascript",
+      "repro": null,
+      "tags": [
+        "nodejs",
+        "devops"
+      ],
+      "difficulty": "senior",
+      "aiSummary": "Un worker Node utilisant sharp voit son RSS croître de 50 Mo par heure jusqu'à l'OOM, alors que le heap V8 et la mémoire externe restent stables.",
+      "aiHints": [
+        "Un RSS qui monte avec un heap stable indique de la mémoire native : les heap snapshots V8 ne la montrent pas.",
+        "Teste le même worker avec jemalloc (via LD_PRELOAD) ou une image Alpine (musl) pour confirmer l'hypothèse de la fragmentation.",
+        "Compare la pente avec `MALLOC_ARENA_MAX=2` : si elle change nettement, l'allocateur est bien en cause."
+      ],
+      "status": "open",
+      "hoursAgo": 160,
+      "helpfulCount": 8,
+      "viewCount": 174,
+      "answers": []
+    },
+    {
+      "id": "9c1ca68b-43af-5cc5-84c1-03e8b9fbeb4c",
+      "authorId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "circleId": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "kind": "problem",
+      "title": "Mon image Docker fait 1,4 Go pour une petite API Express",
+      "bodyMd": "Pour un projet de cours, je dois livrer mon API dans un conteneur. Ça fonctionne, mais l'image fait **1,4 Go** et met plusieurs minutes à s'envoyer sur le registre avec ma connexion.\n\nLe projet est petit : une API Express en TypeScript, une quinzaine de dépendances. Le dossier `node_modules` fait 210 Mo sur mon ordinateur et `dist/` moins de 1 Mo.\n\nJ'ai lu qu'il fallait « utiliser alpine », mais j'aimerais comprendre d'où vient tout ce poids avant de changer des choses au hasard.",
+      "code": "FROM node:20\n\nWORKDIR /app\nCOPY . .\nRUN npm install\nRUN npm run build\n\nEXPOSE 3000\nCMD [\"node\", \"dist/server.js\"]",
+      "language": "dockerfile",
+      "repro": null,
+      "tags": [
+        "devops",
+        "nodejs"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Une image Docker d'une petite API Express en TypeScript pèse 1,4 Go avec un Dockerfile en une seule étape basé sur `node:20`.",
+      "aiHints": [
+        "Lance `docker history <image>` pour voir le poids de chaque couche.",
+        "L'image `node:20` complète pèse déjà environ 1 Go ; compare avec `node:20-slim` ou `node:20-alpine`.",
+        "Sépare la compilation et l'exécution avec un build multi-étapes, et ajoute un fichier .dockerignore."
+      ],
+      "status": "solved",
+      "hoursAgo": 36,
+      "helpfulCount": 11,
+      "viewCount": 153,
+      "answers": [
+        {
+          "id": "0bb1b7af-07a3-5285-80bb-3c1117b0192d",
+          "authorId": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+          "bodyMd": "Bonne idée de vouloir comprendre d'abord. Lance `docker history ton-image` : tu verras le poids couche par couche. Chez toi, il vient de trois endroits.\n\n1. **L'image de base.** `node:20` est une Debian complète avec compilateurs, Python, git… environ 1 Go avant même ton code. `node:20-slim` tourne autour de 200 Mo, `node:20-alpine` autour de 130 Mo.\n2. **Les dépendances de développement.** TypeScript, ESLint et les outils de test restent dans l'image finale alors qu'ils ne servent qu'à compiler.\n3. **`COPY . .` sans `.dockerignore`** : tu copies ton `node_modules` local, `.git`, tes fichiers `.env`…\n\nLa solution standard est le build multi-étapes : une étape qui compile, une étape finale qui ne garde que le nécessaire.\n\n```dockerfile\n# Étape 1 : compilation\nFROM node:20-slim AS build\nWORKDIR /app\nCOPY package*.json ./\nRUN npm ci\nCOPY . .\nRUN npm run build\n\n# Étape 2 : exécution\nFROM node:20-slim\nWORKDIR /app\nENV NODE_ENV=production\nCOPY package*.json ./\nRUN npm ci --omit=dev && npm cache clean --force\nCOPY --from=build /app/dist ./dist\nUSER node\nEXPOSE 3000\nCMD [\"node\", \"dist/server.js\"]\n```\n\nEt un `.dockerignore` à la racine :\n\n```\nnode_modules\ndist\n.git\n.env*\n```\n\nCe que ça change :\n\n- copier `package*.json` **avant** le reste permet à Docker de réutiliser la couche `npm ci` tant que tes dépendances ne changent pas : les builds suivants prennent quelques secondes ;\n- `npm ci` installe exactement ce qui est dans `package-lock.json`, donc le build est reproductible ;\n- `USER node` évite de faire tourner l'API en root.\n\nTu devrais arriver sous les 250 Mo. J'ai mis `slim` plutôt qu'`alpine` parce que certaines dépendances natives posent problème avec musl ; si tu n'en as pas, `alpine` te fera encore gagner une centaine de Mo.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 34.5,
+          "helpfulCount": 16
+        },
+        {
+          "id": "82945fe5-6e32-59b4-9f66-253c261dbeab",
+          "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+          "bodyMd": "Rien à ajouter sur le Dockerfile. Un point sur le `.dockerignore` : exclure les `.env` n'est pas qu'une question de taille. Sans ça, tes secrets se retrouvent dans une couche de l'image, et toute personne qui la télécharge peut les lire avec `docker history` ou en extrayant les couches. Passe-les à l'exécution, avec `--env-file` ou les secrets de ta plateforme.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 33,
+          "helpfulCount": 5
+        }
+      ]
+    },
+    {
+      "id": "d51c4566-7b98-5519-8309-6a69acbf2334",
+      "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "circleId": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "kind": "problem",
+      "title": "Nginx devant Node : des 502 aléatoires sous charge, « upstream prematurely closed connection »",
+      "bodyMd": "Pollen tourne sur un VPS : Nginx en reverse proxy devant une API Node (Fastify), le tout avec Docker Compose.\n\nDepuis que j'ai activé le keepalive vers l'upstream pour gagner en latence, j'ai environ 0,3 % de réponses **502** aux heures de pointe. Elles ne sont pas reproductibles à la demande et touchent n'importe quelle route. Dans les logs Nginx :\n\n```\n[error] 31#31: *18234 upstream prematurely closed connection while reading\nresponse header from upstream, client: 41.207.x.x, server: api.pollen.dev,\nrequest: \"GET /v1/notes HTTP/1.1\", upstream: \"http://172.18.0.3:3000/v1/notes\"\n```\n\nCôté Node : aucune erreur, aucun crash, pas de redémarrage du conteneur, et la mémoire est stable.\n\nSi je retire le bloc `keepalive`, les 502 disparaissent, mais je perds environ 15 ms par requête. J'aimerais comprendre ce qui se passe plutôt que revenir en arrière.",
+      "code": "upstream api {\n  server api:3000;\n  keepalive 32;\n}\n\nserver {\n  location / {\n    proxy_pass http://api;\n    proxy_http_version 1.1;\n    proxy_set_header Connection \"\";\n  }\n}",
+      "language": "nginx",
+      "repro": null,
+      "tags": [
+        "devops",
+        "nodejs"
+      ],
+      "difficulty": "senior",
+      "aiSummary": "Des erreurs 502 intermittentes apparaissent entre Nginx et une API Node depuis l'activation du keepalive vers l'upstream, sans aucune erreur côté Node.",
+      "aiHints": [
+        "Compare les délais d'inactivité des deux côtés : Node ferme les connexions keep-alive inactives après 5 secondes par défaut (`server.keepAliveTimeout`).",
+        "Si Nginx réutilise une connexion au moment où Node la ferme, la requête échoue en 502 : le délai côté Node doit être plus long que celui de Nginx (`keepalive_timeout` de l'upstream).",
+        "Vérifie si les 502 touchent surtout des connexions restées inactives quelques secondes, en ajoutant `$upstream_connect_time` au format de log."
+      ],
+      "status": "open",
+      "hoursAgo": 23,
+      "helpfulCount": 5,
+      "viewCount": 92,
+      "answers": []
+    },
+    {
+      "id": "5d422d27-1762-53c0-8a90-d35d2353d456",
+      "authorId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "circleId": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "kind": "problem",
+      "title": "UnboundLocalError: cannot access local variable 'total' alors qu'elle est définie au-dessus",
+      "bodyMd": "Bonjour, je fais un petit script de caisse pour m'entraîner. La variable `total` est définie tout en haut du fichier, mais dès que j'appelle ma fonction, j'obtiens :\n\n```\nTraceback (most recent call last):\n  File \"caisse.py\", line 8, in <module>\n    ajouter(10)\n  File \"caisse.py\", line 4, in ajouter\n    total += prix\n    ^^^^^\nUnboundLocalError: cannot access local variable 'total' where it is not associated with a value\n```\n\nCe qui me trouble : si je fais seulement `print(total)` dans la fonction, ça marche. C'est le `+=` qui casse tout.",
+      "code": "total = 0\n\ndef ajouter(prix):\n    total += prix\n    return total\n\najouter(10)\nprint(total)",
+      "language": "python",
+      "repro": null,
+      "tags": [
+        "python"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": "Une fonction qui fait `total += prix` sur une variable définie au niveau du module lève UnboundLocalError, alors qu'une simple lecture fonctionne.",
+      "aiHints": [
+        "Dès qu'une fonction assigne une variable, Python la considère comme locale à cette fonction, dans tout son corps.",
+        "Passe le total en paramètre et renvoie la nouvelle valeur plutôt que de modifier une variable globale."
+      ],
+      "status": "solved",
+      "hoursAgo": 52,
+      "helpfulCount": 7,
+      "viewCount": 118,
+      "answers": [
+        {
+          "id": "75cd3704-7206-5caa-96f5-ff1e834fd51a",
+          "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+          "bodyMd": "Ton observation est la bonne : lire fonctionne, assigner casse tout.\n\nPython décide de la portée d'une variable **à la compilation de la fonction** : s'il voit une assignation à `total` quelque part dans le corps (`=`, `+=`…), alors `total` est une variable *locale* dans toute la fonction. Or `total += prix` veut dire `total = total + prix` : Python doit lire le `total` local avant de lui avoir donné une valeur, d'où l'erreur. Avec un simple `print(total)`, il n'y a aucune assignation, donc Python va chercher la variable globale.\n\nLa correction la plus saine est de ne pas modifier une globale. La fonction reçoit ce dont elle a besoin et renvoie le résultat :\n\n```python\ndef ajouter(total, prix):\n    return total + prix\n\ntotal = 0\ntotal = ajouter(total, 10)\nprint(total)  # 10\n```\n\nSi tu as vraiment un état à conserver, regroupe-le dans une classe :\n\n```python\nclass Caisse:\n    def __init__(self):\n        self.total = 0\n\n    def ajouter(self, prix):\n        self.total += prix\n        return self.total\n```\n\nIl existe aussi le mot-clé `global total` au début de la fonction. Ça fonctionne, mais dès que le script grandit, on ne sait plus qui modifie quoi. À garder pour le dépannage.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 50.5,
+          "helpfulCount": 11
+        }
+      ]
+    },
+    {
+      "id": "2a2aa5d3-4d24-559f-b670-198d85e8bbcf",
+      "authorId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "circleId": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "kind": "problem",
+      "title": "Django : ma page de liste d'articles fait 201 requêtes SQL",
+      "bodyMd": "Ma page qui liste 100 articles met près de 2 secondes à s'afficher. J'ai installé django-debug-toolbar et le panneau SQL indique **201 requêtes**, presque toutes identiques à l'identifiant près :\n\n```\nSELECT ... FROM \"blog_author\" WHERE \"blog_author\".\"id\" = 12\nSELECT ... FROM \"blog_tag\" INNER JOIN \"blog_article_tags\" ... WHERE \"blog_article_tags\".\"article_id\" = 57\n```\n\nDans ma vue, je ne fais pourtant qu'une seule requête. J'ai essayé d'ajouter `.all()` et de convertir le résultat en liste : toujours 201.",
+      "code": "# models.py\nclass Article(models.Model):\n    title = models.CharField(max_length=200)\n    author = models.ForeignKey(Author, on_delete=models.CASCADE)\n    tags = models.ManyToManyField(Tag)\n\n# views.py\ndef article_list(request):\n    articles = Article.objects.order_by('-id')[:100]\n    return render(request, 'blog/list.html', {'articles': articles})\n\n# list.html\n{% for article in articles %}\n  <h2>{{ article.title }}</h2>\n  <p>{{ article.author.name }}</p>\n  {% for tag in article.tags.all %}<span>{{ tag.name }}</span>{% endfor %}\n{% endfor %}",
+      "language": "python",
+      "repro": null,
+      "tags": [
+        "django",
+        "databases"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Une vue Django qui liste 100 articles avec leur auteur et leurs tags exécute 201 requêtes SQL au lieu de quelques-unes.",
+      "aiHints": [
+        "1 requête pour la liste, puis 1 par auteur et 1 par liste de tags : c'est le problème dit « N+1 ».",
+        "Utilise `select_related('author')` pour la clé étrangère et `prefetch_related('tags')` pour la relation plusieurs-à-plusieurs."
+      ],
+      "status": "solved",
+      "hoursAgo": 110,
+      "helpfulCount": 13,
+      "viewCount": 205,
+      "answers": [
+        {
+          "id": "689059a7-ab59-5f48-996a-a5290e91b194",
+          "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+          "bodyMd": "C'est le problème « N+1 », et le compte tombe juste : 1 requête pour les 100 articles, 100 pour les auteurs, 100 pour les tags.\n\nL'ORM de Django est paresseux : `article.author` et `article.tags.all` déclenchent une requête au moment où le template y accède, article par article. Convertir en liste ne change rien, puisque les relations ne sont toujours pas chargées.\n\nIl faut demander à Django de charger les relations en même temps que les articles :\n\n```python\ndef article_list(request):\n    articles = (\n        Article.objects\n        .select_related('author')\n        .prefetch_related('tags')\n        .order_by('-id')[:100]\n    )\n    return render(request, 'blog/list.html', {'articles': articles})\n```\n\n- `select_related` sert aux relations « vers un seul objet » (`ForeignKey`, `OneToOneField`) : il fait une jointure SQL, l'auteur arrive dans la même requête.\n- `prefetch_related` sert aux relations « vers plusieurs objets » (`ManyToManyField`, relations inverses) : il fait une seule requête supplémentaire avec un `IN (...)` et assemble le tout en Python.\n\nTu passes de 201 requêtes à 2.\n\nAttention : dans le template, garde bien `article.tags.all`. Si tu ajoutes un filtre, par exemple `article.tags.filter(...)`, Django ignore le préchargement et refait une requête par article. Pour filtrer, utilise un objet `Prefetch('tags', queryset=...)`.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 108,
+          "helpfulCount": 17
+        },
+        {
+          "id": "31419947-e726-53bc-a29b-307e68bad3f7",
+          "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+          "bodyMd": "Pour éviter que ça revienne sans que personne s'en rende compte, tu peux verrouiller le nombre de requêtes dans un test :\n\n```python\ndef test_article_list_queries(self):\n    with self.assertNumQueries(2):\n        self.client.get('/articles/')\n```\n\nSi quelqu'un ajoute plus tard un champ lié dans le template sans adapter la vue, le test échoue tout de suite au lieu de ralentir la production.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 105,
+          "helpfulCount": 6
+        }
+      ]
+    },
+    {
+      "id": "02c3b6aa-3de6-5ece-b79e-8837c10d18cc",
+      "authorId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "circleId": "496ee400-d798-5c41-97d9-06f86016e094",
+      "kind": "problem",
+      "title": "pandas : SettingWithCopyWarning, et ma colonne n'est pas modifiée",
+      "bodyMd": "Pour un projet de statistiques à l'école, je veux remplir une colonne `categorie` pour les personnes majeures. Mon code affiche cet avertissement :\n\n```\nSettingWithCopyWarning:\nA value is trying to be set on a copy of a slice from a DataFrame.\nTry using .loc[row_indexer,col_indexer] = value instead\n```\n\nEt surtout, quand j'affiche `df` ensuite, la colonne `categorie` n'a **pas changé**. Pas d'erreur, juste l'avertissement. J'utilise pandas 2.2.",
+      "code": "import pandas as pd\n\ndf = pd.DataFrame({\n    'nom': ['Awa', 'Léo', 'Inès', 'Paul'],\n    'age': [22, 15, 31, 17],\n    'categorie': ['?', '?', '?', '?'],\n})\n\ndf[df['age'] >= 18]['categorie'] = 'adulte'\nprint(df)",
+      "language": "python",
+      "repro": null,
+      "tags": [
+        "data-ai",
+        "python"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": "Une assignation pandas écrite en deux indexations successives déclenche SettingWithCopyWarning et ne modifie pas le DataFrame d'origine.",
+      "aiHints": [
+        "`df[masque]` renvoie un nouveau DataFrame : l'assignation qui suit modifie cette copie temporaire, pas `df`.",
+        "Fais la sélection des lignes et de la colonne en une seule opération avec `df.loc[masque, 'categorie'] = ...`."
+      ],
+      "status": "solved",
+      "hoursAgo": 318,
+      "helpfulCount": 6,
+      "viewCount": 131,
+      "answers": [
+        {
+          "id": "d248dbfc-c3ac-59ab-a4e8-abf96186e523",
+          "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+          "bodyMd": "Ta ligne fait deux opérations l'une après l'autre :\n\n1. `df[df['age'] >= 18]` crée un **nouveau** DataFrame avec les lignes filtrées ;\n2. `['categorie'] = 'adulte'` modifie ce DataFrame temporaire, qui est jeté aussitôt.\n\n`df` n'est jamais touché. C'est ce qu'on appelle l'indexation chaînée, et l'avertissement est là pour te le signaler.\n\nLa bonne écriture fait tout en un seul appel à `.loc`, avec les lignes puis la colonne :\n\n```python\ndf.loc[df['age'] >= 18, 'categorie'] = 'adulte'\n```\n\nTu peux enchaîner pour les autres cas, ou utiliser `numpy.where` :\n\n```python\nimport numpy as np\n\ndf['categorie'] = np.where(df['age'] >= 18, 'adulte', 'mineur')\n```\n\nCas voisin que tu croiseras bientôt : si tu veux réellement travailler sur un sous-ensemble à part, dis-le explicitement avec `.copy()`, et l'avertissement disparaît :\n\n```python\nadultes = df[df['age'] >= 18].copy()\nadultes['categorie'] = 'adulte'\n```\n\nÀ savoir : avec le mode Copy-on-Write, devenu le comportement par défaut dans pandas 3, l'assignation chaînée ne modifie jamais l'original. Autant prendre l'habitude de `.loc` dès maintenant.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 316,
+          "helpfulCount": 9
+        }
+      ]
+    },
+    {
+      "id": "a9f2d5f8-3e21-5c34-ab0c-c7bd99355b61",
+      "authorId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "circleId": "496ee400-d798-5c41-97d9-06f86016e094",
+      "kind": "problem",
+      "title": "99 % d'accuracy en validation, mais mon modèle se trompe sur les vraies données",
+      "bodyMd": "Dans ma formation, je travaille sur un cas de prédiction de résiliation d'abonnement (*churn*). Mon RandomForest obtient **99,2 % d'accuracy** sur le jeu de validation. J'étais très contente… jusqu'à ce que mon formateur le teste sur les clients du mois suivant : 61 %, à peine mieux que de prédire « ne résilie pas » pour tout le monde.\n\nCe que j'ai vérifié :\n- j'ai bien un `train_test_split` ;\n- pas de doublons entre les deux jeux ;\n- en validation croisée, j'ai aussi 99 %.\n\nLes colonnes : `anciennete_mois`, `formule`, `montant_mensuel`, `nb_appels_support`, `date_cloture_dossier`, `motif_dernier_contact`, et la cible `a_resilie`.",
+      "code": "X = df.drop(columns=['a_resilie'])\nX['dossier_clos'] = X['date_cloture_dossier'].notna().astype(int)\nX = pd.get_dummies(X.drop(columns=['date_cloture_dossier']))\ny = df['a_resilie']\n\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\nmodel = RandomForestClassifier(n_estimators=300, random_state=42)\nmodel.fit(X_train, y_train)\nprint(accuracy_score(y_val, model.predict(X_val)))  # 0.992",
+      "language": "python",
+      "repro": null,
+      "tags": [
+        "data-ai",
+        "python"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Un modèle de prédiction de résiliation atteint 99 % en validation mais 61 % sur des clients réels ; certaines colonnes pourraient n'être connues qu'après la résiliation.",
+      "aiHints": [
+        "Affiche `model.feature_importances_` : si une seule variable domine largement, vérifie d'où elle vient.",
+        "Pour chaque colonne, demande-toi si sa valeur est connue au moment où tu dois faire la prédiction.",
+        "Avec une cible déséquilibrée, regarde le rappel et la précision plutôt que l'accuracy seule."
+      ],
+      "status": "solved",
+      "hoursAgo": 60,
+      "helpfulCount": 12,
+      "viewCount": 167,
+      "answers": [
+        {
+          "id": "3526a891-88ba-5c71-817b-81b90c66574c",
+          "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+          "bodyMd": "Un score aussi élevé sur un problème de churn doit toujours rendre méfiant. Ce que tu décris ressemble fort à une **fuite de la cible** (*target leakage*) : une variable qui contient déjà la réponse.\n\nRegarde `date_cloture_dossier`. Un dossier est clos *quand* le client résilie. Ta variable `dossier_clos` vaut donc 1 presque uniquement pour les clients partis : le modèle n'a rien appris sur le comportement des clients, il relit la réponse. `motif_dernier_contact` est suspect aussi, s'il peut contenir une valeur comme « demande de résiliation ».\n\nSur les clients du mois suivant, ces informations n'existent pas encore au moment de prédire, donc le modèle n'a plus rien sur quoi s'appuyer. La validation croisée ne détecte pas ce problème, parce que la fuite est présente dans tous les plis.\n\nPour le confirmer :\n\n```python\nimportances = pd.Series(model.feature_importances_, index=X.columns)\nprint(importances.sort_values(ascending=False).head(10))\n```\n\nSi `dossier_clos` écrase tout le reste, tu as ta réponse.\n\nPour corriger :\n\n1. **Pour chaque colonne, pose-toi la question : « est-ce que je connais cette valeur à la date où je fais la prédiction ? »** Retire tout ce qui est renseigné après ou à cause de l'événement.\n2. Valide dans le temps : entraîne sur les mois 1 à 10, valide sur les mois 11 et 12. Un découpage aléatoire mélange passé et futur et masque ce genre de fuite.\n3. Mets tes transformations dans un `Pipeline` scikit-learn, pour qu'elles ne soient ajustées que sur le jeu d'entraînement.\n4. Le churn est déséquilibré : suis le rappel et la précision sur la classe « résilie », pas seulement l'accuracy.\n\nAttends-toi à un score nettement plus bas après nettoyage. Ce sera un vrai score, et c'est celui-là qui compte.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 57.5,
+          "helpfulCount": 15
+        }
+      ]
+    },
+    {
+      "id": "643786e9-0316-557b-8371-a2d999a33fb6",
+      "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "circleId": null,
+      "kind": "problem",
+      "title": "PostgreSQL : ma requête passe de 20 ms à 4 s dès que j'ajoute ORDER BY created_at",
+      "bodyMd": "Table `notes` d'environ 3 millions de lignes sur Pollen (Postgres 16, via Supabase). La liste des notes d'un utilisateur est rapide sans tri, et très lente avec, alors que j'ai un index sur `user_id` **et** un index sur `created_at`.\n\nSans `ORDER BY` : 20 ms. Avec : entre 3 et 4 secondes pour certains utilisateurs, et quelques millisecondes pour d'autres.\n\nRésultat de `EXPLAIN (ANALYZE, BUFFERS)` pour un utilisateur lent :\n\n```\nLimit  (actual time=3812.4..3812.5 rows=20 loops=1)\n  ->  Index Scan Backward using notes_created_at_idx on notes\n        (actual time=3812.4..3812.5 rows=20 loops=1)\n        Filter: (user_id = 4821)\n        Rows Removed by Filter: 2913554\nExecution Time: 3812.6 ms\n```\n\n`ANALYZE notes` ne change rien. Faut-il forcer l'index sur `user_id` ?",
+      "code": "SELECT id, title, created_at\nFROM notes\nWHERE user_id = 4821\nORDER BY created_at DESC\nLIMIT 20;\n\n-- index existants\nCREATE INDEX notes_user_id_idx ON notes (user_id);\nCREATE INDEX notes_created_at_idx ON notes (created_at);",
+      "language": "sql",
+      "repro": null,
+      "tags": [
+        "databases"
+      ],
+      "difficulty": "senior",
+      "aiSummary": "Une requête PostgreSQL filtrée par utilisateur devient très lente avec `ORDER BY created_at DESC LIMIT 20` : le plan parcourt l'index de dates et écarte près de 3 millions de lignes.",
+      "aiHints": [
+        "Lis la ligne « Rows Removed by Filter » : l'index utilisé sert au tri, pas au filtre sur `user_id`.",
+        "Crée un index composite `(user_id, created_at DESC)` qui couvre à la fois le filtre et le tri."
+      ],
+      "status": "solved",
+      "hoursAgo": 205,
+      "helpfulCount": 18,
+      "viewCount": 276,
+      "answers": [
+        {
+          "id": "bbe31216-749d-5c6b-851d-19c8dd9d567a",
+          "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+          "bodyMd": "Ton `EXPLAIN` dit tout : `Rows Removed by Filter: 2913554`.\n\nLe planificateur a deux possibilités, et aucune n'est bonne avec tes index actuels :\n\n- utiliser `notes_user_id_idx`, récupérer **toutes** les notes de l'utilisateur, les trier, puis garder 20 lignes ;\n- utiliser `notes_created_at_idx` à l'envers : les lignes sortent déjà triées, il suffit de s'arrêter dès qu'on en a 20 qui appartiennent au bon utilisateur.\n\nAvec le `LIMIT 20`, il parie sur la seconde, en supposant que les notes de l'utilisateur sont réparties uniformément dans le temps. Pour un utilisateur actif, le pari est gagné en quelques millisecondes. Pour un utilisateur dont les notes sont anciennes ou rares, il parcourt presque tout l'index avant d'en trouver 20. D'où le comportement variable d'un utilisateur à l'autre.\n\nNe force rien. Donne-lui l'index qui répond aux deux besoins à la fois, le filtre puis le tri :\n\n```sql\nCREATE INDEX CONCURRENTLY notes_user_created_idx\n  ON notes (user_id, created_at DESC);\n```\n\nPostgres va directement sur la portion de l'index correspondant à `user_id = 4821`, où les lignes sont déjà dans l'ordre voulu, lit 20 entrées et s'arrête. Tu dois obtenir quelque chose comme :\n\n```\nLimit\n  ->  Index Scan using notes_user_created_idx on notes\n        Index Cond: (user_id = 4821)\n```\n\nsans `Filter` ni `Sort`, en moins d'une milliseconde pour tous les utilisateurs.\n\nQuelques précisions :\n\n- `CONCURRENTLY` évite de bloquer les écritures pendant la création. Il ne peut pas s'exécuter dans une transaction : attention si tu passes par un outil de migration.\n- L'ordre des colonnes compte : d'abord la colonne du filtre d'égalité, ensuite celle du tri.\n- Une fois le nouvel index en place, `notes_user_id_idx` devient redondant, puisque l'index composite couvre aussi les recherches sur `user_id` seul. Tu peux le supprimer pour alléger les écritures.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 202,
+          "helpfulCount": 24
+        },
+        {
+          "id": "5c3b38b1-0ebc-539c-b541-cf7a561a8466",
+          "authorId": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+          "bodyMd": "Rien à redire sur l'index. Un réflexe pour la suite : active `pg_stat_statements` (disponible dans Supabase) et regarde de temps en temps les requêtes classées par temps total. Ce genre de requête « rapide pour moi, lente pour 5 % des utilisateurs » passe inaperçue en développement, mais ressort tout de suite dans ce classement.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 199,
+          "helpfulCount": 7
+        }
+      ]
+    },
+    {
+      "id": "3426074f-8c5e-508f-8906-f8cc71e1584c",
+      "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "circleId": "e1e088aa-9ad2-5c3f-995f-4c756113766e",
+      "kind": "problem",
+      "title": "Flutter : « setState() called after dispose() » quand je quitte l'écran pendant un chargement",
+      "bodyMd": "Je développe une application Flutter pour une association de Ouagadougou. L'écran de profil charge ses données depuis une API. Si l'utilisateur revient en arrière avant la fin du chargement, ce qui arrive souvent avec une connexion lente, j'obtiens dans la console :\n\n```\nUnhandled Exception: setState() called after dispose(): _ProfileScreenState#3f2a1(lifecycle state: defunct, not mounted)\nThis error happens if you call setState() on a State object for a widget that no longer appears in the widget tree\n```\n\nL'application ne plante pas, mais l'erreur revient sans arrêt dans les rapports. J'ai entouré l'appel d'un `try/catch`, sans effet.",
+      "code": "class _ProfileScreenState extends State<ProfileScreen> {\n  Profile? _profile;\n\n  @override\n  void initState() {\n    super.initState();\n    _load();\n  }\n\n  Future<void> _load() async {\n    final profile = await api.fetchProfile(widget.userId);\n    setState(() => _profile = profile);\n  }\n}",
+      "language": "dart",
+      "repro": null,
+      "tags": [
+        "mobile"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Un écran Flutter appelle `setState()` après la fin d'un appel réseau alors que l'utilisateur a déjà quitté l'écran.",
+      "aiHints": [
+        "Après chaque `await`, vérifie la propriété `mounted` avant d'appeler `setState`.",
+        "Annule les minuteurs et abonnements dans `dispose()` pour qu'ils ne rappellent pas un écran détruit."
+      ],
+      "status": "solved",
+      "hoursAgo": 145,
+      "helpfulCount": 9,
+      "viewCount": 139,
+      "answers": [
+        {
+          "id": "dc637edc-74b0-5710-b9b0-0d51e837546e",
+          "authorId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+          "bodyMd": "Classique avec les connexions lentes. Quand l'utilisateur revient en arrière, Flutter détruit le `State` de l'écran (`dispose()`), mais ton `Future` continue sa vie. Quand la réponse arrive, `_load` reprend après le `await` et appelle `setState` sur un objet qui n'est plus dans l'arbre. Le `try/catch` ne sert à rien, parce que ce n'est pas l'appel réseau qui échoue.\n\nLa correction est de vérifier `mounted` après chaque `await` :\n\n```dart\nFuture<void> _load() async {\n  final profile = await api.fetchProfile(widget.userId);\n  if (!mounted) return;\n  setState(() => _profile = profile);\n}\n```\n\n`mounted` est vrai tant que le `State` est attaché à l'arbre de widgets. La règle à retenir : **après un `await`, on ne suppose plus que l'écran existe encore**. Elle vaut aussi pour `Navigator.of(context)` ou `ScaffoldMessenger.of(context)` après un `await`. Le lint `use_build_context_synchronously` te le rappelle, garde-le activé.\n\nPour tout ce qui émet plusieurs fois (minuteurs, flux, contrôleurs), il faut en plus annuler dans `dispose()` :\n\n```dart\nStreamSubscription<Position>? _subscription;\n\n@override\nvoid dispose() {\n  _subscription?.cancel();\n  super.dispose();\n}\n```\n\nSi ton client HTTP le permet (un `CancelToken` avec dio, par exemple), annule aussi la requête dans `dispose()` : inutile de consommer le forfait de l'utilisateur pour une réponse que personne ne lira.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 143,
+          "helpfulCount": 12
+        }
+      ]
+    },
+    {
+      "id": "4626f2ea-7d8f-5cf3-b1ad-eb6171e88187",
+      "authorId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "circleId": null,
+      "kind": "problem",
+      "title": "J'ai commité mon fichier .env avec des clés d'API : comment le retirer de l'historique ?",
+      "bodyMd": "Grosse bêtise : j'ai poussé mon fichier `.env` sur un dépôt GitHub **public**. Il contient ma clé d'API d'envoi d'e-mails et le mot de passe de ma base de données de test.\n\nJe m'en suis rendu compte au bout de deux heures. J'ai supprimé le fichier et refait un commit, mais on le voit toujours en remontant dans l'historique.\n\nComment le retirer complètement ? Et est-ce que c'est grave, sachant que c'est un projet d'étudiante ?",
+      "code": "$ git log --oneline -- .env\na3f9c21 Supprime .env\n7d1e0b4 Ajoute l'envoi d'e-mails",
+      "language": "bash",
+      "repro": null,
+      "tags": [
+        "git",
+        "security"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": "Un fichier .env contenant une clé d'API et un mot de passe a été poussé sur un dépôt GitHub public ; le supprimer dans un nouveau commit ne l'efface pas de l'historique.",
+      "aiHints": [
+        "Commence par révoquer et régénérer les clés exposées : c'est la seule action qui annule vraiment la fuite.",
+        "Ajoute `.env` au fichier .gitignore et retire-le du suivi avec `git rm --cached .env`.",
+        "Pour nettoyer l'historique, regarde `git filter-repo`, puis prévois un push forcé."
+      ],
+      "status": "solved",
+      "hoursAgo": 250,
+      "helpfulCount": 19,
+      "viewCount": 334,
+      "answers": [
+        {
+          "id": "e5a30fcd-cf9d-58a8-9c7c-3720bb1485e2",
+          "authorId": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+          "bodyMd": "Pas de panique, ça arrive à tout le monde au moins une fois. L'important est de faire les choses dans le bon ordre.\n\n**1. Révoque les clés, tout de suite, avant de toucher à Git.**\n\nSur un dépôt public, des robots parcourent les nouveaux commits à la recherche de secrets, en quelques minutes. Considère la clé d'API et le mot de passe comme compromis : va dans le tableau de bord de ton service d'e-mails, supprime la clé et crées-en une nouvelle, puis change le mot de passe de la base. Nettoyer l'historique sans faire ça ne sert à rien, parce que la clé a peut-être déjà été copiée.\n\n**2. Empêche que ça recommence.**\n\n```bash\necho \".env\" >> .gitignore\ngit rm --cached .env      # retire le fichier du suivi, mais le garde sur ton disque\ngit add .gitignore\ngit commit -m \"Ignore le fichier .env\"\n```\n\nAjoute un fichier `.env.example` avec les noms des variables, sans les valeurs, pour que les autres sachent quoi renseigner.\n\n**3. Nettoie l'historique (facultatif une fois les clés révoquées, mais plus propre).**\n\nL'outil recommandé aujourd'hui est `git filter-repo`, à lancer de préférence sur un clone tout frais du dépôt :\n\n```bash\npip install git-filter-repo\ngit filter-repo --invert-paths --path .env\ngit remote add origin git@github.com:ton-compte/ton-depot.git   # filter-repo retire le remote par sécurité\ngit push --force origin main\n```\n\nCela réécrit tous les commits. Si d'autres personnes ont cloné le dépôt, elles devront le cloner à nouveau.\n\n**Ce qu'il faut savoir :** même après ça, les anciens commits peuvent rester accessibles un moment sur GitHub (caches, forks, lien direct vers le commit). C'est pour cette raison que l'étape 1 est la seule qui compte vraiment.\n\nEt oui, c'est sérieux même pour un projet d'étudiante : une clé d'envoi d'e-mails volée sert à envoyer du spam à ton nom, et ton compte peut être suspendu.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 248,
+          "helpfulCount": 27
+        },
+        {
+          "id": "8b47a4d6-90d8-5c60-b48a-52d298783f55",
+          "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+          "bodyMd": "J'ajoute un garde-fou pour la suite : active « Secret scanning » et « Push protection » dans les réglages de sécurité du dépôt GitHub (c'est gratuit pour les dépôts publics). GitHub refusera alors le push s'il reconnaît un format de clé connu. Ça ne remplace pas le `.gitignore`, mais ça rattrape les oublis.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 246,
+          "helpfulCount": 8
+        }
+      ]
+    },
+    {
+      "id": "481f4416-a9dd-514f-b242-a414f2280c8b",
+      "authorId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Warning: Cannot modify header information - headers already sent, sur ma redirection après connexion",
+      "bodyMd": "Sur un vieux projet PHP sans framework, à mon alternance, la redirection après connexion ne fonctionne plus depuis que j'ai modifié `config.php`. La page reste blanche, avec ce message :\n\n```\nWarning: Cannot modify header information - headers already sent by\n(output started at /var/www/app/config.php:14) in /var/www/app/login.php on line 22\n```\n\nLa ligne 22 de `login.php`, c'est mon `header('Location: ...')`. Je n'ai aucun `echo` avant, j'ai vérifié trois fois. Et `config.php` ne fait que 13 lignes de code.",
+      "code": "<?php\n// config.php\ndefine('DB_HOST', 'localhost');\ndefine('DB_NAME', 'intranet');\n// ... 13 lignes\n?>\n\n<?php\n// login.php\nrequire 'config.php';\nsession_start();\n\nif (password_verify($_POST['password'], $user['password_hash'])) {\n    $_SESSION['user_id'] = $user['id'];\n    header('Location: /dashboard.php');\n}",
+      "language": "php",
+      "repro": null,
+      "tags": [
+        "php"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": "Une redirection PHP échoue avec « headers already sent » ; le message indique qu'une sortie a commencé à la ligne 14 de config.php, un fichier de 13 lignes.",
+      "aiHints": [
+        "Le message donne l'endroit exact où la sortie a commencé : regarde ce qui se trouve après la balise `?>` de config.php.",
+        "Supprime la balise fermante `?>` à la fin des fichiers qui ne contiennent que du PHP.",
+        "Ajoute `exit;` juste après l'appel à `header('Location: ...')`."
+      ],
+      "status": "solved",
+      "hoursAgo": 335,
+      "helpfulCount": 5,
+      "viewCount": 109,
+      "answers": [
+        {
+          "id": "a0b20bb9-588e-5ea3-9800-df811976e49c",
+          "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+          "bodyMd": "Je ne fais pas beaucoup de PHP. Je suis donc parti du brouillon de l'IA, puis j'ai vérifié chaque point dans la documentation et sur un petit projet de test avant de poster.\n\n**Cause.** Les en-têtes HTTP doivent être envoyés avant le moindre octet du corps de la réponse. Le message indique où la sortie a commencé : `config.php:14`. Ton fichier contient 13 lignes de code, donc la ligne 14 se trouve **après la balise fermante `?>`**. Tout ce qui suit cette balise, y compris une simple ligne vide, est envoyé tel quel au navigateur. Quand `login.php` appelle ensuite `header()`, il est trop tard.\n\n**Correction.** Supprime la balise `?>` à la fin de `config.php`. Elle est facultative dans un fichier qui ne contient que du PHP, et la norme PSR-12 demande de l'omettre, précisément pour éviter ce problème.\n\n```php\n<?php\n// config.php\ndefine('DB_HOST', 'localhost');\ndefine('DB_NAME', 'intranet');\n// pas de balise fermante\n```\n\n**À corriger en même temps dans login.php :**\n\n```php\nheader('Location: /dashboard.php');\nexit;\n```\n\nSans `exit`, le script continue de s'exécuter après la redirection, ce qui peut afficher ou exécuter du code réservé aux personnes connectées.\n\n**Si l'erreur persiste**, les autres causes habituelles sont : un espace ou une ligne vide avant `<?php`, un fichier enregistré en « UTF-8 avec BOM » (à changer dans l'éditeur pour « UTF-8 »), ou un `echo` ou `var_dump` de débogage oublié dans un fichier inclus.",
+          "repro": null,
+          "isAi": true,
+          "isAccepted": true,
+          "hoursAgo": 333,
+          "helpfulCount": 7
+        },
+        {
+          "id": "0f41d0eb-67b2-53dc-9a38-968024c5d91e",
+          "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+          "bodyMd": "Je confirme la réponse d'Alex, tout est juste. Pour le BOM, une commande pratique pour trouver les fichiers concernés : `grep -rl $'\\xEF\\xBB\\xBF' --include='*.php' .`",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 331,
+          "helpfulCount": 3
+        }
+      ]
+    },
+    {
+      "id": "00116569-6873-5f63-aeea-c2800b9ecfda",
+      "authorId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Java : ma comparaison saisie == \"oui\" est toujours fausse",
+      "bodyMd": "Exercice de cours : je demande à l'utilisateur s'il veut continuer. Même quand je tape exactement `oui`, le programme passe dans le `else`.\n\nJ'ai affiché la variable entre crochets pour vérifier qu'il n'y avait pas d'espace : elle contient bien `[oui]`. Et si j'écris `String saisie = \"oui\";` en dur à la place du Scanner, la comparaison fonctionne. Je ne comprends pas la différence.",
+      "code": "Scanner scanner = new Scanner(System.in);\nSystem.out.print(\"Continuer ? (oui/non) \");\nString saisie = scanner.nextLine();\n\nif (saisie == \"oui\") {\n    System.out.println(\"On continue !\");\n} else {\n    System.out.println(\"Fin du programme.\");\n}",
+      "language": "java",
+      "repro": null,
+      "tags": [
+        "java"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": "En Java, comparer une chaîne lue au clavier avec `== \"oui\"` renvoie toujours faux, alors que le contenu est identique.",
+      "aiHints": [
+        "`==` compare les références des objets, pas le contenu des chaînes.",
+        "Utilise `\"oui\".equals(saisie)`, ou `equalsIgnoreCase` pour accepter « Oui » et « OUI »."
+      ],
+      "status": "solved",
+      "hoursAgo": 380,
+      "helpfulCount": 6,
+      "viewCount": 124,
+      "answers": [
+        {
+          "id": "8282cbf7-7608-5628-b1ac-2833aba2bf44",
+          "authorId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+          "bodyMd": "En Java, `==` entre deux objets compare les **références** : est-ce le même objet en mémoire ? Il ne compare pas le contenu. Pour le contenu, il faut `equals` :\n\n```java\nif (\"oui\".equals(saisie)) {\n    System.out.println(\"On continue !\");\n}\n```\n\nPourquoi ça fonctionnait avec `String saisie = \"oui\";` ? Les chaînes écrites en dur dans le code sont mises en commun par la JVM dans une réserve de chaînes (le *string pool*) : tes deux `\"oui\"` désignaient alors le même objet, et `==` renvoyait vrai par coïncidence. La chaîne lue par le `Scanner` est un nouvel objet créé à l'exécution : même contenu, autre référence, donc `==` renvoie faux. C'est ce qui rend ce bug sournois : il passe dans les petits tests et casse avec de vraies entrées.\n\nDeux habitudes utiles :\n\n- écrire la constante en premier, `\"oui\".equals(saisie)` : pas de `NullPointerException` si `saisie` vaut `null` ;\n- pour une saisie utilisateur, tolérer la casse et les espaces :\n\n```java\nif (\"oui\".equalsIgnoreCase(saisie.trim())) { ... }\n```\n\nLa règle : `==` pour les types primitifs (`int`, `boolean`, `char`…), `equals` pour les objets, donc pour les `String`.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 378,
+          "helpfulCount": 10
+        },
+        {
+          "id": "3dfde44f-3062-5d7e-ac8f-4e285f77dc1f",
+          "authorId": "36c44435-65df-51e2-9312-3ba3d6757261",
+          "bodyMd": "J'ai eu le même problème en TP la semaine dernière ! Voici le brouillon proposé par l'IA, que j'ai testé sur mon exercice :\n\nL'opérateur `==` vérifie si les deux variables désignent le même objet. Pour comparer le texte de deux chaînes, utilise la méthode `equals` :\n\n```java\nif (saisie.equals(\"oui\")) {\n    System.out.println(\"On continue !\");\n}\n```\n\nÀ vérifier aussi : la présence d'espaces en début ou fin de saisie (`saisie.trim()`) et la casse (`equalsIgnoreCase`).",
+          "repro": null,
+          "isAi": true,
+          "isAccepted": false,
+          "hoursAgo": 376,
+          "helpfulCount": 2
+        }
+      ]
+    },
+    {
+      "id": "b59cbe32-4611-5b1c-94d4-c32cebd855a9",
+      "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Go : « fatal error: all goroutines are asleep - deadlock! » avec un simple channel",
+      "bodyMd": "Je me mets à Go en venant de Node. Premier essai avec un channel : j'envoie une valeur, je la lis, je l'affiche. Le programme compile, puis plante à l'exécution :\n\n```\nfatal error: all goroutines are asleep - deadlock!\n\ngoroutine 1 [chan send]:\nmain.main()\n        /home/alex/go-test/main.go:7 +0x36\nexit status 2\n```\n\nJe n'ai même pas lancé de goroutine, donc je ne vois pas ce qui pourrait se bloquer.",
+      "code": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tch := make(chan int)\n\tch <- 42\n\tfmt.Println(<-ch)\n}",
+      "language": "go",
+      "repro": null,
+      "tags": [
+        "go"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Un programme Go qui envoie puis lit une valeur sur un channel non bufferisé dans la même goroutine s'arrête avec une erreur de deadlock.",
+      "aiHints": [
+        "Sur un channel non bufferisé, l'envoi bloque jusqu'à ce qu'une autre goroutine soit prête à recevoir.",
+        "Fais l'envoi dans une goroutine (`go func() { ch <- 42 }()`), ou crée un channel avec une capacité : `make(chan int, 1)`."
+      ],
+      "status": "solved",
+      "hoursAgo": 402,
+      "helpfulCount": 8,
+      "viewCount": 112,
+      "answers": [
+        {
+          "id": "26938bf0-1db1-5169-80a1-963d50128bca",
+          "authorId": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+          "bodyMd": "Justement : tu n'as pas lancé de goroutine, et c'est ça le problème.\n\n`make(chan int)` crée un channel **non bufferisé**. Un envoi sur ce type de channel est un rendez-vous : `ch <- 42` bloque jusqu'à ce qu'une *autre* goroutine soit en train de recevoir. Ton `main` est la seule goroutine du programme (c'est la « goroutine 1 » de la trace), elle reste bloquée à la ligne 7 et n'atteindra jamais le `<-ch` de la ligne suivante. Le runtime constate que plus rien ne peut avancer et arrête le programme. La trace l'indique d'ailleurs : `goroutine 1 [chan send]`.\n\nDeux corrections possibles.\n\n**1. Envoyer depuis une autre goroutine** (l'usage normal d'un channel) :\n\n```go\nfunc main() {\n\tch := make(chan int)\n\n\tgo func() {\n\t\tch <- 42\n\t}()\n\n\tfmt.Println(<-ch) // 42\n}\n```\n\n**2. Donner une capacité au channel** : l'envoi ne bloque pas tant qu'il reste de la place.\n\n```go\nch := make(chan int, 1)\nch <- 42\nfmt.Println(<-ch)\n```\n\nPour quelqu'un qui vient de Node : un channel n'est pas une file d'attente ni un `EventEmitter`, c'est un point de synchronisation entre goroutines. Si une seule goroutine l'utilise, c'est en général qu'une variable suffisait.\n\nBon à savoir : ce détecteur ne se déclenche que si **toutes** les goroutines sont bloquées. Dans un vrai serveur, une goroutine bloquée pour toujours sur un channel ne provoque aucun message, elle fuit silencieusement. Pense à `context` et à `select` pour prévoir une porte de sortie.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": true,
+          "hoursAgo": 400,
+          "helpfulCount": 13
+        }
+      ]
+    },
+    {
+      "id": "d22f0b80-4c4f-55de-8871-f44eaa9de8b8",
+      "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "circleId": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "kind": "problem",
+      "title": "aiohttp: 200 concurrent requests end in TimeoutError as soon as I go above ~50",
+      "bodyMd": "I'm writing a small open-source checker that pings about 200 URLs of public datasets. With 20 URLs everything is fine. With 200, roughly a third of the requests fail with a bare `TimeoutError`, although the same URLs answer in under a second when I fetch them one by one.\n\nWhat I tried:\n- raising the total timeout from 10 s to 30 s: fewer failures, but the whole run gets much slower;\n- running it from another network: same behaviour;\n- the servers are different hosts, so I don't think I'm being rate limited by a single one.\n\nPython 3.12, aiohttp 3.9. Is something queueing behind the scenes?",
+      "code": "async def check(session: aiohttp.ClientSession, url: str) -> int:\n    async with session.get(url) as response:\n        return response.status\n\nasync def main(urls: list[str]) -> None:\n    timeout = aiohttp.ClientTimeout(total=10)\n    async with aiohttp.ClientSession(timeout=timeout) as session:\n        results = await asyncio.gather(\n            *(check(session, url) for url in urls),\n            return_exceptions=True,\n        )\n    failed = [r for r in results if isinstance(r, Exception)]\n    print(f\"{len(failed)} failed out of {len(urls)}\")",
+      "language": "python",
+      "repro": null,
+      "tags": [
+        "python"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "About a third of 200 concurrent aiohttp requests fail with TimeoutError under a 10-second total timeout, while each URL answers quickly on its own.",
+      "aiHints": [
+        "`ClientTimeout(total=...)` also counts the time a request waits for a free connection in the pool, not only the network time.",
+        "Limit concurrency explicitly with an `asyncio.Semaphore`, and compare the results with 20, 50 and 100 simultaneous requests.",
+        "Log the time of each step (DNS, connect, first byte) with aiohttp's `TraceConfig` to see where the 10 seconds go."
+      ],
+      "status": "open",
+      "hoursAgo": 0.3,
+      "helpfulCount": 1,
+      "viewCount": 6,
+      "answers": []
+    },
+    {
+      "id": "969ecea3-1110-54e0-a8bd-9032eab75923",
+      "authorId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Spring Data JPA : paginer des commandes avec leurs lignes sans LazyInitializationException ni tri en mémoire",
+      "bodyMd": "API Spring Boot 3 pour notre application mobile. L'écran « Mes commandes » affiche des commandes paginées, chacune avec ses lignes (`items`).\n\nVersion 1, relation en `LAZY`, sérialisation directe de l'entité :\n\n```\norg.hibernate.LazyInitializationException: failed to lazily initialize a collection of role:\ncom.example.shop.Order.items: could not initialize proxy - no Session\n```\n\nVersion 2, `JOIN FETCH` dans la requête : plus d'exception, mais Hibernate affiche\n\n```\nHHH90003004: firstResult/maxResults specified with collection fetch; applying in memory\n```\n\nIl charge donc **toutes** les commandes du client en mémoire avant de paginer. Avec nos gros clients (plus de 20 000 commandes), ce n'est pas tenable.\n\nCe que j'ai écarté : `FetchType.EAGER` (N+1 partout ailleurs) et `spring.jpa.open-in-view=true` (je préfère ne pas garder la session ouverte pendant la sérialisation).\n\nQuelle est l'approche la plus propre aujourd'hui : deux requêtes (les identifiants paginés, puis un fetch par `IN`), `@BatchSize`, ou une projection DTO ? Je cherche des retours d'expérience sur de gros volumes.",
+      "code": "@Query(\"\"\"\n    select o from Order o\n    join fetch o.items\n    where o.customerId = :customerId\n    order by o.createdAt desc\n    \"\"\")\nPage<Order> findByCustomer(@Param(\"customerId\") Long customerId, Pageable pageable);",
+      "language": "java",
+      "repro": null,
+      "tags": [
+        "java",
+        "databases"
+      ],
+      "difficulty": "senior",
+      "aiSummary": "Paginer des commandes avec leurs lignes en Spring Data JPA provoque soit une LazyInitializationException, soit une pagination faite en mémoire (HHH90003004) avec JOIN FETCH.",
+      "aiHints": [
+        "Sépare en deux requêtes : d'abord la page d'identifiants de commandes, puis les commandes et leurs lignes avec `where o.id in :ids`.",
+        "Mesure le SQL réellement généré (`spring.jpa.show-sql` ou un proxy de datasource) pour chaque approche avant de choisir.",
+        "Une projection DTO dédiée à cet écran évite de charger des colonnes inutiles pour le mobile."
+      ],
+      "status": "open",
+      "hoursAgo": 236,
+      "helpfulCount": 4,
+      "viewCount": 97,
+      "answers": []
+    },
+    {
+      "id": "817486fd-8796-5db3-a114-83a93277b4e6",
+      "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "circleId": "496ee400-d798-5c41-97d9-06f86016e094",
+      "kind": "problem",
+      "title": "RAG : les passages retrouvés sont hors sujet dès que la question est posée en français",
+      "bodyMd": "J'ajoute une recherche « pose une question à ta documentation » dans Pollen. Le pipeline est classique : je découpe les notes en morceaux de 500 caractères, je calcule les embeddings avec `all-MiniLM-L6-v2`, je stocke dans pgvector, puis je cherche les 5 plus proches par similarité cosinus.\n\nAvec des notes et des questions en anglais, les résultats sont pertinents. Avec des notes en français, les passages retrouvés n'ont souvent aucun rapport, et les scores sont tous tassés entre 0,25 et 0,35, bons ou mauvais.\n\nExemple : pour « comment exporter mes notes en PDF ? », le premier résultat parle de la facturation, alors qu'une note contient littéralement « Export PDF : menu Fichier > Exporter ».\n\nCe que j'ai essayé : réduire les morceaux à 200 caractères (un peu mieux) et passer de 5 à 20 résultats (le bon passage apparaît parfois vers la douzième place).\n\nLe problème vient-il du modèle, de mon découpage, ou des deux ?",
+      "code": "from sentence_transformers import SentenceTransformer\n\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\ndef embed(texts: list[str]) -> list[list[float]]:\n    return model.encode(texts, normalize_embeddings=True).tolist()\n\n# SELECT content, 1 - (embedding <=> %s) AS score\n# FROM chunks ORDER BY embedding <=> %s LIMIT 5;",
+      "language": "python",
+      "repro": null,
+      "tags": [
+        "data-ai"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Une recherche sémantique fondée sur le modèle all-MiniLM-L6-v2 donne de bons résultats en anglais mais des passages hors sujet et des scores indifférenciés sur des notes en français.",
+      "aiHints": [
+        "Vérifie les langues prises en charge par ton modèle d'embeddings : all-MiniLM-L6-v2 a été entraîné essentiellement sur de l'anglais.",
+        "Teste un modèle multilingue sur une vingtaine de questions dont tu connais la bonne réponse, avant de modifier le découpage.",
+        "Combine la recherche vectorielle avec une recherche par mots-clés (recherche plein texte de Postgres) pour les termes exacts comme « PDF »."
+      ],
+      "status": "open",
+      "hoursAgo": 20,
+      "helpfulCount": 5,
+      "viewCount": 83,
+      "answers": []
+    },
+    {
+      "id": "87e4e750-7212-56c7-99e1-9727a84ab1da",
+      "authorId": "60409083-840c-5088-b8b7-9d004e795d26",
+      "circleId": null,
+      "kind": "problem",
+      "title": "Django : « Conflicting migrations detected » après avoir fusionné deux branches",
+      "bodyMd": "Sur le back-office Django d'un projet à deux, nous avons chacune ajouté un champ au même modèle `Project`, chacune sur sa branche. Après la fusion dans `main`, plus moyen de lancer les migrations :\n\n```\nCommandError: Conflicting migrations detected; multiple leaf nodes in the migration graph:\n(0007_project_cover, 0007_project_slug in portfolio).\nTo fix them run 'python manage.py makemigrations --merge'\n```\n\nLe message propose une commande, mais avant de la lancer j'aimerais être sûre de mon coup :\n\n- est-ce sans risque quand les deux migrations touchent le **même modèle** ?\n- vaut-il mieux fusionner, ou renuméroter l'une des deux en `0008` et modifier sa dépendance à la main ?\n- ma collègue a déjà appliqué sa migration `0007_project_slug` sur le serveur de recette. Est-ce que ça change quelque chose ?",
+      "code": "$ python manage.py showmigrations portfolio\nportfolio\n [X] 0005_project_status\n [X] 0006_alter_project_title\n [X] 0007_project_cover\n [ ] 0007_project_slug",
+      "language": "bash",
+      "repro": null,
+      "tags": [
+        "django",
+        "git"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": "Deux branches ont chacune ajouté une migration 0007 sur le même modèle Django ; après fusion, Django signale des migrations en conflit.",
+      "aiHints": [
+        "Lis les deux fichiers de migration : si elles ajoutent des champs différents, elles sont indépendantes l'une de l'autre.",
+        "Essaie `python manage.py makemigrations --merge` sur une copie de la base, puis lance `migrate` pour vérifier le résultat.",
+        "Évite de modifier une migration déjà appliquée sur un autre environnement."
+      ],
+      "status": "open",
+      "hoursAgo": 132,
+      "helpfulCount": 3,
+      "viewCount": 64,
+      "answers": []
+    },
+    {
+      "id": "3f2da8b5-01a2-546c-b7b7-f644a2512feb",
+      "authorId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+      "circleId": "e1e088aa-9ad2-5c3f-995f-4c756113766e",
+      "kind": "problem",
+      "title": "FCM notifications never arrive when the app is swiped away on Xiaomi, Tecno and Infinix phones",
+      "bodyMd": "Our delivery app (Flutter, `firebase_messaging`) sends order updates through FCM. On Pixel and Samsung devices everything works, including when the app is killed. On Xiaomi, Tecno and Infinix phones, which is most of our user base in Tunisia and West Africa, notifications stop arriving as soon as the user swipes the app away from recents. They all show up at once when the app is reopened.\n\nWhat I checked:\n- messages are sent with `priority: high`, and as `notification` messages, not data-only;\n- the FCM token is valid and the send API returns success;\n- `adb shell dumpsys deviceidle` shows the app is not whitelisted, but it isn't on the Pixel either;\n- the notification permission is granted (Android 13+ runtime permission).\n\nIf I manually enable \"Autostart\" for the app in the vendor settings on a Xiaomi phone, notifications come back. I obviously can't ask every user to dig through settings.\n\nIs there a reliable way to detect this state and guide the user, or a delivery strategy that survives these vendor task killers?",
+      "code": "{\n  \"message\": {\n    \"token\": \"<device token>\",\n    \"notification\": { \"title\": \"Order on its way\", \"body\": \"Your courier is 5 minutes away\" },\n    \"android\": { \"priority\": \"high\" }\n  }\n}",
+      "language": "kotlin",
+      "repro": null,
+      "tags": [
+        "mobile"
+      ],
+      "difficulty": "senior",
+      "aiSummary": "High-priority FCM notifications are not delivered on Xiaomi, Tecno and Infinix devices once the app is swiped away, unless the user enables the vendor \"Autostart\" setting.",
+      "aiHints": [
+        "Several vendor Android skins force-stop apps removed from recents; a force-stopped app cannot receive FCM messages until it is opened again.",
+        "Check the FCM delivery data (BigQuery export or the Firebase console) to see whether messages are reported as delivered or still pending for these devices.",
+        "Consider an in-app explanation screen shown only for affected manufacturers (via `Build.MANUFACTURER`) that deep-links to the right settings page."
+      ],
+      "status": "open",
+      "hoursAgo": 41,
+      "helpfulCount": 7,
+      "viewCount": 121,
+      "answers": []
+    },
+    {
+      "id": "93ad8934-3a1f-520e-a86f-eb034eee4cc1",
+      "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "circleId": null,
+      "kind": "discussion",
+      "title": "JWT dans le localStorage : vrai problème de sécurité ou débat sans fin ?",
+      "bodyMd": "Je refais l'authentification de Pollen et je retombe sur la question habituelle. La moitié des tutoriels stockent le JWT dans le `localStorage`, l'autre moitié écrit « surtout pas, utilisez un cookie HttpOnly ».\n\nMa situation : une SPA React et une API sur un sous-domaine, pas d'application mobile pour l'instant.\n\nJ'aimerais des arguments concrets plutôt que des positions de principe. Dans vos projets, vous faites quoi, et pourquoi ?",
+      "code": null,
+      "language": null,
+      "repro": null,
+      "tags": [
+        "security",
+        "javascript"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": null,
+      "aiHints": [],
+      "status": "open",
+      "hoursAgo": 47,
+      "helpfulCount": 17,
+      "viewCount": 298,
+      "answers": [
+        {
+          "id": "c6e6316b-ab14-59a7-ac13-21be7820fb5f",
+          "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+          "bodyMd": "Mon résumé après quelques audits. Aucune des deux options ne te protège de tout, elles changent surtout la **gravité** d'une faille.\n\n**localStorage.** N'importe quel JavaScript qui s'exécute sur ta page peut lire le jeton : une faille XSS, mais aussi une dépendance npm compromise ou un script tiers. L'attaquant repart avec le jeton et l'utilise depuis sa machine jusqu'à son expiration.\n\n**Cookie `HttpOnly; Secure; SameSite=Lax`.** Le JavaScript ne peut pas lire le jeton. Une XSS reste grave, parce que l'attaquant peut faire des requêtes au nom de l'utilisateur tant que la page est ouverte, mais il ne peut pas emporter la session. En échange, il faut penser au CSRF : `SameSite=Lax` couvre l'essentiel, à condition que tes requêtes GET ne modifient rien.\n\nDans ton cas (SPA et API sur des sous-domaines du même site), le cookie est le choix le plus sûr et il n'est pas plus compliqué :\n\n- cookie `HttpOnly; Secure; SameSite=Lax` posé par l'API ;\n- CORS avec l'origine exacte et `credentials: true` ;\n- une durée de vie courte et un mécanisme de renouvellement.\n\nSi un jour tu dois malgré tout garder un jeton côté JavaScript, garde-le en mémoire plutôt que dans le `localStorage`, avec une durée de vie de quelques minutes.\n\nEt dans tous les cas, la vraie défense reste d'éviter les XSS : une Content-Security-Policy stricte et jamais de HTML non assaini injecté dans la page.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 45.5,
+          "helpfulCount": 22
+        },
+        {
+          "id": "c1c8d0b7-eb8a-5a1c-b09b-b1e735210dd5",
+          "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+          "bodyMd": "Côté front, je confirme : avec le cookie HttpOnly, le code devient même plus simple. Plus d'intercepteur pour ajouter l'en-tête `Authorization`, plus de jeton à synchroniser entre les onglets. Il suffit de `credentials: 'include'` sur les appels.\n\nLe seul piège que je vois revenir : le développement local avec le front et l'API sur des ports différents. Ça fonctionne, parce que `localhost:5173` et `localhost:4000` comptent comme le même site, mais il faut configurer CORS correctement dès le départ.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 44,
+          "helpfulCount": 11
+        },
+        {
+          "id": "10472665-0298-5bd6-969c-ec661830f8b5",
+          "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+          "bodyMd": "Merci pour la question, je me la posais aussi. Je suis justement passé au cookie le mois dernier et je suis tombé sur l'erreur CORS du joker `*` avec `credentials`. J'avais posté le problème ici, la réponse d'Amine s'y trouve si ça peut t'éviter l'heure que j'y ai perdue.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 42,
+          "helpfulCount": 4
+        }
+      ]
+    },
+    {
+      "id": "da61822c-4ba5-573c-9490-defd39929567",
+      "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "kind": "discussion",
+      "title": "Zustand, Redux Toolkit ou simplement le Context : vous utilisez quoi en 2026 ?",
+      "bodyMd": "Je démarre un nouveau tableau de bord (React 19, TypeScript, TanStack Query pour les données serveur). Il me reste à choisir comment gérer l'état purement client : filtres, panneaux ouverts, préférences, un panier.\n\nSur mon projet précédent, tout passait par un gros Context et ça a mal vieilli. Je regarde Zustand, Redux Toolkit et Jotai.\n\nQu'est-ce que vous choisissez aujourd'hui, et surtout qu'est-ce que vous regrettez d'avoir choisi ?",
+      "code": null,
+      "language": null,
+      "repro": null,
+      "tags": [
+        "react",
+        "typescript"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": null,
+      "aiHints": [],
+      "status": "open",
+      "hoursAgo": 2,
+      "helpfulCount": 6,
+      "viewCount": 54,
+      "answers": [
+        {
+          "id": "1871438c-1db5-56be-abad-b2402497fa75",
+          "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+          "bodyMd": "Ma grille de décision, dans l'ordre :\n\n1. **L'état serveur** va dans TanStack Query, ce que tu fais déjà. Sur la plupart des projets, cela retire 70 à 80 % de ce qu'on mettait autrefois dans Redux.\n2. **L'état qui peut vivre dans l'URL** (filtres, onglet actif, pagination) va dans l'URL. Tu gagnes le partage de lien et le bouton retour.\n3. **L'état local à un écran** reste dans `useState` ou `useReducer`, au plus près de son usage.\n4. Ce qui reste, c'est-à-dire l'état client réellement global : Context s'il change rarement (thème, utilisateur), Zustand s'il change souvent ou s'il est lu par morceaux.\n\nCe que je regrette : avoir mis des données serveur dans un store global et réécrit un cache à la main. Je ne regrette aucun outil en particulier.\n\nPour ton panier, un petit store Zustand typé de 40 lignes fera très bien l'affaire.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 1.6,
+          "helpfulCount": 9
+        },
+        {
+          "id": "aebd6510-2191-5fef-84aa-64141e1a3942",
+          "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+          "bodyMd": "Sur Pollen, c'est Zustand depuis un an et je n'ai aucun regret : pas de provider, des sélecteurs simples, et le middleware `persist` pour les préférences. J'avais ouvert un problème ici à l'époque où mon Context re-rendait toute l'application, la réponse de Léa m'a d'ailleurs évité une migration complète.\n\nUn conseil : plusieurs petits stores par domaine plutôt qu'un seul énorme. On retombe vite dans le travers du gros Context sinon.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 1.1,
+          "helpfulCount": 5
+        },
+        {
+          "id": "d02465e1-928a-5d8a-b971-5442aa1dc15d",
+          "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+          "bodyMd": "Redux Toolkit garde sa place dans les grosses équipes : les conventions sont strictes, les devtools excellents, et tout le monde sait où ranger quoi. Pour une ou deux personnes sur un tableau de bord, c'est beaucoup de cérémonie.\n\nQuel que soit ton choix, typer le store dès le premier jour et tester la logique en dehors des composants change plus de choses que le nom de la bibliothèque.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 0.7,
+          "helpfulCount": 4
+        }
+      ]
+    },
+    {
+      "id": "c7730dae-8953-5d84-b445-efc0f8b6b9d7",
+      "authorId": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+      "circleId": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "kind": "discussion",
+      "title": "Votre checklist avant une mise en production (oui, même un vendredi)",
+      "bodyMd": "On répète « jamais de déploiement le vendredi ». Avec le temps, je trouve que c'est surtout le signe d'un déploiement auquel on ne fait pas confiance.\n\nVoici ma liste actuelle, forgée par quelques nuits blanches :\n\n1. Le retour arrière est testé et prend moins de 5 minutes.\n2. Les migrations de base sont compatibles avec la version N-1 de l'application (on ajoute d'abord, on supprime plus tard).\n3. Les fonctionnalités risquées sont derrière un drapeau, désactivé par défaut.\n4. Une alerte existe sur le taux d'erreur et la latence p95, et quelqu'un la regarde pendant 30 minutes après le déploiement.\n5. Le changement est petit. Si la revue a pris plus d'une heure, on découpe.\n\nQu'est-ce que vous ajouteriez ? Et qu'est-ce qui vous a déjà sauvé la mise ?",
+      "code": null,
+      "language": null,
+      "repro": null,
+      "tags": [
+        "devops",
+        "testing"
+      ],
+      "difficulty": "senior",
+      "aiSummary": null,
+      "aiHints": [],
+      "status": "open",
+      "hoursAgo": 190,
+      "helpfulCount": 23,
+      "viewCount": 356,
+      "answers": [
+        {
+          "id": "f3b8deb5-0510-5c90-bd5a-3b32976bcf33",
+          "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+          "bodyMd": "J'ajoute deux points, chacun appris dans la douleur :\n\n**6. Vérifier que la sauvegarde se restaure.** Avoir une sauvegarde ne suffit pas. Nous avons découvert un jour que nos dumps étaient tronqués depuis trois semaines. Depuis, une tâche restaure le dump de la nuit dans une base jetable et compte les lignes.\n\n**7. Déployer d'abord sur une fraction du trafic.** Même un canari rudimentaire, une instance sur quatre pendant dix minutes, attrape les erreurs qui n'existent qu'avec des données de production.\n\nTon point 2 est le plus sous-estimé. Renommer une colonne « d'un coup » est la cause numéro un des retours arrière impossibles que j'ai vus.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 188,
+          "helpfulCount": 14
+        },
+        {
+          "id": "47235b71-debd-579a-8d8d-71267495acdb",
+          "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+          "bodyMd": "Pour les petits projets sans équipe d'astreinte, ma version allégée :\n\n- un endpoint `/health` qui vérifie réellement la base de données, appelé par le script de déploiement, qui annule tout seul si la vérification échoue ;\n- un test de bout en bout du parcours principal (connexion, puis action clé) lancé contre la production juste après le déploiement ;\n- l'identifiant du commit affiché dans le pied de page, pour savoir en deux secondes quelle version tourne.\n\nÇa prend une après-midi à mettre en place et ça m'a déjà évité deux mauvaises soirées.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 185,
+          "helpfulCount": 6
+        },
+        {
+          "id": "894201c2-5c7d-5979-bbc4-55e4f5f45cc4",
+          "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+          "bodyMd": "Je prends la liste telle quelle pour Pollen. Petite question sur le point 2 : pour un renommage de colonne, vous faites donc trois déploiements (ajout de la nouvelle colonne avec double écriture, bascule des lectures, suppression de l'ancienne) ?",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 181,
+          "helpfulCount": 3
+        }
+      ]
+    },
+    {
+      "id": "b9ab31a6-dbd1-5636-b03f-07c70e9a8a15",
+      "authorId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "kind": "discussion",
+      "title": "Premier poste : ESN ou startup quand on est junior à Dakar ?",
+      "bodyMd": "Je termine ma licence dans quelques mois et j'ai deux pistes sérieuses :\n\n- une **ESN** d'environ 200 personnes, qui me placerait chez un client du secteur bancaire (Java et Angular, équipe de 12, processus très cadrés) ;\n- une **startup** de 6 personnes qui fait une application de paiement pour les commerçants (React Native et Node), où je serais la deuxième développeuse.\n\nLa startup me fait plus envie, mais j'ai peur de manquer d'encadrement. L'ESN me rassure, mais j'ai peur de m'y ennuyer. Les salaires proposés sont proches.\n\nCelles et ceux qui sont passés par là : qu'est-ce qui a le plus compté pour progresser pendant vos deux premières années ?",
+      "code": null,
+      "language": null,
+      "repro": null,
+      "tags": [
+        "career"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": null,
+      "aiHints": [],
+      "status": "open",
+      "hoursAgo": 14,
+      "helpfulCount": 8,
+      "viewCount": 127,
+      "answers": [
+        {
+          "id": "47acbbe3-5988-5582-9655-6fa1194e77a6",
+          "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+          "bodyMd": "Ce qui a le plus compté pour moi n'était ni la taille ni le type d'entreprise, mais **la personne qui relisait mon code**.\n\nPendant tes deux premières années, tu progresses surtout grâce aux retours : des revues de code sérieuses, quelqu'un à qui poser des questions sans te sentir jugée, le droit de te tromper sur des sujets qui comptent.\n\nLes questions que je poserais aux deux entreprises :\n\n- Qui relira mon code, et à quelle fréquence ?\n- À quoi ressemblera ma première semaine ?\n- Pouvez-vous me montrer une pull request récente et la discussion qui l'accompagne ?\n- Qu'est devenue la dernière personne junior que vous avez recrutée ?\n\nDans une startup de 6 personnes, tout dépend de l'autre développeur ou développeuse : si cette personne est expérimentée et disponible, tu apprendras énormément. Si elle est débordée ou elle-même junior, tu risques de prendre de mauvaises habitudes sans que personne te le dise. Demande à passer une heure avec elle avant de décider.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 13,
+          "helpfulCount": 12
+        },
+        {
+          "id": "83c590c3-f66c-5d69-8ca0-e221606d742f",
+          "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+          "bodyMd": "J'ai commencé en ESN, dans une banque justement. On s'y ennuie parfois, c'est vrai. J'y ai aussi appris des choses qui me servent encore tous les jours : lire un gros code existant, écrire des tests parce que c'est obligatoire, travailler avec des gens qui ne sont pas développeurs, ne pas casser la production.\n\nDeux éléments à vérifier côté ESN : est-ce que la mission est **déjà signée**, et est-ce que tu as rencontré l'équipe du client ? Le risque n'est pas l'ennui, c'est d'attendre une mission pendant des semaines, ou d'être placée seule sur un sujet sans rapport.\n\nAucun des deux choix ne t'enferme. Après 18 mois d'une expérience sérieuse, tu pourras passer de l'un à l'autre sans difficulté.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 12,
+          "helpfulCount": 9
+        },
+        {
+          "id": "86970040-99a3-509d-bf23-4b925889611d",
+          "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+          "bodyMd": "Le point de vue de la startup, puisque j'en ai monté une petite : on y touche à tout, très vite, et c'est grisant. Mais vérifie deux points très concrets avant de signer : combien de mois de trésorerie l'entreprise a devant elle, et si le salaire est versé à date fixe. Pose la question directement. Une équipe sérieuse y répondra sans gêne, et la réponse t'en dira long.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 10.5,
+          "helpfulCount": 6
+        }
+      ]
+    },
+    {
+      "id": "d47c9727-4e8f-5648-bc14-300b638fe7a5",
+      "authorId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "kind": "discussion",
+      "title": "Entretiens techniques en live coding : comment vous vous y préparez vraiment ?",
+      "bodyMd": "En reconversion, je commence à décrocher des entretiens. J'en ai raté deux au moment du live coding. Je connaissais la solution du premier exercice : chez moi, je l'ai refait en dix minutes. Devant deux personnes qui me regardent taper, j'ai perdu tous mes moyens.\n\nJe ne cherche pas une liste de 300 exercices. J'aimerais savoir comment vous vous entraînez à *la situation* : parler en codant, gérer le blanc, repartir après une erreur.",
+      "code": null,
+      "language": null,
+      "repro": null,
+      "tags": [
+        "career"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": null,
+      "aiHints": [],
+      "status": "open",
+      "hoursAgo": 268,
+      "helpfulCount": 15,
+      "viewCount": 243,
+      "answers": [
+        {
+          "id": "31aa0a61-78e0-501e-8049-bcca27ca74db",
+          "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+          "bodyMd": "Je fais passer ce genre d'entretiens, alors voici ce que nous regardons réellement. Ça devrait te rassurer.\n\nNous n'évaluons presque jamais « a-t-elle trouvé la solution optimale ». Nous cherchons à savoir : est-ce que j'aimerais travailler sur un bug difficile avec cette personne ? Concrètement :\n\n- **Tu reformules l'énoncé et tu poses des questions** avant d'écrire la moindre ligne. Les entrées possibles, les cas limites, la taille des données.\n- **Tu annonces ton plan** en deux phrases, même s'il est naïf : « je commence par une version simple en O(n²), on verra ensuite ».\n- **Tu parles pendant que tu codes.** Un silence de trois minutes est le pire signal, parce que nous ne pouvons rien évaluer.\n- **Tu testes toi-même** avec un exemple, à voix haute, et tu corriges sans paniquer.\n\nDire « je bloque ici, je pense que le problème vient de l'indice, je vérifie » est une excellente phrase en entretien.\n\nPour t'entraîner à la situation : enregistre-toi en train de résoudre un exercice facile **en parlant**, 20 minutes, trois fois par semaine. C'est inconfortable les deux premières fois, puis ça devient un automatisme. Encore mieux : demande à quelqu'un d'ici de jouer le rôle de l'examinateur.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 266,
+          "helpfulCount": 18
+        },
+        {
+          "id": "a3144dfb-e668-5961-a0fb-72fa89931985",
+          "authorId": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+          "bodyMd": "Un truc tout simple qui m'a aidé à l'époque : préparer ses phrases de secours. Quand le cerveau se fige, on n'invente rien, on récite. Les miennes :\n\n- « Je prends 30 secondes pour relire l'énoncé. »\n- « Je vais écrire un exemple concret pour vérifier que j'ai bien compris. »\n- « Je ne me souviens plus de la syntaxe exacte. En temps normal je regarderais la documentation, je l'écris de mémoire. »\n\nLa dernière est parfaitement acceptable. Personne de sérieux ne te recalera pour avoir oublié l'ordre des arguments d'une fonction.\n\nEt rater deux entretiens en début de recherche, c'est la norme. Les premiers servent d'entraînement, qu'on le veuille ou non.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 263,
+          "helpfulCount": 10
+        },
+        {
+          "id": "53b1017e-46cc-53dc-ab8f-0f5bd83710e4",
+          "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+          "bodyMd": "Si tu veux t'entraîner avec quelqu'un, je suis partant pour une session d'une demi-heure en Python. On échange les rôles à mi-parcours : faire l'examinateur apprend beaucoup aussi.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 260,
+          "helpfulCount": 5
+        }
+      ]
+    },
+    {
+      "id": "20f78229-a5a6-511e-881d-8e096b89cbb2",
+      "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+      "circleId": null,
+      "kind": "discussion",
+      "title": "What's on your accessibility checklist before you ship a component?",
+      "bodyMd": "I'm writing a short pre-merge checklist for our design system, something a developer can run through in five minutes without being an accessibility expert.\n\nMy current draft:\n\n1. Everything works with the keyboard alone: Tab, Shift+Tab, Enter, Space, Escape, arrow keys where expected.\n2. Focus is always visible, and it moves somewhere sensible when a dialog opens and closes.\n3. Every control has an accessible name (check the Accessibility tree in DevTools).\n4. Text contrast is at least 4.5:1, in both themes.\n5. It still works at 200% zoom and with `prefers-reduced-motion`.\n\nWhat would you add or remove? I want to keep it under ten items so people actually use it.",
+      "code": null,
+      "language": null,
+      "repro": null,
+      "tags": [
+        "css",
+        "testing",
+        "javascript"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": null,
+      "aiHints": [],
+      "status": "open",
+      "hoursAgo": 96,
+      "helpfulCount": 19,
+      "viewCount": 267,
+      "answers": [
+        {
+          "id": "935f8aa8-443e-52fd-8bac-ef1874c098cc",
+          "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+          "bodyMd": "Good list. Three additions from the design side:\n\n**6. State is never conveyed by colour alone.** Errors, selected items and status badges need an icon, text or shape too. It's the most common issue I find in reviews, and it's invisible to automated tools.\n\n**7. Touch targets are at least 44 × 44 px** on mobile, including icon buttons. The visible icon can be smaller, the hit area can't.\n\n**8. Use the native element first.** A `<button>` gets focus, keyboard activation and the right role for free. A clickable `<div>` needs all of that rebuilt by hand, and something is always forgotten.\n\nI'd merge your items 1 and 2 to make room: \"keyboard only, with visible focus\".",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 94,
+          "helpfulCount": 13
+        },
+        {
+          "id": "f6d4d7b0-06d3-5693-ab7e-61acf97d0e51",
+          "authorId": "60409083-840c-5088-b8b7-9d004e795d26",
+          "bodyMd": "From someone who ships a lot of animation: I'd make the reduced-motion item more specific. \"Works with `prefers-reduced-motion`\" tends to get ticked without being tested.\n\nWhat we do: parallax, auto-playing loops and large movements are removed, while opacity fades are kept so that state changes stay visible. In Chrome DevTools you can emulate the setting from the Rendering panel, so there's no need to change your system preferences.\n\nOne more for dynamic content: when something updates without a page load (a toast, a form error, a new chat message), check that it's announced, usually with an `aria-live` region.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 91,
+          "helpfulCount": 7
+        },
+        {
+          "id": "6790d45d-9bb5-58bd-9f76-b339674ac534",
+          "authorId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+          "bodyMd": "For anyone doing mobile web: run the component once with TalkBack or VoiceOver on a real phone. Five minutes of swiping through a form teaches more than any checklist, and the reading order is often not what you expect.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 88,
+          "helpfulCount": 4
+        }
+      ]
+    },
+    {
+      "id": "98e7d43b-1ad9-5956-a46d-22be3f945247",
+      "authorId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "kind": "discussion",
+      "title": "PHP en 2026 : Symfony ou Laravel pour un premier projet professionnel ?",
+      "bodyMd": "Dans mon entreprise d'alternance, on me laisse choisir le framework d'un petit outil interne (gestion de demandes de congés, une dizaine d'écrans). Le reste du système d'information est en Symfony, mais personne ne m'impose rien.\n\nJ'ai suivi des tutoriels sur les deux. Laravel me paraît plus rapide à prendre en main, Symfony plus « sérieux ». Je me demande aussi lequel est le plus utile sur un CV en France.\n\nVous choisiriez quoi à ma place, et pourquoi ?",
+      "code": null,
+      "language": null,
+      "repro": null,
+      "tags": [
+        "php",
+        "career"
+      ],
+      "difficulty": "beginner",
+      "aiSummary": null,
+      "aiHints": [],
+      "status": "open",
+      "hoursAgo": 350,
+      "helpfulCount": 7,
+      "viewCount": 158,
+      "answers": [
+        {
+          "id": "67473ed2-2c65-5015-bc10-1616faafd60e",
+          "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+          "bodyMd": "À ta place, Symfony, sans hésiter. La raison n'a rien à voir avec les qualités des deux frameworks : **le reste de l'entreprise est en Symfony.**\n\nConcrètement, cela signifie que :\n\n- tes collègues pourront relire ton code et t'aider quand tu bloqueras ;\n- l'outil pourra être maintenu après ton départ, et un outil interne que personne ne sait maintenir finit réécrit ou abandonné ;\n- tu réutiliseras ce qui existe déjà : authentification interne, déploiement, conventions de l'équipe.\n\nChoisir la technologie que l'équipe connaît est une décision d'ingénieur, pas un manque d'ambition. C'est d'ailleurs un très bon argument à présenter en soutenance d'alternance.\n\nSur le fond, les deux sont de bons frameworks, matures et bien documentés. Laravel va plus vite au démarrage, Symfony est plus explicite, et ce que tu apprends dans l'un (ORM, injection de dépendances, migrations, tests) se transpose dans l'autre en quelques semaines.\n\nPour le CV en France, Symfony est très demandé dans les entreprises établies, Laravel plutôt dans les agences et les startups. Avoir livré un projet réel, maintenu et utilisé, compte bien plus que le nom du framework.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 348,
+          "helpfulCount": 11
+        },
+        {
+          "id": "2346ba93-2f74-548d-ab29-3ae89137e7c9",
+          "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+          "bodyMd": "Même avis. J'ajoute un conseil d'ancien alternant : quel que soit ton choix, écris un README qui explique comment installer et lancer le projet, et quelques tests sur les règles métier (le calcul des jours de congé, par exemple). Peu de gens le font sur un premier projet, et c'est ce dont ton tuteur se souviendra.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 345,
+          "helpfulCount": 4
+        }
+      ]
+    },
+    {
+      "id": "d35775e3-848f-5a3f-a541-a47e41edeb62",
+      "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+      "circleId": null,
+      "kind": "discussion",
+      "title": "Passer de Node à Go : qu'est-ce qui vous a le plus surpris ?",
+      "bodyMd": "Après huit ans de Node, je réécris en Go un service d'ingestion qui saturait un cœur de processeur. Trois semaines plus tard, voici mes surprises.\n\n**Les bonnes :** un binaire unique à déployer, une image Docker de 15 Mo, les goroutines qui utilisent tous les cœurs sans cluster ni worker threads, et une bibliothèque standard suffisante pour un serveur HTTP de production.\n\n**Les moins bonnes :** `if err != nil` toutes les trois lignes, pas d'équivalent aussi fluide que `map` et `filter` au quotidien, et quelques pièges comme écrire dans une map `nil`.\n\nPour celles et ceux qui ont fait le même chemin : qu'est-ce que vous auriez aimé savoir dès le premier jour ?",
+      "code": null,
+      "language": null,
+      "repro": null,
+      "tags": [
+        "go",
+        "nodejs"
+      ],
+      "difficulty": "intermediate",
+      "aiSummary": null,
+      "aiHints": [],
+      "status": "open",
+      "hoursAgo": 398,
+      "helpfulCount": 12,
+      "viewCount": 214,
+      "answers": [
+        {
+          "id": "ed334a88-3135-5048-8d23-5c3f41613c0e",
+          "authorId": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+          "bodyMd": "Bienvenue du côté gopher ! Ce que j'aurais aimé qu'on me dise :\n\n**1. Les erreurs sont des valeurs, et c'est voulu.** Le `if err != nil` cesse d'agacer quand on ajoute systématiquement du contexte : `return fmt.Errorf(\"lecture du lot %d: %w\", id, err)`. On obtient des messages d'erreur lisibles de bout en bout sans trace de pile, et `errors.Is` et `errors.As` fonctionnent grâce au `%w`.\n\n**2. `context.Context` partout, dès le début.** En premier paramètre de toute fonction qui fait des entrées-sorties. C'est ce qui permet d'annuler proprement, de poser des délais d'expiration et d'arrêter le service sans rien perdre. L'ajouter après coup est pénible.\n\n**3. Une goroutine doit toujours avoir une fin prévue.** Il est très facile d'en lancer, et tout aussi facile d'en laisser fuir. Pour chacune, pose-toi la question : qu'est-ce qui la fait s'arrêter ? `errgroup` (dans golang.org/x/sync) règle la plupart des cas.\n\n**4. Lance les tests avec `-race`** en intégration continue. Les accès concurrents à une map ne pardonnent pas : le runtime arrête le programme avec « concurrent map writes ». Il faut un `sync.Mutex`, ou un channel selon le cas.\n\n**5. Accepte des interfaces, retourne des structs**, et définis les interfaces du côté du code qui les utilise, petites. C'est l'inverse du réflexe qu'on a en Java ou en TypeScript.\n\nPour ta map `nil` : la lecture fonctionne, l'écriture provoque un panic. Initialise toujours avec `make(map[string]int)`.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 396,
+          "helpfulCount": 15
+        },
+        {
+          "id": "71ce5bb4-c055-5413-8eb2-f5d927dbd9e2",
+          "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+          "bodyMd": "Je débute en Go depuis peu, et ma plus grosse surprise a été le channel non bufferisé qui bloque dès l'envoi : j'ai eu droit à « all goroutines are asleep » dès mon premier programme. Venant de Node, je voyais ça comme un `EventEmitter`, ce qui n'a rien à voir.\n\nSinon, `gofmt` et l'absence totale de débat sur le formatage, ça repose.",
+          "repro": null,
+          "isAi": false,
+          "isAccepted": false,
+          "hoursAgo": 393,
+          "helpfulCount": 5
+        }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": "24416359-493d-5c35-b35a-880f7523d292",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "authorId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "body": "Bonjour ! Petite question bête : vous mettez vos appels API dans useEffect ou vous passez direct par une lib ?",
+      "minutesAgo": 1310
+    },
+    {
+      "id": "db11091e-676d-5762-b9e1-b655352b8626",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+      "body": "Pas bête du tout. Pour apprendre, useEffect + fetch c'est bien pour comprendre le cycle. Sur un vrai projet, TanStack Query t'évite de réécrire le cache, les états de chargement et les annulations.",
+      "minutesAgo": 1298
+    },
+    {
+      "id": "ed236897-a3a8-5ac2-b444-2eeaeb475db5",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+      "body": "+1. Et pense à annuler la requête dans le cleanup, sinon tu auras des surprises avec StrictMode.",
+      "minutesAgo": 1290
+    },
+    {
+      "id": "77c5e4ca-e08a-5976-a73c-726ced94a7e2",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "authorId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "body": "Justement j'ai posté un problème là-dessus, mon effet part deux fois 😅",
+      "minutesAgo": 1281
+    },
+    {
+      "id": "2f45d9b3-dbf2-505a-9e62-0dd8e8668e8b",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "body": "Quelqu'un a déjà migré un gros Context vers Zustand ? Je cherche des retours avant de me lancer sur Pollen.",
+      "minutesAgo": 420
+    },
+    {
+      "id": "38d8cc52-06a5-54fd-8e3c-c42a998ec518",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "body": "Oui, sur un dashboard. Le gain vient surtout des sélecteurs : seuls les composants qui lisent la valeur modifiée se re-rendent.",
+      "minutesAgo": 402
+    },
+    {
+      "id": "c8d87bde-1806-584a-9b94-421e34cf609d",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+      "body": "Avant de migrer, regarde si découper ton contexte en deux (état / actions) ne suffit pas. C'est souvent 80 % du gain.",
+      "minutesAgo": 388
+    },
+    {
+      "id": "7a62c0be-e818-5027-a6a0-aea5283a1d0d",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "authorId": "60409083-840c-5088-b8b7-9d004e795d26",
+      "body": "Je viens de découvrir le React Compiler sur un petit projet, j'ai pu supprimer pas mal de useMemo. Vous l'avez activé en prod ?",
+      "minutesAgo": 64
+    },
+    {
+      "id": "b08ed40e-4abf-51b4-9d49-5cdf73ab713e",
+      "circleId": "6d37f68e-c6c7-594a-bc8e-68731d2cc653",
+      "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+      "body": "Sur un projet oui, sans souci pour l'instant. Garde quand même le lint des règles des hooks, le compilateur saute les composants qui ne les respectent pas.",
+      "minutesAgo": 41
+    },
+    {
+      "id": "6ddb4a69-812e-524a-80b8-7d44d819d64e",
+      "circleId": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "authorId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "body": "Bonjour tout le monde. Vous utilisez quoi pour gérer vos environnements ? Je me perds entre venv, pipenv, poetry…",
+      "minutesAgo": 1205
+    },
+    {
+      "id": "55847ee2-cc66-53c3-b070-72ff809c5bce",
+      "circleId": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "body": "Pour débuter : python -m venv .venv, ça suffit largement. Depuis un an je suis passé à uv, c'est très rapide, mais venv te fait comprendre ce qui se passe.",
+      "minutesAgo": 1190
+    },
+    {
+      "id": "d5c32054-e2ec-5d17-897a-26ee9e990c9d",
+      "circleId": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "authorId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "body": "J'ai perdu une heure hier parce que pip installait dans un autre Python que celui de VS Code…",
+      "minutesAgo": 1174
+    },
+    {
+      "id": "aa539f81-e27a-5fc5-8eb6-35196e227655",
+      "circleId": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "body": "Classique. Prends l'habitude de lancer python -m pip install, comme ça tu es sûr que c'est le bon interpréteur.",
+      "minutesAgo": 1168
+    },
+    {
+      "id": "c7bf4933-0818-5c91-9e60-73105825401a",
+      "circleId": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+      "body": "Question pour les pythonistes : vous typez vos projets (mypy/pyright) ou pas ?",
+      "minutesAgo": 515
+    },
+    {
+      "id": "8ccdec60-e8fd-5f89-9405-98b79c17dbb4",
+      "circleId": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "body": "Dès que le projet dépasse quelques fichiers, oui. Pyright en mode basic pour commencer, et on serre la vis petit à petit.",
+      "minutesAgo": 498
+    },
+    {
+      "id": "0526a260-c93e-5578-9cc5-6b5857781d04",
+      "circleId": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "authorId": "60409083-840c-5088-b8b7-9d004e795d26",
+      "body": "Je découvre les f-strings avec le = pour déboguer : print(f\"{total=}\"). Pourquoi personne ne m'en a parlé avant ?",
+      "minutesAgo": 96
+    },
+    {
+      "id": "c87c7e51-8021-51ea-8ac7-8f8cdd74b20e",
+      "circleId": "66f8e009-78f7-5e84-84c8-46f7f2522bbe",
+      "authorId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "body": "Ah mais c'est génial ça, merci !",
+      "minutesAgo": 77
+    },
+    {
+      "id": "4ae474de-8e4e-5b81-93e9-2381e04e6017",
+      "circleId": "496ee400-d798-5c41-97d9-06f86016e094",
+      "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "body": "Je teste un RAG sur la doc de Pollen. Les réponses en anglais sont bonnes, en français c'est la loterie. J'ai ouvert un problème.",
+      "minutesAgo": 1120
+    },
+    {
+      "id": "7d515ab7-47d6-530d-b10e-eb37b9a40c19",
+      "circleId": "496ee400-d798-5c41-97d9-06f86016e094",
+      "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "body": "Tu utilises quel modèle d'embeddings ? Beaucoup sont entraînés surtout sur de l'anglais.",
+      "minutesAgo": 1102
+    },
+    {
+      "id": "b1396117-224a-54db-9a91-116cfcc6993a",
+      "circleId": "496ee400-d798-5c41-97d9-06f86016e094",
+      "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "body": "all-MiniLM-L6-v2, le classique…",
+      "minutesAgo": 1095
+    },
+    {
+      "id": "1a9883d3-acde-5e1f-bf1c-62e3f4451fc8",
+      "circleId": "496ee400-d798-5c41-97d9-06f86016e094",
+      "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "body": "Voilà une piste : il est essentiellement anglophone. Essaie un modèle multilingue avant de toucher au reste du pipeline.",
+      "minutesAgo": 1088
+    },
+    {
+      "id": "a7bc9e47-58cf-5678-8ea6-942177e6bc3e",
+      "circleId": "496ee400-d798-5c41-97d9-06f86016e094",
+      "authorId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "body": "Vous avez un jeu de données sympa pour s'entraîner à nettoyer avec pandas ? Les miens sont trop propres.",
+      "minutesAgo": 340
+    },
+    {
+      "id": "c32a436c-f2ff-593a-9c02-83e6eb815d5e",
+      "circleId": "496ee400-d798-5c41-97d9-06f86016e094",
+      "authorId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "body": "Les données ouvertes de data.gouv.fr, il y a de quoi faire niveau colonnes mal nommées et dates dans tous les formats 😄",
+      "minutesAgo": 322
+    },
+    {
+      "id": "708f7d0f-bfe7-5148-9ea3-82a2c7f5c9c0",
+      "circleId": "496ee400-d798-5c41-97d9-06f86016e094",
+      "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "body": "Et n'oublie pas de séparer train et test AVANT tout nettoyage qui apprend quelque chose des données (moyennes, scalers…).",
+      "minutesAgo": 310
+    },
+    {
+      "id": "cb13fa84-58fa-5fed-86ee-08dc14d0d292",
+      "circleId": "496ee400-d798-5c41-97d9-06f86016e094",
+      "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "body": "Je lis vos échanges pour apprendre, continuez comme ça 🙏",
+      "minutesAgo": 58
+    },
+    {
+      "id": "1d06cd99-2847-5a8b-91cb-063bd39a4dbb",
+      "circleId": "e1e088aa-9ad2-5c3f-995f-4c756113766e",
+      "authorId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+      "body": "Hello! Anyone else fighting with push notifications on Android 14? Works on Pixel, not on half of my users' phones.",
+      "minutesAgo": 1250
+    },
+    {
+      "id": "18cd42a2-2f78-54a8-9d56-b73427ed4524",
+      "circleId": "e1e088aa-9ad2-5c3f-995f-4c756113766e",
+      "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "body": "Pas encore, mais mes utilisateurs ont surtout des Tecno et des Infinix, donc ça m'intéresse. Je suis ton post.",
+      "minutesAgo": 1231
+    },
+    {
+      "id": "ffbfc607-0b9b-5610-8a53-1bf8f551fa30",
+      "circleId": "e1e088aa-9ad2-5c3f-995f-4c756113766e",
+      "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "body": "Vous conseillez quoi pour une première app : Flutter ou React Native, quand on vient de React ?",
+      "minutesAgo": 760
+    },
+    {
+      "id": "a8892e74-229f-58c8-9001-c2c6b664ce71",
+      "circleId": "e1e088aa-9ad2-5c3f-995f-4c756113766e",
+      "authorId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+      "body": "Si tu viens de React, React Native avec Expo : tu réutilises tes réflexes. Flutter est top aussi, mais tu apprends Dart et un nouveau modèle de widgets en plus.",
+      "minutesAgo": 742
+    },
+    {
+      "id": "d10b6811-320b-599b-90a2-d8269b526afb",
+      "circleId": "e1e088aa-9ad2-5c3f-995f-4c756113766e",
+      "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "body": "Expo m'a bien simplifié la vie pour les builds, je confirme.",
+      "minutesAgo": 730
+    },
+    {
+      "id": "d6cf5022-6f2f-5367-9a60-afb79d0796ee",
+      "circleId": "e1e088aa-9ad2-5c3f-995f-4c756113766e",
+      "authorId": "c783bb00-c6b1-58ac-b011-7167213746d5",
+      "body": "Petit rappel du jour : tester sur un vrai téléphone d'entrée de gamme. Mon écran d'accueil mettait 6 secondes sur un appareil à 2 Go de RAM.",
+      "minutesAgo": 118
+    },
+    {
+      "id": "2f557c42-e341-5674-b3b6-de3d6e57e156",
+      "circleId": "e1e088aa-9ad2-5c3f-995f-4c756113766e",
+      "authorId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+      "body": "Toujours. Et en 3G dégradée aussi, on découvre des choses.",
+      "minutesAgo": 102
+    },
+    {
+      "id": "6144897d-67d5-53a1-963e-054427415ff6",
+      "circleId": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "authorId": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+      "body": "Petit sondage : vous déployez comment vos side-projects ? Je vois passer pas mal de VPS avec Docker Compose ces temps-ci.",
+      "minutesAgo": 1380
+    },
+    {
+      "id": "c470d6ba-41fe-5c0e-a04f-9084140bc262",
+      "circleId": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+      "body": "VPS + Compose + Caddy devant. Simple, pas cher, et je comprends tout ce qui tourne.",
+      "minutesAgo": 1362
+    },
+    {
+      "id": "b477f725-de1b-5727-92c7-f70d57d94668",
+      "circleId": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "authorId": "b8fa65cc-65e1-50ae-aaa8-81cf1e728821",
+      "body": "Pareil, mais derrière Nginx, et j'ai des 502 aléatoires sous charge. J'ai posté les logs si quelqu'un a une idée.",
+      "minutesAgo": 1340
+    },
+    {
+      "id": "d0c968fe-f434-5942-8f5d-3b1fc0d5f5a4",
+      "circleId": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "authorId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "body": "Mon image Docker faisait 1,4 Go… Grâce à la réponse de Mathieu elle est descendue à 180 Mo. Merci !",
+      "minutesAgo": 610
+    },
+    {
+      "id": "7e1f54de-9a66-546f-8e4e-210965e5cd15",
+      "circleId": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "authorId": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+      "body": "Ça fait plaisir ! Le multi-stage, c'est le genre de truc qu'on n'oublie plus après.",
+      "minutesAgo": 596
+    },
+    {
+      "id": "83916e1c-f8e9-5a9b-a631-d7e55e0e7433",
+      "circleId": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "authorId": "127106c4-6185-57e9-bbd6-4c41c8175c6e",
+      "body": "Vous mettez des healthchecks dans vos fichiers Compose ? Je me demande si ça vaut le coup sur un petit projet.",
+      "minutesAgo": 205
+    },
+    {
+      "id": "b96204ff-cd20-5aeb-9bdc-52a0ad5b4d8c",
+      "circleId": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+      "body": "Oui, surtout avec depends_on et condition: service_healthy. Ça évite que l'API démarre avant que Postgres soit prêt.",
+      "minutesAgo": 190
+    },
+    {
+      "id": "ee313483-cabe-5bff-be3d-2e0c8c305735",
+      "circleId": "9c3a733f-4385-5337-8c12-487fed0fed37",
+      "authorId": "92eb883f-d370-5c4f-ba14-20929fde18f2",
+      "body": "Je note pour ma CI, merci.",
+      "minutesAgo": 35
+    },
+    {
+      "id": "687a7ecb-dbc3-53cf-9485-500e4d058bcd",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "authorId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "body": "Je passe mon premier entretien technique la semaine prochaine. Des conseils pour ne pas paniquer en live coding ?",
+      "minutesAgo": 1420
+    },
+    {
+      "id": "487279b1-0d6e-5b56-91bb-7522ae0de46d",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "authorId": "c5284648-64cb-5e9e-a325-1b7a4dd8f2d7",
+      "body": "Pense à voix haute. On évalue ton raisonnement bien plus que le résultat final. Et tu as le droit de dire « je ne sais pas, voici comment je chercherais ».",
+      "minutesAgo": 1401
+    },
+    {
+      "id": "ef1a83ff-84ae-5573-b522-7f8f60e210b3",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "authorId": "4130c542-5ee6-51eb-a0da-80bd3cb67520",
+      "body": "Et pose des questions sur l'énoncé avant de coder. C'est un bon signal, pas un aveu de faiblesse.",
+      "minutesAgo": 1388
+    },
+    {
+      "id": "b7ba6f14-46e7-5ca2-b3f1-729bc519ed24",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "authorId": "36c44435-65df-51e2-9312-3ba3d6757261",
+      "body": "Merci à vous deux, ça me rassure.",
+      "minutesAgo": 1375
+    },
+    {
+      "id": "48e918bc-683d-5645-9ded-ab31124679b7",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "authorId": "63ce7c64-4bf6-55b1-8c81-39efa16132c2",
+      "body": "Vous négociez votre salaire en sortie d'alternance, ou vous prenez ce qu'on vous propose ?",
+      "minutesAgo": 480
+    },
+    {
+      "id": "e59f35f5-3325-566e-b7f3-2606888ab542",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "authorId": "a5019547-4c5d-53d0-9581-5355518d3a38",
+      "body": "Toujours discuter, poliment et avec des éléments concrets : ce que tu as livré, ce que tu sais faire en autonomie. Le pire qu'on puisse te répondre, c'est non.",
+      "minutesAgo": 462
+    },
+    {
+      "id": "bba8a1ef-4eb4-5d26-b3e0-4095f958514f",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+      "body": "Et renseigne-toi sur les grilles de ta région avant, ça évite de viser trop bas.",
+      "minutesAgo": 451
+    },
+    {
+      "id": "152fbd1c-9e56-5128-a394-8ab11bc3b841",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "authorId": "88d23a8a-1440-5cf2-bdb1-fe5096088032",
+      "body": "Petite victoire : mon premier merge request a été accepté aujourd'hui, après trois allers-retours de revue 🎉",
+      "minutesAgo": 88
+    },
+    {
+      "id": "70562197-d734-5f81-b11e-841229a0b798",
+      "circleId": "51fa73c3-fd0b-5c20-b5bd-708aa560249e",
+      "authorId": "1dce1d27-78fb-5179-a912-bd23c57d4895",
+      "body": "Bravo ! Trois allers-retours, c'est parfaitement normal, même après dix ans.",
+      "minutesAgo": 70
+    }
+  ]
+}

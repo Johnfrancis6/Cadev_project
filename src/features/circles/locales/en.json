@@ -1,0 +1,4 @@
+{
+  "list": { "title": "Circles", "description": "Communities by interest: problems, answers and a live discussion.", "members_one": "{{count}} member", "members_other": "{{count}} members", "posts_one": "{{count}} problem", "posts_other": "{{count}} problems", "join": "Join", "leave": "Leave", "joined": "You joined {{name}}", "member": "Member" },
+  "circle": { "notFound": "This circle does not exist.", "back": "All circles", "tabs": "Circle content", "problems": "Problems", "chat": "Live discussion", "ask": "Ask a problem here", "empty": "No problem in this circle yet.", "online": "{{count}} online", "placeholder": "Write to the circle…", "messageLabel": "Message to the circle", "send": "Send", "joinToWrite": "Join the circle to write.", "chatEmpty": "Nobody has written yet. Start the discussion.", "invite": "External group", "loadMore": "Load more" }
+}

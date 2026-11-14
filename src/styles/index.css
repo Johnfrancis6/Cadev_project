@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@import './fonts.css';
+@import './tokens.css';
+@import './base.css';
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+@custom-variant light (&:where([data-theme='light'], [data-theme='light'] *));
+/* Touch devices: used for 44 px targets (e.g. `touch:min-h-11`). */
+@custom-variant touch (@media (pointer: coarse));
+@custom-variant hover-fine (@media (hover: hover) and (pointer: fine));

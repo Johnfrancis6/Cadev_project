@@ -1,0 +1,65 @@
+{
+  "progress": "Étape {{current}} sur {{total}}",
+  "stepNames": {
+    "0": "Toi",
+    "1": "Tes sujets",
+    "2": "Ton fil"
+  },
+  "step1": {
+    "title": "Bienvenue {{name}} !",
+    "subtitle": "Deux infos pour calibrer ton fil. Tu pourras tout changer dans les réglages.",
+    "nameLabel": "Nom affiché",
+    "nameHint": "C’est le nom que les autres verront à côté de tes problèmes et réponses.",
+    "nameError": "Indique un nom d’au moins 2 caractères.",
+    "levelLabel": "Ton niveau",
+    "levels": {
+      "beginner": "Le fil privilégie les problèmes accessibles et les réponses bien expliquées.",
+      "intermediate": "Un mélange : de quoi apprendre, et des problèmes où tu peux déjà aider.",
+      "senior": "Le fil privilégie les problèmes pointus et ceux qui attendent encore une réponse."
+    }
+  },
+  "step2": {
+    "title": "Sur quoi tu codes ?",
+    "subtitle": "Choisis au moins 3 sujets. Ils servent de point de départ : le fil s’ajuste ensuite à ce que tu lis vraiment.",
+    "gridTitle": "Tous les sujets",
+    "counter": "{{count}} / {{min}} minimum",
+    "counterOk_one": "{{count}} sujet choisi",
+    "counterOk_other": "{{count}} sujets choisis",
+    "need_one": "Encore {{count}} sujet à choisir",
+    "need_other": "Encore {{count}} sujets à choisir"
+  },
+  "github": {
+    "title": "Gagne du temps avec GitHub",
+    "hint": "On lit seulement tes dépôts publics (langages et sujets) pour te proposer des centres d’intérêt. Rien n’est enregistré sans ton accord.",
+    "label": "Ton pseudo GitHub (optionnel)",
+    "import": "Importer",
+    "invalid": "Ce pseudo GitHub n’a pas un format valide.",
+    "notFound": "Aucun compte GitHub à ce nom. Vérifie l’orthographe, ou choisis tes sujets ci-dessous.",
+    "rateLimited": "GitHub limite les requêtes pour l’instant. Choisis tes sujets ci-dessous, ça marche tout aussi bien.",
+    "network": "Impossible de joindre GitHub. Choisis tes sujets ci-dessous, ça marche tout aussi bien.",
+    "empty": "Aucun dépôt public exploitable pour {{login}}. Choisis tes sujets ci-dessous.",
+    "found_one": "{{count}} sujet trouvé chez {{login}}, déjà coché. Décoche-le s’il ne te ressemble pas.",
+    "found_other": "{{count}} sujets trouvés chez {{login}}, déjà cochés. Décoche ceux qui ne te ressemblent pas."
+  },
+  "step3": {
+    "title": "Voilà pourquoi ton fil ressemblera à ça",
+    "subtitle": "Pas de boîte noire : voici le point de départ, et tu gardes la main dessus.",
+    "weights": "Poids de départ",
+    "levelLine": "Difficulté calée sur ton niveau :",
+    "points": {
+      "explain": {
+        "title": "Chaque carte dit pourquoi elle est là",
+        "body": "« Tu suis React », « à ton niveau », « sans réponse » : la raison est écrite sur le problème."
+      },
+      "steer": {
+        "title": "Tu règles le fil toi-même",
+        "body": "Monte ou baisse un sujet, mets-le en sourdine, ou dis « moins de ça » sur une carte."
+      },
+      "explore": {
+        "title": "Une part d’exploration, clairement étiquetée",
+        "body": "De temps en temps, un sujet hors de tes habitudes, pour ne pas tourner en rond."
+      }
+    },
+    "cta": "C’est parti"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Good to see you again",
+  "titleSignup": "Create your account",
+  "subtitle": "Post your problem, get an answer, go back to coding.",
+  "modeLabel": "Sign in or sign up with email",
+  "guest": {
+    "title": "Just want a look?",
+    "hint": "One click, no email asked. You get a temporary guest session with every feature: feed, problems, circles.",
+    "cta": "Try without an account"
+  },
+  "github": "Continue with GitHub",
+  "orEmail": "or with email",
+  "tabs": {
+    "signin": "Sign in",
+    "signup": "Sign up"
+  },
+  "fields": {
+    "displayName": "Display name",
+    "email": "Email",
+    "emailPlaceholder": "you@example.dev",
+    "password": "Password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
+  },
+  "strength": {
+    "hint": "At least 8 characters.",
+    "short": "Too short: at least 8 characters.",
+    "weak": "Weak: add digits or symbols.",
+    "fair": "Fair.",
+    "strong": "Strong."
+  },
+  "submit": {
+    "signin": "Sign in",
+    "signup": "Create my account"
+  },
+  "validation": {
+    "nameShort": "Enter a name of at least 2 characters.",
+    "nameLong": "40 characters at most.",
+    "emailRequired": "Enter your email.",
+    "emailInvalid": "This email does not look valid (e.g. you@example.dev).",
+    "passwordRequired": "Enter your password.",
+    "passwordShort": "The password must be at least 8 characters long.",
+    "passwordLong": "72 characters at most."
+  },
+  "errors": {
+    "credentials": "Wrong email or password.",
+    "signup": "Could not sign up with these details. Check them and try again.",
+    "conflict": "An account already exists with this email. Sign in instead.",
+    "rateLimited": "Too many attempts. Wait a minute before trying again."
+  },
+  "privacy": "No ads, no data resale.",
+  "brand": {
+    "label": "devloop in short",
+    "taglineA": "Less noise.",
+    "taglineB": "More code.",
+    "promises": {
+      "explain": "A feed that tells you why you see each problem, and that you tune yourself.",
+      "solved": "Before you post, we show you whether someone already solved the same blocker.",
+      "repro": "Every bug can run in the page: someone forks it, fixes it, you accept."
+    },
+    "foot": "By devs. For devs."
+  }
+}
