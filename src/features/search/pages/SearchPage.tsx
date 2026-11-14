@@ -24,6 +24,15 @@ export default function SearchPage() {
     return () => clearTimeout(timer);
   }, [input, query, setParams]);
 
+  // A search launched from the top bar changes the URL: reflect it in the field.
+  const lastQuery = React.useRef(query);
+  React.useEffect(() => {
+    if (query !== lastQuery.current) {
+      lastQuery.current = query;
+      setInput((current) => (current.trim() === query ? current : query));
+    }
+  }, [query]);
+
   const enabled = query.length >= 2;
   const posts = useQuery({ queryKey: qk.searchPosts(query, status), queryFn: () => api.search.posts(query, { status: status ?? undefined }), enabled });
   const people = useQuery({ queryKey: qk.searchPeople(query), queryFn: () => api.search.people(query, 5), enabled });
