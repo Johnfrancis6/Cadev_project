@@ -15,7 +15,7 @@
  *   export const supabaseApi: Api
  */
 import type { Api } from './contract';
-import { localApi as stubApi } from './_stub'; // TEMP until ./local exists
+import { localApi } from './local';
 
 export * from './contract';
 export { qk } from './keys';
@@ -42,9 +42,6 @@ type SupabaseModule = {
 // Resolved at build time: an empty object until `./supabase/index.ts` exists, so the build
 // passes before the Supabase implementation lands and picks it up automatically afterwards.
 const supabaseModules = import.meta.glob<SupabaseModule>('./supabase/index.ts');
-// TEMP: same trick for `./local` while it is being written; `_stub.ts` is the fallback.
-const localModules = import.meta.glob<{ localApi: Api }>('./local/index.ts', { eager: true });
-const localApi: Api = localModules['./local/index.ts']?.localApi ?? stubApi;
 
 /** Local data until (and unless) `initApi()` switches to the live backend. */
 let impl: Api = localApi;

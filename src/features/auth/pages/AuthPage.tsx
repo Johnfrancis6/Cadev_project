@@ -137,7 +137,7 @@ export default function AuthPage() {
     const data = parsed.data;
     void run('email', () =>
       'displayName' in data
-        ? api.auth.signUpEmail({ email: data.email, password: data.password, displayName: data.displayName })
+        ? api.auth.signUpEmail({ email: data.email, password: data.password, displayName: String(data.displayName) })
         : api.auth.signInEmail({ email: data.email, password: data.password }),
     );
   };
