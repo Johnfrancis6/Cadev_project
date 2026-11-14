@@ -254,7 +254,7 @@ const commands = {
       for (const key of [k.serviceRole, k.secret].filter(Boolean)) {
         res = await fetch(url, {
           method: 'POST', headers: { Authorization: `Bearer ${key}`, apikey: key, 'Content-Type': 'application/json' },
-          body: JSON.stringify({ task: 'embed_missing', limit: 8 }), signal: AbortSignal.timeout(120_000),
+          body: JSON.stringify({ task: 'embed_missing', limit: Number(flags.batch) || 2 }), signal: AbortSignal.timeout(120_000),
         });
         if (res.status !== 401 && res.status !== 403) break;
       }
