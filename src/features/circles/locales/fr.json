@@ -1,1 +1,4 @@
-{}
+{
+  "list": { "title": "Cercles", "description": "Des communautés par centre d’intérêt : des problèmes, des réponses et une discussion en direct.", "members_one": "{{count}} membre", "members_other": "{{count}} membres", "posts_one": "{{count}} problème", "posts_other": "{{count}} problèmes", "join": "Rejoindre", "leave": "Quitter", "joined": "Tu as rejoint {{name}}", "member": "Membre" },
+  "circle": { "notFound": "Ce cercle n’existe pas.", "back": "Tous les cercles", "tabs": "Contenu du cercle", "problems": "Problèmes", "chat": "Discussion en direct", "ask": "Poser un problème ici", "empty": "Aucun problème dans ce cercle pour l’instant.", "online": "{{count}} en ligne", "placeholder": "Écris au cercle…", "messageLabel": "Message au cercle", "send": "Envoyer", "joinToWrite": "Rejoins le cercle pour écrire.", "chatEmpty": "Personne n’a encore écrit. Lance la discussion.", "invite": "Groupe externe", "loadMore": "Charger plus" }
+}

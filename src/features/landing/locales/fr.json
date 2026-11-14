@@ -1,1 +1,24 @@
-{}
+{
+  "signIn": "Se connecter",
+  "kicker": "Le réseau des devs qui se débloquent",
+  "h1a": "Moins de bruit.",
+  "h1b": "Plus de code.",
+  "lead": "Pose ton problème, vois s’il est déjà résolu, lance la repro et repars coder. Ici, le fil est classé pour te débloquer, pas pour te retenir.",
+  "tryGuest": "Essayer sans compte",
+  "signUp": "Créer un compte",
+  "guestNote": "Un clic, aucun e-mail demandé.",
+  "stats": { "members": "membres", "solved": "problèmes résolus", "week": "débloqués cette semaine" },
+  "featuresTitle": "Trois choses qu’on ne trouve pas ailleurs",
+  "f1": { "title": "Un fil explicable et réglable", "text": "Chaque carte dit pourquoi elle est là. Tu ajustes le poids de chaque sujet, ou tu dis « moins de ça »." },
+  "f2": { "title": "Déjà résolu ?", "text": "Pendant que tu écris ton problème, on te montre ceux qui lui ressemblent et qui ont une solution." },
+  "f3": { "title": "Repro exécutable, fork & fix", "text": "Le bug tourne dans la page, dans un bac à sable. La réponse peut embarquer la version corrigée." },
+  "howTitle": "Comment ça marche",
+  "s1": { "title": "Choisis tes sujets", "text": "Ou importe-les depuis ton pseudo GitHub." },
+  "s2": { "title": "Pose ou résous", "text": "Une analyse te propose sujets, niveau et premières pistes. Tu gardes la main." },
+  "s3": { "title": "Ferme la boucle", "text": "La solution acceptée reste trouvable par la prochaine personne bloquée." },
+  "ethicsTitle": "Pensé contre l’addiction",
+  "ethics": "Notre métrique n’est pas le temps passé, c’est le nombre de problèmes débloqués. Le fil réserve une part à l’exploration pour ne pas t’enfermer, et tout ce qu’il apprend de toi est visible et modifiable.",
+  "ctaTitle": "Un problème qui traîne ?",
+  "status": "État des services",
+  "footer": "Projet étudiant présenté en concours."
+}

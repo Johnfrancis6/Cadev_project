@@ -1,1 +1,5 @@
-{}
+{
+  "profile": { "notFound": "This profile does not exist.", "back": "Back to the feed", "follow": "Follow", "following": "Following", "edit": "Edit profile", "unblockedWeek": "problems unblocked this week", "unblockedTotal": "Unblocked in total", "unblockRate": "Unblock rate", "answers": "Answers", "asked": "Problems asked", "solved": "of which solved", "helpful": "Helpful votes received", "followers": "Followers", "interests": "Interests", "posts": "Problems and discussions", "noPosts": "Nothing published yet.", "reputation": "{{count}} reputation pts", "loadMore": "Load more" },
+  "saved": { "title": "Saved", "description": "Problems you saved for later.", "empty": "Nothing saved", "emptyHint": "Save a problem from the feed to find it here.", "toFeed": "Go to the feed" },
+  "settings": { "title": "Settings", "profile": "Profile", "displayName": "Display name", "handle": "Handle", "handleHint": "3 to 24 characters: lowercase letters, digits and _.", "bio": "Bio", "level": "Level", "save": "Save", "saved": "Profile updated", "handleTaken": "This handle is already taken.", "appearance": "Appearance", "theme": "Theme", "language": "Language", "feed": "Feed", "tune": "Tune my feed", "account": "Account", "guest": "You are in a guest session: it is temporary and tied to this browser.", "signOut": "Sign out" }
+}

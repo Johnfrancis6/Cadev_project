@@ -295,11 +295,10 @@ function toMessage(row: { id: string; circleId: string; authorId: string; body: 
 }
 
 const CHAT_REPLIES = [
-  'Bonne question, tu as un bout de code à montrer ?',
-  'J’ai eu le même souci la semaine dernière. Poste-le en problème, on regarde.',
-  'Intéressant ! Tu as essayé d’isoler le cas dans une repro ?',
-  'Bienvenue 👋 n’hésite pas à poser ton problème dans le cercle.',
-  'Je regarde ça dans cinq minutes.',
+  'Salut ! Bienvenue dans le cercle.',
+  'Bien vu. Si tu bloques sur quelque chose, pose-le en problème, on regarde.',
+  'Hello ! Tu bosses sur quoi en ce moment ?',
+  'Bienvenue. N’hésite pas à joindre une repro à ton problème, ça aide beaucoup.',
 ];
 
 function validatePost(input: Partial<PostInput>, full: boolean) {

@@ -1,1 +1,1 @@
-{}
+{ "title": "Recherche", "description": "Cherche dans les problèmes déjà posés. Les problèmes résolus remontent en premier.", "label": "Rechercher", "placeholder": "useEffect, CORS, migration Django…", "all": "Tous", "solved": "Résolus", "open": "Ouverts", "filter": "Filtrer par statut", "idle": "Tape au moins deux caractères.", "none": "Aucun résultat pour « {{query}} ».", "noneHint": "Essaie d’autres mots, ou pose ton problème.", "ask": "Poser un problème", "count_one": "{{count}} résultat", "count_other": "{{count}} résultats", "people": "Personnes" }
