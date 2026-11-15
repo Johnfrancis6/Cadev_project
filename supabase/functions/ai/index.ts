@@ -10,8 +10,8 @@ const ANON_KEY = Deno.env.get('SUPABASE_ANON_KEY')!;
 const admin = createClient(SUPABASE_URL, SERVICE_KEY, { auth: { persistSession: false } });
 
 const PROVIDERS = [
-  { name: 'groq', url: 'https://api.groq.com/openai/v1/chat/completions', key: 'GROQ_API_KEY', model: Deno.env.get('GROQ_MODEL') ?? 'llama-3.3-70b-versatile' },
-  { name: 'mistral', url: 'https://api.mistral.ai/v1/chat/completions', key: 'MISTRAL_API_KEY', model: Deno.env.get('MISTRAL_MODEL') ?? 'mistral-small-latest' },
+  { name: 'groq', url: 'https://api.groq.com/openai/v1/chat/completions', key: 'GROQ_API_KEY', model: Deno.env.get('GROQ_MODEL') ?? '', models: 'https://api.groq.com/openai/v1/models' },
+  { name: 'mistral', url: 'https://api.mistral.ai/v1/chat/completions', key: 'MISTRAL_API_KEY', model: Deno.env.get('MISTRAL_MODEL') ?? 'mistral-small-latest', models: 'https://api.mistral.ai/v1/models' },
 ].filter((p) => Deno.env.get(p.key));
 const AI_DISABLED = Deno.env.get('AI_DISABLED') === '1';
 
@@ -42,27 +42,67 @@ async function embed(text: string): Promise<number[] | null> {
 const postText = (p: { title: string; body_md?: string | null; code?: string | null }) => `${p.title}\n${(p.body_md ?? '').slice(0, 1200)}\n${(p.code ?? '').slice(0, 400)}`;
 
 // ── Chat providers ───────────────────────────────────────────────────────────
-async function chatJson(system: string, user: string): Promise<{ data: Record<string, unknown>; provider: string } | null> {
+let lastProviderIssue = '';
+// Model ids change often: when none is configured (or the configured one is gone), ask the
+// provider what exists and pick the best general chat model. Cached for the worker's lifetime.
+const PREFERRED = [/gpt-oss-120b/, /llama-3\.3-70b/, /llama-?4.*70b/, /70b/, /qwen/, /gpt-oss/, /mistral-small/, /llama/];
+const chosen = new Map<string, string>();
+async function pickModel(p: (typeof PROVIDERS)[number], force = false): Promise<string> {
+  if (!force && (chosen.get(p.name) || p.model)) return chosen.get(p.name) || p.model;
+  try {
+    const res = await fetch(p.models, { headers: { Authorization: `Bearer ${Deno.env.get(p.key)}` }, signal: AbortSignal.timeout(5000) });
+    const ids: string[] = ((await res.json())?.data ?? [])
+      .map((m: { id?: string }) => String(m.id ?? ''))
+      .filter((id: string) => id && !/whisper|guard|tts|embed|vision|audio|moderation|ocr|safeguard/i.test(id));
+    for (const pattern of PREFERRED) {
+      const match = ids.find((id) => pattern.test(id));
+      if (match) {
+        chosen.set(p.name, match);
+        return match;
+      }
+    }
+    if (ids[0]) chosen.set(p.name, ids[0]);
+  } catch {
+    // keep whatever we had
+  }
+  return chosen.get(p.name) || p.model;
+}
+async function chatJson(system: string, user: string): Promise<{ data: Record<string, unknown>; provider: string; model: string } | null> {
+  lastProviderIssue = '';
   for (const p of PROVIDERS) {
-    try {
-      const res = await fetch(p.url, {
-        method: 'POST',
-        headers: { Authorization: `Bearer ${Deno.env.get(p.key)}`, 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          model: p.model,
-          temperature: 0.2,
-          max_tokens: 700,
-          response_format: { type: 'json_object' },
-          messages: [{ role: 'system', content: system }, { role: 'user', content: user }],
-        }),
-        signal: AbortSignal.timeout(9000),
-      });
-      if (!res.ok) continue;
-      const body = await res.json();
-      const data = JSON.parse(body?.choices?.[0]?.message?.content ?? 'null');
-      if (data && typeof data === 'object') return { data, provider: p.name };
-    } catch {
-      // next provider
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const model = await pickModel(p, attempt === 1);
+        if (!model) break;
+        const res = await fetch(p.url, {
+          method: 'POST',
+          headers: { Authorization: `Bearer ${Deno.env.get(p.key)}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            model,
+            temperature: 0.2,
+            max_tokens: 900,
+            response_format: { type: 'json_object' },
+            messages: [{ role: 'system', content: system }, { role: 'user', content: user }],
+          }),
+          signal: AbortSignal.timeout(12000),
+        });
+        if (!res.ok) {
+          // Status and provider error code only: never the raw provider message.
+          const issue = await res.json().catch(() => null);
+          const code = String(issue?.error?.code ?? issue?.error?.type ?? '').slice(0, 60);
+          lastProviderIssue = `${p.name}:${res.status}:${code}`;
+          if (attempt === 0 && (res.status === 404 || /model/.test(code))) continue; // look the model up and retry once
+          break;
+        }
+        const body = await res.json();
+        const data = JSON.parse(body?.choices?.[0]?.message?.content ?? 'null');
+        if (data && typeof data === 'object') return { data, provider: p.name, model };
+        lastProviderIssue = `${p.name}:invalid_json`;
+        break;
+      } catch (error) {
+        lastProviderIssue = `${p.name}:${error instanceof Error ? error.name : 'error'}`;
+        break;
+      }
     }
   }
   return null;
@@ -173,9 +213,9 @@ Deno.serve(async (req) => {
     if (cached) return json({ ...cached.response, provider: cached.provider, cached: true, degraded: false });
 
     const { data: budget } = await admin.rpc('ai_consume', { p_user_id: user.id });
-    if (!budget?.allowed) return json({ degraded: true });
+    if (!budget?.allowed) return json({ degraded: true, reason: 'budget' });
     const result = await chatJson(system, prompt);
-    if (!result) return json({ degraded: true });
+    if (!result) return json({ degraded: true, reason: lastProviderIssue || 'provider' });
 
     let response: Record<string, unknown> | null = null;
     if (task === 'triage') {
@@ -187,9 +227,9 @@ Deno.serve(async (req) => {
       const answerMd = str(result.data.answerMd, 6000);
       if (answerMd.length > 20) response = { answerMd };
     }
-    if (!response) return json({ degraded: true });
+    if (!response) return json({ degraded: true, reason: 'invalid_output' });
     await admin.from('ai_cache').upsert({ hash, task, response, provider: result.provider });
-    return json({ ...response, provider: result.provider, cached: false, degraded: false });
+    return json({ ...response, provider: result.provider, model: result.model, cached: false, degraded: false });
   }
 
   return json({ error: 'validation' }, 400);

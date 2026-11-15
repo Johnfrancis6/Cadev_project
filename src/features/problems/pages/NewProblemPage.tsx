@@ -224,7 +224,7 @@ export default function NewProblemPage() {
             {repro && <div className="mt-3"><ReproEditor value={repro} onChange={setRepro} /></div>}
           </section>
 
-          <div className="sticky bottom-20 z-10 flex justify-end rounded-xl border border-border bg-surface/95 p-3 backdrop-blur lg:bottom-4">
+          <div className="flex justify-end border-t border-border-soft pt-5">
             <Button type="submit" loading={create.isPending}>{t('new.submit')}</Button>
           </div>
         </form>
