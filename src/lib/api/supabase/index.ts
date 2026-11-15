@@ -95,6 +95,7 @@ export function createSupabaseApi(url: string, anonKey: string): Api {
   }
 
   const channels = new Set<RealtimeChannel>();
+  let healthCalls = 0;
 
   return {
     mode: 'live',
@@ -322,12 +323,14 @@ export function createSupabaseApi(url: string, anonKey: string): Api {
         } catch {
           database = 'down';
         }
-        const gatewayHealth = await gateway<{ embeddings?: string; providers?: string[] }>({ task: 'health' });
+        // The first call is the start-up probe: keep it to one fast request so the first
+        // screen is not held back by the AI gateway (which warms up an embedding model).
+        const gatewayHealth = healthCalls++ === 0 ? null : await gateway<{ embeddings?: string; providers?: string[] }>({ task: 'health' });
         return {
           mode: 'live',
           database,
           realtime: database,
-          semanticSearch: gatewayHealth?.embeddings === 'ok' ? 'ok' : 'degraded',
+          semanticSearch: !gatewayHealth ? 'unconfigured' : gatewayHealth.embeddings === 'ok' ? 'ok' : 'degraded',
           ai: gatewayHealth?.providers?.length
             ? gatewayHealth.providers.map((provider) => ({ provider, state: 'ok' as const }))
             : [{ provider: 'heuristic', state: 'ok' as const }],
